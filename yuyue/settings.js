@@ -28,7 +28,7 @@ window.LOVE_LETTER = {
     inputPlaceholder: "请输入他的名字",
     answerButton: "确认答案",
     challengeNote: "这道题，你一定知道答案。",
-    wrongAnswer: "再想想嘛，你一定知道的 💕",
+    wrongAnswer: "我的大傻子，你一定知道的 💕",
     emptyAnswer: "先写下他的名字吧 💗",
     finalEyebrow: "有句话，只想对{name}说",
   },
