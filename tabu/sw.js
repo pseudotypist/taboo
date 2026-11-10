@@ -1,6 +1,6 @@
 // Offline support. Bump CACHE when the list of files changes.
-const CACHE = 'tabu-v2-600-pinyin';
-const ASSETS = ['./', 'index.html', 'style.css', 'app.js', 'cards.js', 'manifest.webmanifest', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png'];
+const CACHE = 'tabu-v3-yuyue-surprise';
+const ASSETS = ['./', 'index.html', 'style.css', 'app.js', 'cards.js', '../yuyue/settings.js', 'manifest.webmanifest', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS.map((path) => new Request(path, { cache: 'reload' })))).then(() => self.skipWaiting()));

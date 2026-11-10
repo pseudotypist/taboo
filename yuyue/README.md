@@ -3,6 +3,11 @@
 Bu klasör oyundan bağımsızdır. HTML, CSS ve JavaScript ile hazırlanmıştır;
 kurulum, npm veya derleme gerektirmez.
 
+Tabu ana ekranındaki kalpli düğme bu sürprize bağlıdır. Düğmeye basınca
+`../yuyue/?open=1` açılır ve doğrudan “Gerçekten sen misin?” onayı gelir.
+Buradaki ilk düğmeye ayrıca tekrar basmak gerekmez. Sürprizin normal adresi
+doğrudan açılırsa zarf ve ilk düğme de gösterilir.
+
 ## Düzenlemek
 
 **Metinleri ve doğru cevabı `settings.js` dosyasından değiştir.**
@@ -17,6 +22,8 @@ signature: "Erdem",                // Mesajın altındaki imza
 `copy` bölümünde buton, soru ve uyarıların tamamı bulunur. `{name}` yazan
 yerlere isim otomatik olarak eklenir. Metinleri tırnakların içinde değiştir;
 satır sonundaki virgülleri koru. `\n`, başlıkta yeni satır anlamına gelir.
+Tabu ana ekranındaki düğme de aynı `recipientName` ve `copy.openButton`
+ayarlarını kullanır; adı veya düğme metnini buradan değiştirmen yeterlidir.
 
 `theme` bölümünden ana renkleri, `hearts` bölümünden kalp sayısını ve yağmurun
 süresini ayarlayabilirsin. Daha ayrıntılı görünüm değişiklikleri `style.css`

@@ -165,7 +165,7 @@ main { flex: 1; display: grid; position: relative; }
   box-shadow: 0 3px 15px #a66f7105;
   transition: border-color .2s;
 }
-.answer-form input::placeholder { color: #967b7d; font-size: .9rem; }
+.answer-form input::placeholder { color: #866970; font-size: .9rem; }
 .answer-form input:focus { border-color: var(--rose); }
 .answer-form input[aria-invalid="true"] { border-color: var(--rose); }
 .answer-error { min-height: 32px; margin: 9px 3px 6px; font-size: .78rem; line-height: 1.7; text-align: center; color: var(--rose-dark); }
@@ -214,7 +214,7 @@ dialog {
 }
 dialog::backdrop { background: #55313c55; backdrop-filter: blur(7px); }
 dialog[open] { animation: arrive .3s ease both; }
-.close-dialog { position: absolute; top: 9px; right: 9px; width: 40px; height: 40px; border: 0; border-radius: 50%; background: transparent; color: #ae9090; font: 26px/1 var(--sans); }
+.close-dialog { position: absolute; top: 9px; right: 9px; width: 40px; height: 40px; border: 0; border-radius: 50%; background: transparent; color: #866970; font: 26px/1 var(--sans); }
 .close-dialog:hover { background: #f9e7e5; }
 .dialog-heart { width: 59px; height: 59px; margin-bottom: 20px; }
 dialog h2 { font: 400 2rem/1.4 var(--serif); margin: 0 0 14px; }
