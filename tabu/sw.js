@@ -1,5 +1,5 @@
 // Offline support. Bump CACHE when the list of files changes.
-const CACHE = 'tabu-v3-yuyue-surprise';
+const CACHE = 'tabu-v4-print';
 const ASSETS = ['./', 'index.html', 'style.css', 'app.js', 'cards.js', '../yuyue/settings.js', 'manifest.webmanifest', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
@@ -21,9 +21,12 @@ self.addEventListener('fetch', (e) => {
   if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return;
   e.respondWith((async () => {
     const cache = await caches.open(CACHE);
-    const cached = await cache.match(req, { ignoreSearch: true });
-    const fresh = fetch(req).then((res) => {
-      if (res.ok) cache.put(req, res.clone());
+    const key = req.url.split('?')[0]; // one cached copy per file, whatever "?v=" says
+    const cached = await cache.match(key);
+    // For files, 'no-cache' makes the browser check with the server every time, so a new deploy shows
+    // on the next launch instead of after the HTTP cache expires. Page loads keep their own request.
+    const fresh = (req.mode === 'navigate' ? fetch(req) : fetch(req.url, { cache: 'no-cache' })).then((res) => {
+      if (res.ok) cache.put(key, res.clone());
       return res;
     });
     if (!cached) return fresh;

@@ -1,0 +1,1038 @@
+# English meaning of every Chinese taboo word: 汉字|english
+# A Chinese taboo word that is also the head word of a card gets that card's English head word
+# automatically; a line here overrides it. "汉字@card-id|english" sets the meaning on one card only.
+水果|fruit
+烤|bake / roast
+三明治|sandwich
+奶牛|dairy cow
+母鸡|hen
+蛋黄|yolk
+壳|shell
+煎|fry
+煮|boil
+主食|staple food
+米饭|cooked rice
+绿|green
+苦|bitter
+提神|gives you energy
+甜|sweet
+奶油|cream
+皮|skin / peel
+弯|bend / curved
+老鼠|mouse / rat
+芝士|cheese
+圆|round
+外卖|takeaway
+饼|flatbread
+雪糕|ice lolly
+融化|melt
+颜色|colour
+维生素|vitamin
+橘子|mandarin
+蔬菜|vegetable
+薯条|fries
+薯片|crisps
+地下|underground
+马铃薯|potato
+番茄|tomato
+酱|sauce
+层|layer / floor
+切|cut
+眼泪|tears
+酸|sour
+汁|juice
+棕色|brown
+可可|cocoa
+粘|sticky
+胡椒|pepper
+咸|salty
+调料|seasoning
+糖果|sweets
+长|long
+拉面|ramen
+第一|first
+饭|meal / rice
+吃饭|eat a meal
+菜单|menu
+饭店|restaurant
+肚子|belly
+渴|thirsty
+外面|outside
+篮子|basket
+草地|lawn / grass
+两|two
+木头|wood
+夹|pick up / clamp
+做饭|cook
+材料|ingredients / material
+步骤|steps
+菜|dish / vegetables
+动物|animal
+素|meat-free
+辣椒|chilli
+烧|burn
+味道|taste
+饭后|after a meal
+餐|meal
+橙色|orange (colour)
+脆|crunchy
+新鲜|fresh
+馅|filling
+紫色|purple
+串|bunch
+藤|vine
+籽|seed
+果酱|jam
+涂|spread
+粉末|powder
+小麦|wheat
+牛肉|beef
+鸡肉|chicken (meat)
+蛋白质|protein
+生菜|lettuce
+榨|squeeze
+液体|liquid
+脂肪|fat
+气味|smell
+瓣|clove
+豆荚|pod
+宠物|pet
+叫|bark / call
+汪|woof
+喵|meow
+抓|catch
+飞|fly
+翅膀|wing
+天空|sky
+窝|nest
+钓|fish (verb)
+骑|ride
+比赛|match / race
+草原|grassland
+耕田|plough
+灰色|grey
+吼|roar
+老虎|tiger
+尾巴|tail
+树枝|branch
+玫瑰|rose
+花园|garden
+香|fragrant
+白天|daytime
+光|light
+伞|umbrella
+湿|wet
+冰|ice
+高|high / tall
+顶|top
+流|flow
+河岸|riverbank
+树林|woods
+毒|poison
+咬|bite
+没有腿|no legs
+蜇|sting
+嗡嗡|buzz
+独自|alone
+干|dry
+骆驼|camel
+空旷|open and empty
+昆虫|insect
+黑白|black and white
+竹子|bamboo
+毛|fur / hair
+不会飞|cannot fly
+七|seven
+摇|shake
+地面|ground
+楼|building
+灾难|disaster
+倒|fall down
+岩浆|lava
+火|fire
+爆发|erupt
+古代|ancient times
+灭绝|extinct
+化石|fossil
+全球|global
+变暖|warming
+空气|air
+工厂|factory
+烟|smoke
+吹|blow
+落|fall
+植物|plant
+草坪|lawn
+田野|field
+生长|grow
+泥土|soil / mud
+低|low
+坡|slope
+石头|stone
+硬|hard
+重|heavy
+颗粒|grain
+聪明|clever
+嚎叫|howl
+群|pack / group
+蛋|egg
+八|eight
+网|net
+躺|lie down
+坐|sit
+家具|furniture
+放|put
+开|open
+关|close / turn off
+进|enter
+敲|knock
+玻璃|glass
+看|look / watch
+锁|lock
+车|car / vehicle
+金属|metal
+时间|time
+墙|wall
+手表|watch
+页|page
+故事|story
+墨水|ink
+购物|shopping
+书包|school bag
+穿|wear
+双|pair
+戴|wear (hat, glasses)
+遮阳|shade from the sun
+下雨|rain (verb)
+打|hit / fight
+手机|mobile phone
+响|ring
+号码|number
+频道|channel
+节目|programme
+照|reflect / shine
+自己|oneself
+泡沫|foam
+擦|wipe
+洗澡|take a bath
+食物|food
+锋利|sharp
+搅|stir
+近视|short-sighted
+镜片|lens
+刷|brush (verb)
+牙膏|toothpaste
+软|soft
+黑|dark / black
+点|light (a candle)
+口袋|pocket
+卡|card
+现金|cash
+剪|cut (with scissors)
+暖|warm
+盖|cover
+上|up
+台阶|step
+够|reach
+旅行|travel
+衣服|clothes
+装|pack / fill
+打扫|clean up
+地板|floor
+灰尘|dust
+吸|suck / inhale
+布|cloth
+挡|block
+客厅|living room
+靠垫|cushion
+房间|room
+铺|lay out
+把手|handle
+里面|inside
+挂|hang
+收纳|store away
+开水|boiled water
+碟子|small plate
+深|deep
+尖|pointed
+塑料|plastic
+盖子|lid
+油漆|paint
+齿|teeth (of a comb)
+整理|tidy up
+纽扣|button
+袖子|sleeve
+领子|collar
+腰带|belt
+暖和|warm
+学习|study
+上课|attend class
+生病|be ill
+病人|patient
+登机|board (a plane)
+住|live / stay
+前台|reception
+散步|take a walk
+玩|play
+轮子|wheel
+路|road
+站|stop / station
+公交|bus
+铁路|railway
+轨道|track / orbit
+高铁|high-speed train
+车厢|carriage
+踏板|pedal
+单车|bike
+走|walk
+道|way / road
+人|person / people
+农村|countryside
+卖|sell
+超市|supermarket
+账户|account
+存|deposit / save
+贷款|loan
+艺术|art
+参观|visit
+展览|exhibition
+过|cross
+上面|on top
+连接|connect
+田|field
+种|plant (verb)
+拖拉机|tractor
+证件|ID document
+签证|visa
+价格|price
+方向|direction
+找|find / look for
+导航|navigation
+拍照|take photos
+外国|foreign country
+线|line
+付钱|pay
+打车|take a taxi
+堵|jam / blocked
+红绿灯|traffic lights
+拥挤|crowded
+箱子|box / case
+记住|remember
+船|boat / ship
+码头|dock
+货|goods
+停|stop
+大厦|tall building
+到|arrive
+地方|place
+去|go
+终点|finish / end
+处方|prescription
+信|letter
+邮票|stamp
+寄|post / send
+包裹|parcel
+地址|address
+站台|platform
+座位|seat
+运动|sport / exercise
+救生员|lifeguard
+修理|repair
+房子|house
+公寓|flat
+栏杆|railing
+风景|view / scenery
+淋浴|shower
+厕所|toilet
+洗手池|sink
+瓦|roof tile
+遮盖|cover
+马路|road
+旁边|next to
+离开|leave
+标志|sign
+教|teach
+出生|be born
+宝宝|baby
+父母|parents
+女人|woman
+家|home / family
+一起|together
+认识|know (someone)
+喜欢|like
+好|good
+同学|classmate
+犯罪|crime
+小偷|thief
+王后|queen
+皇冠|crown
+统治|rule
+声音|sound / voice
+炒|stir-fry
+点菜|order food
+端|carry (a dish)
+小费|tip
+机长|captain
+照顾|take care of
+打针|give an injection
+疼|hurt / painful
+拔|pull out
+创作|create
+作品|work (of art)
+表演|perform
+角色|role
+明星|star (celebrity)
+电视剧|TV series
+隔壁|next door
+来|come
+邀请|invite
+欢迎|welcome
+一样|the same
+救|rescue
+灭|put out
+建|build
+设计|design
+机器|machine
+技术|technology
+理科|science subjects
+法院|court
+法官|judge
+辩护|defend
+官司|lawsuit
+实验室|laboratory
+发现|discover
+新闻|news
+报纸|newspaper
+采访|interview
+报道|report
+服务|service
+客户|client
+经理|manager
+公司|company
+员工|employee
+不知道|don't know
+小心|careful
+免费|free
+公益|charity
+义工|volunteer
+看见|see
+作证|testify
+男人|man
+女孩|girl
+手足|siblings
+男孩|boy
+年老|elderly
+奶奶|grandma
+孙子|grandson
+爷爷|grandpa
+年幼|very young
+长大|grow up
+年龄|age
+责任|responsibility
+阿姨|aunt
+叔叔|uncle
+血缘|blood relation
+两个人|two people
+爱|love
+恋人|lovers
+伴侣|partner
+修|repair
+工具|tool
+扫帚|broom
+面团|dough
+照片|photo
+拍|take (a photo)
+镜头|lens
+小说|novel
+读者|reader
+五|five
+手套|glove
+闭|close (eyes)
+瞎|blind
+闻|smell (verb)
+中间|middle
+感冒|a cold
+嘴唇|lips
+耳环|earring
+梳|comb (verb)
+理发|haircut
+脚趾|toe
+胸|chest
+脑|brain
+身体|body
+想|think
+休息|rest
+片|tablet / slice
+痛|pain
+脑袋|head
+不舒服|unwell
+血管|blood vessel
+骷髅|skeleton
+断|break
+思考|think
+消化|digest
+戒指|ring
+指|point
+指甲|nail
+嗓子|throat / voice
+健身房|gym
+跑步|running
+没力气|no strength
+困|sleepy
+体温计|thermometer
+反应|reaction
+花粉|pollen
+痒|itchy
+强壮|strong
+事故|accident
+流血|bleed
+体重|weight
+减肥|lose weight
+开刀|operate (surgery)
+保护|protect
+病|illness
+针|needle
+手腕|wrist
+速度|speed
+担心|worry
+放松|relax
+紧张|nervous
+焦虑|anxious
+抬|lift
+关节|joint
+跪|kneel
+扛|carry on the shoulder
+围巾|scarf
+转|turn
+脊柱|spine
+后面|behind
+摸|touch
+表面|surface
+微笑|smile
+吞|swallow
+两个|two
+纸巾|tissue
+无聊|bored
+张开|open wide
+难受|feel bad
+伤口|wound
+包扎|bandage (verb)
+警报|siren / alarm
+急救|first aid
+车辆|vehicle
+日期|date
+安排|arrange
+就诊|see a doctor
+上网|go online
+网络|network / internet
+电台|radio station
+广播|broadcast
+闪|twinkle / flash
+亮|bright
+人工|artificial
+人类|human
+发|send
+信息|message / information
+邮箱|mailbox
+登录|log in
+输入|type in
+充电|charge
+没电|out of battery
+录|record
+打字|type
+键|key
+显示|display
+触摸|touch
+发射|launch
+航天|spaceflight
+地球|Earth
+火星|Mars
+灯|lamp / light
+电线|wire
+发电|generate power
+马达|motor
+动力|power
+油|oil / fuel
+细胞|cell
+测试|test
+试|try
+结果|result
+掉|drop / fall
+吸引|attract
+重量|weight
+气体|gas
+需要|need
+感染|infection
+传播|spread
+远|far
+新|new
+创造|create
+想法|idea
+有用|useful
+程序|program
+代码|code
+应用|app
+硬件|hardware
+物质|matter
+中心|centre
+便携|portable
+复印|photocopy
+指针|pointer
+按键|button / key
+录音|record sound
+音量|volume
+按钮|button
+距离|distance
+孔|hole
+电源|power supply
+网页|web page
+浏览器|browser
+在线|online
+文档|document
+名字|name
+发送|send
+服务器|server
+查|look up
+词|word
+按|press
+保留|keep
+存储|store
+去掉|remove
+垃圾桶|bin
+无线电|radio (waves)
+波|wave
+进球|score a goal
+踢|kick
+队|team
+球员|player
+池|pool
+乐器|instrument
+唱|sing
+动|move
+舞蹈|dance
+导演|director
+赢|win
+有趣|fun
+歌词|lyrics
+弦|string
+弹|play (strings, keys)
+节奏|rhythm
+扔|throw
+放假|have a holiday
+球拍|racket
+场|court / field
+发球|serve
+棋盘|chessboard
+下棋|play chess
+现场|live
+竿|rod
+块|piece
+图片|picture
+解|solve
+卡通|cartoon
+画|draw / picture
+讲|tell
+幽默|humour
+开玩笑|make a joke
+冠军|champion
+奖|prize
+滑|slide / slip
+四十二|forty-two
+公里|kilometre
+金|gold
+银|silver
+哨子|whistle
+牌|card
+空闲|free time
+兴趣|interest
+业余|amateur
+台下|below the stage
+戏法|trick
+变|change / turn into
+消失|disappear
+决赛|final
+棍子|stick
+弓|bow
+气息|breath
+戏剧|drama / play
+幕布|stage curtain
+杆子|pole
+前|forward
+后|back
+下|down
+板|board
+滑行|glide
+平衡|balance
+技巧|trick / skill
+小路|trail
+靴子|boots
+棋子|game piece
+立方体|cube
+六|six
+掷|throw / roll
+系|tie
+结|knot
+画笔|paintbrush
+画布|canvas
+图画|picture
+制作|make
+胶水|glue
+创意|creativity
+掌声|applause
+练习|practice / exercise
+通过|pass
+题|question (in a test)
+张|sheet
+问|ask
+回答|answer (verb)
+为什么|why
+问号|question mark
+数|count
+一|one
+几|how many
+上班|go to work
+付|pay
+有钱|rich
+职业|profession
+文字|writing / text
+顺序|order
+拼音|pinyin
+意思|meaning
+学位|degree
+教授|professor
+校园|campus
+说|say / speak
+学|learn
+交流|communicate
+年代|era / decade
+讨论|discuss
+校服|school uniform
+算|calculate
+加|add
+错|wrong
+对|right / correct
+犯|make (a mistake)
+对不起|sorry
+改|change / correct
+月|month
+完成|finish
+晚|late
+交|hand in
+幻灯片|slides
+演讲|speech
+汇报|report (verb)
+说明|explain
+典礼|ceremony
+成绩|grades
+动词|verb
+另一种|another kind
+老|old
+养老金|pension
+生意|business
+赚|earn
+亏|lose money
+资料|materials / data
+笔记|notes
+测量|measure
+直|straight
+长度|length
+厘米|centimetre
+黑板|blackboard
+正确|correct
+句号|full stop
+字符|character
+发音|pronunciation
+文章|article / text
+减|subtract
+计算|calculate
+物理|physics
+化学|chemistry
+计划|plan
+团队|team
+任务|task
+课程|course
+证明|prove / proof
+资格|qualification
+表格|form
+请求|request
+提交|submit
+候选人|candidate
+协议|agreement
+签字|sign
+条件|condition / terms
+感觉|feel / feeling
+快乐|happy / joy
+伤心|heartbroken
+合唱|choir
+哈哈|haha
+方向盘|steering wheel
+驾照|driving licence
+心|heart
+亲|kiss
+浪漫|romantic
+喊|shout
+红|red
+愤怒|anger
+字|character / word
+愿望|wish
+想象|imagine
+噩梦|nightmare
+没想到|didn't expect
+吓|scare
+突然|suddenly
+恐怖|scary / horror
+鬼|ghost
+不做|not do
+勤快|hard-working
+脸红|blush
+内向|introverted
+小声|in a low voice
+空中|in the air
+绳|rope
+还|give back
+用|use
+丢|lose
+想不起|can't recall
+排队|queue up
+耐心|patience
+话|words
+遵守|keep / obey
+发誓|swear
+保证|guarantee
+羡慕|envy
+想要|want
+别人|other people
+吃醋|be jealous
+成功|success
+自豪|proud
+丢脸|lose face
+不好意思|embarrassed / sorry
+不满意|dissatisfied
+不好|not good
+投诉|file a complaint
+原谅|forgive
+节日|festival / holiday
+打架|fight
+不同意|disagree
+争论|argue
+一个人|alone / one person
+没有人|nobody
+寂寞|lonely
+不确定|unsure
+决定|decide
+怀疑|doubt
+更多|more
+真的|true / real
+假|false / fake
+嚼|chew
+步|step
+注意|pay attention
+谈|talk
+关上|close / shut
+收到|receive
+送|give / send
+带|bring / carry
+得到|get
+握|grip / hold
+移动|move
+向前|forward
+靠近|come close
+拖|drag
+支持|support
+协助|assist
+选项|option
+挑|pick
+比较|compare
+脑子|mind / brain
+岁|years old
+盒子|box
+季节|season
+外套|coat
+星期六|Saturday
+星期天|Sunday
+天|day
+周一|Monday
+现在|now
+早|early
+起床|get up
+十二|twelve
+日历|calendar
+牛仔裤|jeans
+暗|dark
+尺寸|size
+巨大|huge
+宽|wide
+迅速|quick
+多|many / much
+警告|warning
+风险|risk
+大声|loud
+没有|not have / none
+告诉|tell
+藏|hide
+知道|know
+悄悄|quietly / secretly
+机会|chance
+幸运|lucky
+彩票|lottery
+不同|different
+另一边|the other side
+对面|opposite side
+反|reverse
+总是|always
+做|do
+每天|every day
+坏|bad
+听说|hear (a rumour)
+八卦|gossip
+传|pass on
+应该|should
+意见|opinion
+提|suggest / raise
+碰巧|by chance
+偶然|accidental
+重要|important
+最|most
+紧急|urgent
+同意|agree
+双方|both sides
+让步|give way
+商量|talk it over
+凉|cool
+下一个|next
+上一个|previous
+中午|noon
+午饭|lunch
+日落|sunset
+晚饭|dinner
+六十|sixty
+秒|second
+浅|light / shallow
+微小|tiny
+短|short
+少|few / little
+缓慢|slow
+费用|cost
+整齐|neat
+泥|mud
+污渍|stain
+没空间|no space
+容器|container
+无声|silent
+结婚|get married
+新娘|bride
+国旗|national flag
+民族|nation / people
+杆|pole
+升|raise
+半夜|midnight
+小组|group
+目标|goal
+配合|cooperate
+当地|local
+群体|group
+主要|main
+政府|government
+政治|politics
+军队|army
+士兵|soldier
+武器|weapon
+鸽子|dove / pigeon
+平静|calm
+爆炸|explode
+过年|celebrate New Year
+鳞片|scales
+怪物|monster
+塔|tower
+公主|princess
+废物|waste
+再用|reuse
+燃料|fuel
+农田|farmland
+缺乏|lack
+淹|flood (verb)
+栖息地|habitat
+自由|freedom / free
+浪|wave
+旧|old (things)
+遗迹|ruins
+很久|a long time
+带领|lead
+跟随|follow
+数量|amount / number
+亿|hundred million
+投票|vote
+总统|president
+选|choose / elect
+兑换|exchange
+硬币|coin
+纸币|banknote
+之间|between
+神话|myth
+英雄|hero
+贸易|trade
+发展|development
+年轻|young
+预报|forecast
+度|degree
+温度计|thermometer
+火焰|flame
+土地|land
+地区|region
+宇宙|universe
+宇航员|astronaut
+以前|before / in the past
+变成|become
+改变|change
+允许|allow
+禁止|forbid
+违反|break (a rule)
+合法|legal
+平等|equal
+防护|protection
+急|urgent
+呼叫|call
+解决|solve
+方法|method
+困难|difficult / difficulty
+麻烦|trouble
+能源|energy source
+天然|natural
+使用|use
+
+# Head words whose meaning as a taboo word is wider than the card's English head word
+工作|work
+问题|problem / question
+拿|take / hold
+安全|safe
+习惯|habit / custom
+保存|save / keep
+申请|apply
+牙齿|teeth
+作家|writer
+课|lesson / class
+健康|healthy / health
+
+# One card only
+皮@wallet|leather
+烧@kettle|boil
+抓@cat|scratch
+开@car|drive
+开@driver|drive
+开@meeting|hold (a meeting)
+上@lesson|attend
+线@charger|cable
+线@plug|cable
+线@kite|string
+站@queue|stand
+打@phone|call
+发@salary|pay
+擦@delete|erase
+擦@eraser|erase
+网@spider|web
+花@expensive|spend
+爬@snake|crawl
+包@gift|wrap
+拉@violin|play (with a bow)
+笔记本@computer|laptop
+晚@evening|evening
