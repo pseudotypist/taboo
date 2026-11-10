@@ -8,7 +8,7 @@ const LANG_TAG = { en: 'EN', tr: 'TR', zh: '中文' };
 const LOCALE = { en: 'en-GB', tr: 'tr-TR', zh: 'zh-CN' };
 const LEVELS = ['A1', 'A2', 'B1', 'B2'];
 const CATS = window.TABU_CATS;
-const CARDS = window.TABU_CARDS.map(([id, cat, lvl, en, tr, zh]) => ({ id, cat, lvl, en, tr, zh }));
+const CARDS = window.TABU_CARDS.map(([id, cat, lvl, en, tr, zh, pinyin = []]) => ({ id, cat, lvl, en, tr, zh, pinyin }));
 const BY_ID = Object.fromEntries(CARDS.map((c) => [c.id, c]));
 const COLORS = ['#e63462', '#2f6fed', '#0e9f6e', '#8e5beb', '#e8590c', '#0b8a96', '#d6338a', '#5562d8'];
 const JOKERS = ['double', 'extra', 'nopass', 'shield', 'one', 'statue'];
@@ -48,7 +48,7 @@ const T = {
     askQuit: 'Oyundan çıkılsın mı? Bu tur sayılmaz, oyuna ana menüden devam edebilirsin.',
     askEnd: 'Oyun şimdi bitirilsin mi?', askResetStats: 'Tüm istatistikler silinsin mi?',
     askResetSeen: 'Çıkmış kartlar sıfırlansın mı? Kartlar yeniden gelmeye başlar.',
-    credit: 'İngilizce kelime seviyeleri: CEFR-J Wordlist 1.5 (Yukio Tono, Tokyo University of Foreign Studies).',
+    credit: 'İngilizce seviyeleri yaklaşık A1–B2 düzeyindedir. Mevcut CEFR-J etiketleri korunmuş, yeni kartlar için tahmini seviyeler eklenmiştir.',
     how: [
       'Takımlara ayrılın. Sırası gelen takımdan bir kişi anlatıcı olur ve telefonu alır.',
       'Anlatıcı üstteki kelimeyi takımına anlatır; ama kelimenin kendisini ve alttaki yasak kelimeleri söyleyemez.',
@@ -89,7 +89,7 @@ const T = {
     askQuit: 'Quit the game? This round will not count. You can continue the game from the main menu.',
     askEnd: 'End the game now?', askResetStats: 'Delete all statistics?',
     askResetSeen: 'Reset the cards that have already come up? They will start appearing again.',
-    credit: 'English word levels: CEFR-J Wordlist 1.5 (Yukio Tono, Tokyo University of Foreign Studies).',
+    credit: 'English levels are approximate A1–B2. Existing CEFR-J labels are retained; levels for new cards are estimates.',
     how: [
       'Split into teams. One player from the team whose turn it is becomes the describer and takes the phone.',
       'The describer explains the word at the top, but may not say the word itself or any of the taboo words under it.',
@@ -130,7 +130,7 @@ const T = {
     askQuit: '要退出游戏吗？本轮不计分，可以从主菜单继续游戏。',
     askEnd: '现在结束游戏吗？', askResetStats: '要清除所有统计吗？',
     askResetSeen: '要重置已出现的卡片吗？这些卡片会重新出现。',
-    credit: '英语词汇等级：CEFR-J Wordlist 1.5（Yukio Tono，东京外国语大学）。',
+    credit: '英语词汇等级约为 A1–B2。保留原有 CEFR-J 标签，新增卡片的等级为估计值。',
     how: [
       '分成几个队伍。轮到的队伍派一个人拿手机来描述。',
       '描述的人向队友解释最上面的词，但不能说出这个词本身，也不能说下面的禁词。',
@@ -192,6 +192,7 @@ const saveSetup = () => store.set('setup', setup);
 
 /* ================= helpers ================= */
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const pinyinHtml = (card, index = 0) => card.pinyin[index] ? `<span class="pinyin" lang="zh-Latn">${esc(card.pinyin[index])}</span>` : '';
 function t(key, lang, vars) {
   if (lang && typeof lang === 'object') { vars = lang; lang = null; }
   let s = (T[lang || ui] || T.en)[key];
@@ -542,7 +543,7 @@ function viewPlay() {
   const left = r.paused ? r.remaining : r.endAt - performance.now();
   const sec = Math.max(0, Math.ceil(left / 1000));
   const words = c[L];
-  const helpers = tm.helpers.map((h) => `<span lang="${LOCALE[h]}"><i>${LANG_TAG[h]}</i>${esc(c[h][0])}</span>`).join('');
+  const helpers = tm.helpers.map((h) => `<span lang="${LOCALE[h]}"><i>${LANG_TAG[h]}</i>${esc(c[h][0])}${h === 'zh' ? pinyinHtml(c) : ''}</span>`).join('');
   const jk = r.joker ? t('j', L)[r.joker] : null;
   return `<section class="screen team play ${r.flash ? 'flash-' + r.flash : ''}">
     <header class="pbar">
@@ -556,9 +557,10 @@ function viewPlay() {
       <div class="card-top">
         <small>${t('cat', L)[CATS[c.cat]]} · ${LEVELS[c.lvl]}</small>
         <h1 class="word" style="--n:${wordWidth(words[0])}">${esc(words[0])}</h1>
+        ${L === 'zh' ? pinyinHtml(c) : ''}
         ${helpers ? `<div class="helpers">${helpers}</div>` : ''}
       </div>
-      <ul class="taboo-list">${words.slice(1, 1 + g.rules.tabooWords).map((w) => `<li>${esc(w)}</li>`).join('')}</ul>
+      <ul class="taboo-list">${words.slice(1, 1 + g.rules.tabooWords).map((w, i) => `<li>${esc(w)}${L === 'zh' ? pinyinHtml(c, i + 1) : ''}</li>`).join('')}</ul>
     </article>
     <footer class="dock">
       <button class="act taboo" data-act="mark" data-v="t"><i>✕</i>${t('taboo', L)}</button>
@@ -576,7 +578,7 @@ function viewSummary() {
   const g = game, r = round, tm = g.teams[r.team], L = tm.lang;
   const n = { c: 0, t: 0, p: 0, '-': 0 };
   for (const c of r.cards) n[c.res]++;
-  const rows = r.cards.map((c, i) => `<button class="srow res-${c.res === '-' ? 'n' : c.res}" data-act="fix" data-i="${i}"><span lang="${LOCALE[L]}">${esc(BY_ID[c.id][L][0])}</span><em>${RES_ICON[c.res]}</em></button>`).join('');
+  const rows = r.cards.map((c, i) => `<button class="srow res-${c.res === '-' ? 'n' : c.res}" data-act="fix" data-i="${i}"><span lang="${LOCALE[L]}">${esc(BY_ID[c.id][L][0])}${L === 'zh' ? pinyinHtml(BY_ID[c.id]) : ''}</span><em>${RES_ICON[c.res]}</em></button>`).join('');
   return `<section class="screen team summary">
     <header class="shead">
       <p>${t(r.timeUp ? 'timeUp' : 'roundOver', L)}</p>
@@ -624,7 +626,7 @@ function viewStats() {
       </div>
       <h2>${t('recent')}</h2>
       ${games || `<p class="note">${t('noStats')}</p>`}
-      ${hard.length ? `<h2>${t('hardest')}</h2><div class="group">${hard.map((x) => `<div class="hrow"><span lang="${LOCALE[ui]}">${esc(BY_ID[x.id][ui][0])}</span><small>✓ ${x.s.c} · ✕ ${x.s.t} · ↷ ${x.s.p}</small></div>`).join('')}</div>` : ''}
+      ${hard.length ? `<h2>${t('hardest')}</h2><div class="group">${hard.map((x) => `<div class="hrow"><span lang="${LOCALE[ui]}">${esc(BY_ID[x.id][ui][0])}${ui === 'zh' ? pinyinHtml(BY_ID[x.id]) : ''}</span><small>✓ ${x.s.c} · ✕ ${x.s.t} · ↷ ${x.s.p}</small></div>`).join('')}</div>` : ''}
       ${stats.games.length || played ? `<p class="note"><button class="link" data-act="resetStats">${t('resetStats')}</button></p>` : ''}
     </div>
   </section>`;
