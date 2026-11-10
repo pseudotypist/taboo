@@ -6,6 +6,10 @@
 beş yasak kelimenin tamamında ton işaretli pinyin gösterilir. Diğer dillerde
 oynarken Çince çevirisi açılırsa ana kelimenin pinyin okunuşu da görünür.
 
+Ana menüde 于悦 için kalpli bir sürpriz düğmesi de vardır. Sürpriz dosyaları
+deponun ayrı `yuyue/` klasöründedir. İsim, cevap ve mesajlar `yuyue/settings.js`
+dosyasından düzenlenir; ana menüdeki düğme de aynı ayarları kullanır.
+
 ## Bilgisayarda çalıştırma
 
 ```bash

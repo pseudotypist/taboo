@@ -97,7 +97,8 @@ h2:first-child { margin-top: 4px; }
 .note { color: var(--muted); font-size: .9rem; margin: 14px 4px 8px; }
 
 /* ---------- home ---------- */
-.home { justify-content: center; gap: 12px; }
+.home { justify-content: flex-start; gap: 12px; overflow-y: auto; }
+.home > * { flex-shrink: 0; }
 .langs { margin-bottom: auto; }
 .home .seg { background: var(--panel); }
 .logo { display: flex; justify-content: center; gap: 8px; margin-top: 8px; }
@@ -111,6 +112,10 @@ h2:first-child { margin-top: 4px; }
 .logo span:nth-child(4) { background: #f58a07; transform: rotate(6deg) translateY(-3px); }
 .tagline { text-align: center; color: var(--muted); font-weight: 600; margin: 18px 0 22px; }
 .menu { display: flex; flex-direction: column; gap: 10px; }
+.love-link { color: #ffd8e4; background: #3a2347; border: 1px solid #86516d; text-decoration: none; font-size: .95rem; }
+.love-link svg { width: 20px; height: 20px; fill: #ff95b3; flex: none; }
+.love-link:hover { background: #4a2b53; }
+.love-link:focus-visible { outline: 3px solid #ffd8e4; outline-offset: 3px; }
 .foot { text-align: center; color: var(--muted); font-size: .85rem; margin-top: auto; padding-top: 14px; }
 
 /* ---------- setup ---------- */

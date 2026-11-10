@@ -147,4 +147,7 @@
     motion.addEventListener('change', finish);
     frame = requestAnimationFrame(draw);
   }
+
+  // Tabu ana ekranındaki giriş, aynı butona ikinci kez bastırmadan onayı açar.
+  if (new URLSearchParams(window.location.search).get('open') === '1') dialog.showModal();
 })();

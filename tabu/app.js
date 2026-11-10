@@ -459,6 +459,8 @@ const scoreChips = (teams, current) => teams.map((x, i) => `<div class="sc ${cur
 
 function viewHome() {
   const canResume = game && !game.over;
+  const gift = window.LOVE_LETTER;
+  const giftLabel = String(gift?.copy?.openButton || '如果你是{name}，就点这里').replaceAll('{name}', gift?.recipientName || '于悦');
   return `<section class="screen home">
     <div class="langs seg">${LANGS.map((l) => `<button class="${ui === l ? 'on' : ''}" data-act="lang" data-v="${l}">${LANG_NAME[l]}</button>`).join('')}</div>
     <div class="logo" role="img" aria-label="Tabu"><span>T</span><span>A</span><span>B</span><span>U</span></div>
@@ -468,6 +470,7 @@ function viewHome() {
       <button class="btn big ${canResume ? '' : 'primary'}" data-act="go" data-v="setup">${t('newGame')}</button>
       <button class="btn" data-act="go" data-v="stats">${t('stats')}</button>
       <button class="btn" data-act="go" data-v="howto">${t('howTo')}</button>
+      <a class="btn love-link" href="../yuyue/?open=1" lang="zh-Hans"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.9 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.9-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg><span>${esc(giftLabel)}</span></a>
     </div>
     <p class="foot">${t('deckInfo', { n: CARDS.length })}</p>
   </section>`;
