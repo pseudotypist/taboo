@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|apple,fruit,red,tree,green,juice|elma,meyve,kırmızı,ağaç,yeşil,armut|苹果,水果,红色,树,绿色,果汁|píng guǒ,shuǐ guǒ,hóng sè,shù,lǜ sè,guǒ zhī
+A1|bread,bakery,flour,sandwich,toast,butter|ekmek,fırın,un,sandviç,dilim,hamur|面包,面粉,烤,三明治,早餐,黄油|miàn bāo,miàn fěn,kǎo,sān míng zhì,zǎo cān,huáng yóu
+A1|milk,cow,white,drink,cheese,baby|süt,inek,beyaz,içmek,peynir,bebek|牛奶,奶牛,白色,喝,奶酪,婴儿|niú nǎi,nǎi niú,bái sè,hē,nǎi lào,yīng ér
+A1|egg,chicken,breakfast,white,yellow,boil|yumurta,tavuk,kahvaltı,sarı,kabuk,omlet|鸡蛋,母鸡,早餐,蛋黄,壳,煎|jī dàn,mǔ jī,zǎo cān,dàn huáng,ké,jiān
+A1|water,drink,sea,bottle,rain,thirsty|su,içmek,deniz,şişe,yağmur,susamak|水,喝,海,瓶子,雨,口渴|shuǐ,hē,hǎi,píng zi,yǔ,kǒu kě
+A1|rice,white,grain,cook,bowl,meal|pirinç,pilav,beyaz,tane,pişirmek,kase|大米,白色,碗,煮,主食,米饭|dà mǐ,bái sè,wǎn,zhǔ,zhǔ shí,mǐ fàn
+A1|tea,drink,hot,cup,leaf,green|çay,içmek,sıcak,bardak,demlik,şeker|茶,喝,热,杯子,叶子,绿|chá,hē,rè,bēi zi,yè zi,lǜ
+A1|coffee,drink,morning,cup,black,bean|kahve,içmek,sabah,fincan,kafein,çekirdek|咖啡,喝,早上,杯子,苦,提神|kā fēi,hē,zǎo shàng,bēi zi,kǔ,tí shén
+A1|cake,birthday,sweet,candle,chocolate,slice|pasta,doğum günü,tatlı,mum,çikolata,dilim|蛋糕,生日,甜,蜡烛,奶油,巧克力|dàn gāo,shēng rì,tián,là zhú,nǎi yóu,qiǎo kè lì
+A1|banana,fruit,yellow,monkey,peel,long|muz,meyve,sarı,maymun,kabuk,soymak|香蕉,水果,黄色,猴子,皮,弯|xiāng jiāo,shuǐ guǒ,huáng sè,hóu zi,pí,wān
+A1|soup,hot,spoon,bowl,liquid,vegetable|çorba,sıcak,kaşık,kase,mercimek,içmek|汤,热,勺子,碗,喝,煮|tāng,rè,sháo zi,wǎn,hē,zhǔ
+A1|cheese,milk,yellow,mouse,pizza,slice|peynir,süt,beyaz,kahvaltı,fare,kaşar|奶酪,牛奶,黄色,老鼠,披萨,芝士|nǎi lào,niú nǎi,huáng sè,lǎo shǔ,pī sà,zhī shì
+A1|pizza,oven,cheese,slice,round,tomato|pizza,fırın,peynir,dilim,yuvarlak,hamur|披萨,烤箱,奶酪,圆,外卖,饼|pī sà,kǎo xiāng,nǎi lào,yuán,wài mài,bǐng
+A1|ice cream,cold,summer,sweet,cone,melt|dondurma,soğuk,yaz,tatlı,külah,erimek|冰淇淋,冷,夏天,甜,雪糕,融化|bīng qí lín,lěng,xià tiān,tián,xuě gāo,róng huà
+A1|orange,fruit,juice,colour,vitamin,peel|portakal,meyve,turuncu,vitamin,kabuk,mandalina|橙子,水果,果汁,颜色,维生素,橘子|chéng zi,shuǐ guǒ,guǒ zhī,yán sè,wéi shēng sù,jú zi
+A1|potato,vegetable,chips,fries,ground,mash|patates,sebze,kızartma,cips,toprak,püre|土豆,蔬菜,薯条,薯片,地下,马铃薯|tǔ dòu,shū cài,shǔ tiáo,shǔ piàn,dì xià,mǎ líng shǔ
+A1|tomato,red,vegetable,salad,ketchup,sauce|domates,kırmızı,sebze,salata,ketçap,salça|西红柿,红色,蔬菜,沙拉,番茄,酱|xī hóng shì,hóng sè,shū cài,shā lā,fān qié,jiàng
+A2|onion,cry,vegetable,layer,smell,cut|soğan,ağlamak,sebze,kat,koku,doğramak|洋葱,哭,蔬菜,层,切,眼泪|yáng cōng,kū,shū cài,céng,qiē,yǎn lèi
+A2|lemon,yellow,sour,fruit,juice,tea|limon,sarı,ekşi,meyve,sıkmak,çay|柠檬,黄色,酸,水果,汁,茶|níng méng,huáng sè,suān,shuǐ guǒ,zhī,chá
+A1|chocolate,sweet,brown,cocoa,bar,milk|çikolata,tatlı,kahverengi,kakao,sütlü,bitter|巧克力,甜,棕色,可可,糖,苦|qiǎo kè lì,tián,zōng sè,kě kě,táng,kǔ
+A2|honey,bee,sweet,yellow,sticky,bear|bal,arı,tatlı,sarı,kahvaltı,kovan|蜂蜜,蜜蜂,甜,黄色,熊,粘|fēng mì,mì fēng,tián,huáng sè,xióng,nián
+A2|salt,pepper,white,sea,taste,food|tuz,biber,beyaz,deniz,tat,yemek|盐,胡椒,白色,海,咸,调料|yán,hú jiāo,bái sè,hǎi,xián,tiáo liào
+A1|sugar,sweet,white,tea,candy,cube|şeker,tatlı,beyaz,çay,küp,kahve|糖,甜,白色,茶,糖果,咖啡|táng,tián,bái sè,chá,táng guǒ,kā fēi
+A2|noodles,pasta,long,soup,cook,chopsticks|erişte,makarna,uzun,çorba,pişirmek,hamur|面条,长,汤,吃,拉面,筷子|miàn tiáo,cháng,tāng,chī,lā miàn,kuài zi
+A1|breakfast,morning,meal,egg,eat,first|kahvaltı,sabah,öğün,yumurta,çay,peynir|早餐,早上,吃,鸡蛋,第一,饭|zǎo cān,zǎo shàng,chī,jī dàn,dì yī,fàn
+A1|restaurant,eat,waiter,menu,food,table|restoran,yemek,garson,menü,masa,lokanta|餐厅,吃饭,服务员,菜单,桌子,饭店|cān tīng,chī fàn,fú wù yuán,cài dān,zhuō zi,fàn diàn
+A1|hungry,eat,food,stomach,empty,thirsty|aç,yemek,mide,karın,tok,susamak|饿,吃,饭,肚子,空,渴|è,chī,fàn,dù zi,kōng,kě
+A1|picnic,outside,basket,park,eat,grass|piknik,dışarı,sepet,park,yemek,çimen|野餐,外面,篮子,公园,吃,草地|yě cān,wài miàn,lán zi,gōng yuán,chī,cǎo dì
+B1|chopsticks,eat,two,wood,stick,hold|yemek çubuğu,yemek,iki,tahta,tutmak,çatal|筷子,吃饭,两,木头,夹,勺子|kuài zi,chī fàn,liǎng,mù tou,jiā,sháo zi
+B2|recipe,cook,ingredient,instruction,food,book|tarif,yemek,malzeme,pişirmek,kitap,yapılış|食谱,做饭,材料,步骤,菜,书|shí pǔ,zuò fàn,cái liào,bù zhòu,cài,shū
+B1|vegetarian,meat,vegetable,eat,animal,diet|vejetaryen,et,sebze,yemek,hayvan,diyet|素食者,肉,蔬菜,吃,动物,素|sù shí zhě,ròu,shū cài,chī,dòng wù,sù
+B1|spicy,hot,pepper,chili,mouth,burn|acı,biber,tatlı,ağız,yakmak,baharat|辣,辣椒,热,嘴,烧,味道|là,là jiāo,rè,zuǐ,shāo,wèi dào
+A2|dessert,sweet,after,meal,cake,sugar|tatlı,şeker,yemek,sonra,pasta,dondurma|甜点,甜,饭后,蛋糕,糖,餐|tián diǎn,tián,fàn hòu,dàn gāo,táng,cān
+A1|carrot,orange,vegetable,rabbit,root,crunchy|havuç,turuncu,sebze,tavşan,kök,çıtır|胡萝卜,橙色,蔬菜,兔子,根,脆|hú luó bo,chéng sè,shū cài,tù zi,gēn,cuì
+A2|cucumber,green,vegetable,salad,long,fresh|salatalık,yeşil,sebze,salata,uzun,taze|黄瓜,绿色,蔬菜,沙拉,长,新鲜|huáng guā,lǜ sè,shū cài,shā lā,cháng,xīn xiān
+A2|pepper,vegetable,green,red,salad,stuffed|biber,sebze,yeşil,kırmızı,salata,dolma|甜椒,蔬菜,绿色,红色,沙拉,馅|tián jiāo,shū cài,lǜ sè,hóng sè,shā lā,xiàn
+A2|grape,fruit,purple,bunch,vine,juice|üzüm,meyve,mor,salkım,asma,meyve suyu|葡萄,水果,紫色,串,藤,果汁|pú táo,shuǐ guǒ,zǐ sè,chuàn,téng,guǒ zhī
+A2|strawberry,red,fruit,small,seed,jam|çilek,kırmızı,meyve,küçük,çekirdek,reçel|草莓,红色,水果,小,籽,果酱|cǎo méi,hóng sè,shuǐ guǒ,xiǎo,zǐ,guǒ jiàng
+A2|pear,fruit,green,sweet,tree,apple|armut,meyve,yeşil,tatlı,ağaç,elma|梨,水果,绿色,甜,树,苹果|lí,shuǐ guǒ,lǜ sè,tián,shù,píng guǒ
+A2|watermelon,fruit,summer,green,red,seed|karpuz,meyve,yaz,yeşil,kırmızı,çekirdek|西瓜,水果,夏天,绿色,红色,籽|xī guā,shuǐ guǒ,xià tiān,lǜ sè,hóng sè,zǐ
+A2|yogurt,milk,white,sour,spoon,bowl|yoğurt,süt,beyaz,ekşi,kaşık,kase|酸奶,牛奶,白色,酸,勺子,碗|suān nǎi,niú nǎi,bái sè,suān,sháo zi,wǎn
+A1|butter,milk,yellow,bread,spread,melt|tereyağı,süt,sarı,ekmek,sürmek,erimek|黄油,牛奶,黄色,面包,涂,融化|huáng yóu,niú nǎi,huáng sè,miàn bāo,tú,róng huà
+B1|flour,white,powder,bread,wheat,bake|un,beyaz,toz,ekmek,buğday,pişirmek|面粉,白色,粉末,面包,小麦,烤|miàn fěn,bái sè,fěn mò,miàn bāo,xiǎo mài,kǎo
+A1|meat,animal,beef,chicken,cook,protein|et,hayvan,dana,tavuk,pişirmek,protein|肉,动物,牛肉,鸡肉,做饭,蛋白质|ròu,dòng wù,niú ròu,jī ròu,zuò fàn,dàn bái zhì
+A1|salad,vegetable,lettuce,tomato,fresh,bowl|salata,sebze,marul,domates,taze,kase|沙拉,蔬菜,生菜,西红柿,新鲜,碗|shā lā,shū cài,shēng cài,xī hóng shì,xīn xiān,wǎn
+A1|juice,fruit,drink,glass,squeeze,orange|meyve suyu,içmek,bardak,sıkmak,portakal,tatlı|果汁,水果,喝,杯子,榨,橙子|guǒ zhī,shuǐ guǒ,hē,bēi zi,zhà,chéng zi
+A2|oil,cook,fry,liquid,bottle,fat|yağ,pişirmek,kızartmak,sıvı,şişe,tava|食用油,做饭,煎,液体,瓶子,脂肪|shí yòng yóu,zuò fàn,jiān,yè tǐ,píng zi,zhī fáng
+B1|garlic,smell,white,clove,onion,cook|sarımsak,koku,beyaz,diş,soğan,yemek|大蒜,气味,白色,瓣,洋葱,做饭|dà suàn,qì wèi,bái sè,bàn,yáng cōng,zuò fàn
+B2|lentil,soup,small,red,green,protein|mercimek,çorba,küçük,kırmızı,yeşil,protein|小扁豆,汤,小,红色,绿色,蛋白质|xiǎo biǎn dòu,tāng,xiǎo,hóng sè,lǜ sè,dàn bái zhì
+A2|bean,vegetable,seed,green,pod,cook|fasulye,sebze,tohum,yeşil,tane,pişirmek|菜豆,蔬菜,种子,绿色,豆荚,煮|cài dòu,shū cài,zhǒng zi,lǜ sè,dòu jiá,zhǔ

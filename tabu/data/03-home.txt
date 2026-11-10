@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|bed,sleep,night,pillow,bedroom,lie|yatak,uyumak,gece,yastık,oda,yorgan|床,睡觉,晚上,枕头,卧室,躺|chuáng,shuì jiào,wǎn shàng,zhěn tou,wò shì,tǎng
+A1|chair,sit,table,legs,furniture,wood|sandalye,oturmak,masa,bacak,mobilya,tahta|椅子,坐,桌子,腿,家具,木头|yǐ zi,zuò,zhuō zi,tuǐ,jiā jù,mù tou
+A1|table,eat,chair,legs,furniture,dinner|masa,yemek,sandalye,bacak,mobilya,sofra|桌子,吃饭,椅子,腿,家具,放|zhuō zi,chī fàn,yǐ zi,tuǐ,jiā jù,fàng
+A1|door,open,close,key,enter,knock|kapı,açmak,kapatmak,anahtar,girmek,çalmak|门,开,关,钥匙,进,敲|mén,kāi,guān,yào shi,jìn,qiāo
+A1|window,glass,open,look,curtain,light|pencere,cam,açmak,bakmak,perde,ışık|窗户,玻璃,开,看,窗帘,光|chuāng hu,bō li,kāi,kàn,chuāng lián,guāng
+A1|key,door,lock,open,car,metal|anahtar,kapı,kilit,açmak,araba,metal|钥匙,门,锁,开,车,金属|yào shi,mén,suǒ,kāi,chē,jīn shǔ
+A1|clock,time,hour,wall,minute,watch|duvar saati,zaman,dakika,akrep,yelkovan,tik tak|钟,时间,小时,墙,分钟,手表|zhōng,shí jiān,xiǎo shí,qiáng,fēn zhōng,shǒu biǎo
+A1|book,read,page,library,writer,story|kitap,okumak,sayfa,kütüphane,yazar,hikaye|书,读,页,图书馆,作家,故事|shū,dú,yè,tú shū guǎn,zuò jiā,gù shi
+A1|pen,write,ink,paper,blue,pencil|kalem,yazmak,mürekkep,kağıt,mavi,tükenmez|笔,写,墨水,纸,蓝色,铅笔|bǐ,xiě,mò shuǐ,zhǐ,lán sè,qiān bǐ
+A1|bag,carry,shoulder,school,shopping,hand|çanta,taşımak,omuz,okul,alışveriş,el|包,拿,肩膀,学校,购物,书包|bāo,ná,jiān bǎng,xué xiào,gòu wù,shū bāo
+A1|shoes,feet,walk,wear,pair,socks|ayakkabı,ayak,yürümek,giymek,çift,çorap|鞋,脚,走路,穿,双,袜子|xié,jiǎo,zǒu lù,chuān,shuāng,wà zi
+A1|hat,head,wear,sun,cap,winter|şapka,baş,takmak,güneş,kep,kafa|帽子,头,戴,太阳,冬天,遮阳|mào zi,tóu,dài,tài yáng,dōng tiān,zhē yáng
+A1|umbrella,rain,wet,open,hold,weather|şemsiye,yağmur,ıslak,açmak,tutmak,hava|雨伞,下雨,湿,打开,拿,天气|yǔ sǎn,xià yǔ,shī,dǎ kāi,ná,tiān qì
+A1|phone,call,mobile,talk,ring,screen|telefon,aramak,cep,konuşmak,çalmak,ekran|电话,打,手机,说话,响,号码|diàn huà,dǎ,shǒu jī,shuō huà,xiǎng,hào mǎ
+A1|television,watch,screen,channel,programme,remote|televizyon,izlemek,ekran,kanal,program,kumanda|电视,看,屏幕,频道,节目,遥控器|diàn shì,kàn,píng mù,pín dào,jié mù,yáo kòng qì
+A2|mirror,look,face,glass,reflection,bathroom|ayna,bakmak,yüz,cam,yansıma,banyo|镜子,看,脸,玻璃,照,自己|jìng zi,kàn,liǎn,bō li,zhào,zì jǐ
+A2|soap,wash,hands,clean,bathroom,bubble|sabun,yıkamak,el,temiz,banyo,köpük|肥皂,洗,手,干净,浴室,泡沫|féi zào,xǐ,shǒu,gān jìng,yù shì,pào mò
+A1|towel,dry,bath,wet,shower,beach|havlu,kurulamak,banyo,ıslak,duş,plaj|毛巾,擦,洗澡,湿,干,浴室|máo jīn,cā,xǐ zǎo,shī,gān,yù shì
+A2|fridge,cold,kitchen,food,keep,ice|buzdolabı,soğuk,mutfak,yiyecek,saklamak,dondurucu|冰箱,冷,厨房,食物,保存,冰|bīng xiāng,lěng,chú fáng,shí wù,bǎo cún,bīng
+A1|knife,cut,sharp,fork,kitchen,blade|bıçak,kesmek,keskin,çatal,mutfak,sivri|刀,切,锋利,叉子,厨房,菜|dāo,qiē,fēng lì,chā zi,chú fáng,cài
+A2|spoon,soup,eat,fork,metal,stir|kaşık,çorba,yemek,çatal,metal,karıştırmak|勺子,汤,吃,叉子,喝,搅|sháo zi,tāng,chī,chā zi,hē,jiǎo
+A1|glasses,eyes,see,wear,lens,sun|gözlük,göz,görmek,takmak,cam,güneş|眼镜,眼睛,看,戴,近视,镜片|yǎn jìng,yǎn jing,kàn,dài,jìn shì,jìng piàn
+A2|toothbrush,teeth,clean,morning,paste,mouth|diş fırçası,temizlemek,sabah,macun,ağız,banyo|牙刷,牙齿,刷,早上,牙膏,嘴|yá shuā,yá chǐ,shuā,zǎo shàng,yá gāo,zuǐ
+B1|pillow,head,sleep,bed,soft,night|yastık,baş,uyumak,yatak,yumuşak,kılıf|枕头,头,睡觉,床,软,晚上|zhěn tou,tóu,shuì jiào,chuáng,ruǎn,wǎn shàng
+B1|candle,light,fire,wax,birthday,dark|mum,ışık,ateş,yakmak,doğum günü,karanlık|蜡烛,光,火,生日,黑,点|là zhú,guāng,huǒ,shēng rì,hēi,diǎn
+A2|wallet,money,pocket,card,cash,leather|cüzdan,para,cep,kart,nakit,deri|钱包,钱,口袋,卡,现金,皮|qián bāo,qián,kǒu dài,kǎ,xiàn jīn,pí
+A2|scissors,cut,paper,hair,sharp,two|makas,kesmek,kağıt,saç,keskin,berber|剪刀,剪,纸,头发,锋利,石头|jiǎn dāo,jiǎn,zhǐ,tóu fa,fēng lì,shí tou
+A2|blanket,warm,bed,cover,cold,sleep|battaniye,sıcak,yatak,örtmek,soğuk,uyumak|毯子,暖,床,盖,冷,睡觉|tǎn zi,nuǎn,chuáng,gài,lěng,shuì jiào
+B1|ladder,climb,up,high,step,reach|merdiven,tırmanmak,yukarı,yüksek,basamak,çıkmak|梯子,爬,上,高,台阶,够|tī zi,pá,shàng,gāo,tái jiē,gòu
+A2|suitcase,travel,clothes,pack,airport,carry|bavul,seyahat,kıyafet,toplamak,havalimanı,valiz|行李箱,旅行,衣服,装,机场,拉|xíng lǐ xiāng,lǚ xíng,yī fu,zhuāng,jī chǎng,lā
+A2|washing machine,clothes,clean,dirty,water,laundry|çamaşır makinesi,kıyafet,temiz,kirli,su,yıkamak|洗衣机,衣服,干净,脏,水,洗|xǐ yī jī,yī fu,gān jìng,zāng,shuǐ,xǐ
+B1|vacuum cleaner,clean,floor,dust,carpet,noise|elektrik süpürgesi,temizlemek,yer,toz,halı,gürültü|吸尘器,打扫,地板,灰尘,地毯,吸|xī chén qì,dǎ sǎo,dì bǎn,huī chén,dì tǎn,xī
+B1|curtain,window,close,light,fabric,open|perde,pencere,kapatmak,ışık,kumaş,tül|窗帘,窗户,拉,光,布,挡|chuāng lián,chuāng hu,lā,guāng,bù,dǎng
+A1|sofa,sit,living room,soft,cushion,furniture|kanepe,oturmak,salon,yumuşak,minder,mobilya|沙发,坐,客厅,软,靠垫,家具|shā fā,zuò,kè tīng,ruǎn,kào diàn,jiā jù
+A2|carpet,floor,soft,room,rug,clean|halı,yer,yumuşak,oda,kilim,temizlemek|地毯,地板,软,房间,铺,打扫|dì tǎn,dì bǎn,ruǎn,fáng jiān,pū,dǎ sǎo
+B1|shelf,books,wall,wood,store,high|raf,kitap,duvar,tahta,koymak,yüksek|架子,书,墙,木头,放,高|jià zi,shū,qiáng,mù tou,fàng,gāo
+B1|drawer,desk,open,close,handle,inside|çekmece,masa,açmak,kapatmak,kulp,iç|抽屉,桌子,打开,关,把手,里面|chōu ti,zhuō zi,dǎ kāi,guān,bǎ shou,lǐ miàn
+B1|wardrobe,clothes,hang,bedroom,door,storage|gardırop,kıyafet,asmak,yatak odası,kapı,dolap|衣柜,衣服,挂,卧室,门,收纳|yī guì,yī fu,guà,wò shì,mén,shōu nà
+A2|oven,kitchen,bake,hot,cake,bread|fırın,mutfak,pişirmek,sıcak,pasta,ekmek|烤箱,厨房,烤,热,蛋糕,面包|kǎo xiāng,chú fáng,kǎo,rè,dàn gāo,miàn bāo
+B1|kettle,water,boil,tea,hot,handle|su ısıtıcısı,kaynatmak,çay,sıcak,kulp,mutfak|水壶,开水,烧,茶,热,把手|shuǐ hú,kāi shuǐ,shāo,chá,rè,bǎ shou
+A1|plate,food,eat,round,table,dish|tabak,yemek,yuvarlak,masa,porselen,servis|盘子,食物,吃,圆,桌子,碟子|pán zi,shí wù,chī,yuán,zhuō zi,dié zi
+A2|bowl,soup,round,deep,spoon,kitchen|kase,çorba,yuvarlak,derin,kaşık,mutfak|碗,汤,圆,深,勺子,厨房|wǎn,tāng,yuán,shēn,sháo zi,chú fáng
+A2|fork,eat,knife,spoon,metal,point|çatal,yemek,bıçak,kaşık,metal,sivri|叉子,吃,刀,勺子,金属,尖|chā zi,chī,dāo,sháo zi,jīn shǔ,jiān
+A1|cup,drink,tea,coffee,handle,hot|fincan,içmek,çay,kahve,kulp,sıcak|杯子,喝,茶,咖啡,把手,热|bēi zi,hē,chá,kā fēi,bǎ shou,rè
+A1|bottle,water,drink,glass,plastic,lid|şişe,su,içmek,cam,plastik,kapak|瓶子,水,喝,玻璃,塑料,盖子|píng zi,shuǐ,hē,bō li,sù liào,gài zi
+A2|brush,hair,paint,clean,handle,bristles|fırça,saç,boya,temizlemek,sap,kıl|刷子,头发,油漆,打扫,把手,毛|shuā zi,tóu fa,yóu qī,dǎ sǎo,bǎ shou,máo
+B1|comb,hair,teeth,head,tidy,brush|tarak,saç,diş,baş,düzeltmek,fırça|梳子,头发,齿,头,整理,刷子|shū zi,tóu fa,chǐ,tóu,zhěng lǐ,shuā zi
+A1|shirt,clothes,wear,button,sleeve,collar|gömlek,kıyafet,giymek,düğme,kol,yaka|衬衫,衣服,穿,纽扣,袖子,领子|chèn shān,yī fu,chuān,niǔ kòu,xiù zi,lǐng zi
+A1|trousers,legs,wear,clothes,pockets,belt|pantolon,bacak,giymek,kıyafet,cep,kemer|裤子,腿,穿,衣服,口袋,腰带|kù zi,tuǐ,chuān,yī fu,kǒu dài,yāo dài
+A1|socks,feet,shoes,pair,wear,warm|çorap,ayak,ayakkabı,çift,giymek,sıcak|袜子,脚,鞋,双,穿,暖和|wà zi,jiǎo,xié,shuāng,chuān,nuǎn huo

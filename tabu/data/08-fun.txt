@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|football,ball,goal,kick,team,player|futbol,top,gol,tekme,takım,oyuncu|足球,球,进球,踢,队,球员|zú qiú,qiú,jìn qiú,tī,duì,qiú yuán
+A1|swim,water,pool,sea,sport,wet|yüzmek,su,havuz,deniz,spor,ıslak|游泳,水,池,海,运动,湿|yóu yǒng,shuǐ,chí,hǎi,yùn dòng,shī
+A1|music,song,listen,sound,instrument,sing|müzik,şarkı,dinlemek,ses,enstrüman,nota|音乐,歌,听,声音,乐器,唱|yīn yuè,gē,tīng,shēng yīn,yuè qì,chàng
+A1|dance,music,move,body,party,ballet|dans,müzik,hareket,vücut,parti,oynamak|跳舞,音乐,动,身体,派对,舞蹈|tiào wǔ,yīn yuè,dòng,shēn tǐ,pài duì,wǔ dǎo
+A2|film,cinema,watch,actor,screen,movie|film,sinema,izlemek,oyuncu,ekran,yönetmen|电影,电影院,看,演员,屏幕,导演|diàn yǐng,diàn yǐng yuàn,kàn,yǎn yuán,píng mù,dǎo yǎn
+A1|game,play,win,fun,rule,player|oyun,oynamak,kazanmak,eğlence,kural,oyuncu|游戏,玩,赢,有趣,规则,手机|yóu xì,wán,yíng,yǒu qù,guī zé,shǒu jī
+A1|song,sing,music,singer,listen,words|şarkı,söylemek,müzik,şarkıcı,dinlemek,söz|歌,唱,音乐,歌手,听,歌词|gē,chàng,yīn yuè,gē shǒu,tīng,gē cí
+A1|guitar,music,string,play,instrument,rhythm|gitar,müzik,tel,çalmak,enstrüman,ritim|吉他,音乐,弦,弹,乐器,节奏|jí tā,yīn yuè,xián,tán,yuè qì,jié zòu
+A1|ball,round,play,kick,throw,football|top,yuvarlak,oynamak,tekme,atmak,futbol|球,圆,玩,踢,扔,足球|qiú,yuán,wán,tī,rēng,zú qiú
+A1|party,birthday,fun,friend,dance,celebrate|parti,doğum günü,eğlence,arkadaş,dans,kutlamak|派对,生日,有趣,朋友,跳舞,庆祝|pài duì,shēng rì,yǒu qù,péng you,tiào wǔ,qìng zhù
+A1|holiday,travel,rest,summer,beach,work|tatil,seyahat,dinlenmek,yaz,plaj,iş|假期,旅行,休息,夏天,放假,工作|jià qī,lǚ xíng,xiū xi,xià tiān,fàng jià,gōng zuò
+A1|piano,music,key,black,white,play|piyano,müzik,tuş,siyah,beyaz,çalmak|钢琴,音乐,键,黑白,弹,乐器|gāng qín,yīn yuè,jiàn,hēi bái,tán,yuè qì
+A1|tennis,racket,ball,net,court,serve|tenis,raket,top,file,kort,servis|网球,球拍,球,网,场,发球|wǎng qiú,qiú pāi,qiú,wǎng,chǎng,fā qiú
+A2|volleyball,ball,net,team,serve,hands|voleybol,top,file,takım,servis,eller|排球,球,网,队,发球,手|pái qiú,qiú,wǎng,duì,fā qiú,shǒu
+A2|chess,king,queen,board,black,white|satranç,şah,vezir,tahta,siyah,beyaz|国际象棋,国王,王后,棋盘,黑白,下棋|guó jì xiàng qí,guó wáng,wáng hòu,qí pán,hēi bái,xià qí
+A1|concert,music,singer,stage,ticket,live|konser,müzik,şarkıcı,sahne,bilet,canlı|演唱会,音乐,歌手,舞台,票,现场|yǎn chàng huì,yīn yuè,gē shǒu,wǔ tái,piào,xiàn chǎng
+A2|camping,tent,outside,nature,fire,sleep|kamp,çadır,dışarı,doğa,ateş,uyumak|露营,帐篷,外面,自然,火,睡觉|lù yíng,zhàng peng,wài miàn,zì rán,huǒ,shuì jiào
+A1|fishing,fish,river,rod,catch,water|balık tutmak,nehir,olta,yakalamak,su,deniz|钓鱼,河,竿,抓,水,海|diào yú,hé,gān,zhuā,shuǐ,hǎi
+B1|puzzle,piece,picture,solve,together,game|yapboz,parça,resim,çözmek,birleştirmek,oyun|拼图,块,图片,解,一起,游戏|pīn tú,kuài,tú piàn,jiě,yī qǐ,yóu xì
+A1|cartoon,animation,children,funny,draw,television|çizgi film,animasyon,çocuk,komik,çizmek,televizyon|动画片,卡通,孩子,有趣,画,电视|dòng huà piàn,kǎ tōng,hái zi,yǒu qù,huà,diàn shì
+A2|joke,funny,laugh,tell,humour,comedy|şaka,komik,gülmek,anlatmak,mizah,fıkra|笑话,有趣,笑,讲,幽默,开玩笑|xiào huà,yǒu qù,xiào,jiǎng,yōu mò,kāi wán xiào
+B1|race,run,fast,win,first,finish|yarış,koşmak,hızlı,kazanmak,birinci,bitiş|赛跑,跑,快,赢,第一,终点|sài pǎo,pǎo,kuài,yíng,dì yī,zhōng diǎn
+A2|winner,first,win,game,champion,prize|kazanan,birinci,yenmek,oyun,şampiyon,ödül|赢家,第一,赢,比赛,冠军,奖|yíng jiā,dì yī,yíng,bǐ sài,guàn jūn,jiǎng
+A2|skiing,snow,mountain,winter,cold,slide|kayak,kar,dağ,kış,soğuk,kaymak|滑雪,雪,山,冬天,冷,滑|huá xuě,xuě,shān,dōng tiān,lěng,huá
+B2|marathon,run,long,race,42,kilometre|maraton,koşmak,uzun,yarış,42,kilometre|马拉松,跑,长,比赛,四十二,公里|mǎ lā sōng,pǎo,cháng,bǐ sài,sì shí èr,gōng lǐ
+A2|medal,gold,win,competition,silver,neck|madalya,altın,kazanmak,yarışma,gümüş,boyun|奖牌,金,赢,比赛,银,脖子|jiǎng pái,jīn,yíng,bǐ sài,yín,bó zi
+B1|referee,football,whistle,card,rule,match|hakem,futbol,düdük,kart,kural,maç|裁判,足球,哨子,牌,规则,比赛|cái pàn,zú qiú,shào zi,pái,guī zé,bǐ sài
+A2|stadium,football,big,match,crowd,seat|stadyum,futbol,büyük,maç,seyirci,tribün|体育场,足球,大,比赛,观众,座位|tǐ yù chǎng,zú qiú,dà,bǐ sài,guān zhòng,zuò wèi
+A1|hobby,free,time,like,enjoy,interest|hobi,boş,zaman,sevmek,keyif,ilgi|爱好,空闲,时间,喜欢,兴趣,业余|ài hào,kòng xián,shí jiān,xǐ huan,xìng qù,yè yú
+A2|audience,watch,people,theatre,clap,crowd|seyirci,izlemek,insanlar,tiyatro,alkış,kalabalık|观众,看,人,剧院,鼓掌,台下|guān zhòng,kàn,rén,jù yuàn,gǔ zhǎng,tái xià
+A2|magic,trick,rabbit,hat,wand,disappear|sihir,numara,tavşan,şapka,değnek,kaybolmak|魔术,戏法,兔子,帽子,变,消失|mó shù,xì fǎ,tù zi,mào zi,biàn,xiāo shī
+A2|photography,camera,picture,lens,light,take|fotoğrafçılık,kamera,resim,lens,ışık,çekmek|摄影,相机,照片,镜头,光,拍|shè yǐng,xiàng jī,zhào piàn,jìng tóu,guāng,pāi
+B1|tournament,competition,team,win,match,final|turnuva,yarışma,takım,kazanmak,maç,final|锦标赛,比赛,队,赢,决赛,冠军|jǐn biāo sài,bǐ sài,duì,yíng,jué sài,guàn jūn
+A2|drum,music,beat,stick,hit,instrument|davul,müzik,ritim,tokmak,vurmak,enstrüman|鼓,音乐,节奏,棍子,敲,乐器|gǔ,yīn yuè,jié zòu,gùn zi,qiāo,yuè qì
+A2|violin,music,strings,bow,instrument,play|keman,müzik,tel,yay,enstrüman,çalmak|小提琴,音乐,弦,弓,乐器,拉|xiǎo tí qín,yīn yuè,xián,gōng,yuè qì,lā
+B1|flute,music,blow,holes,instrument,breath|flüt,müzik,üflemek,delik,enstrüman,nefes|长笛,音乐,吹,孔,乐器,气息|cháng dí,yīn yuè,chuī,kǒng,yuè qì,qì xī
+A2|theatre,stage,actor,play,audience,ticket|tiyatro,sahne,oyuncu,oyun,seyirci,bilet|剧院,舞台,演员,戏剧,观众,票|jù yuàn,wǔ tái,yǎn yuán,xì jù,guān zhòng,piào
+A2|stage,perform,actor,concert,audience,curtain|sahne,gösteri,oyuncu,konser,seyirci,perde|舞台,表演,演员,演唱会,观众,幕布|wǔ tái,biǎo yǎn,yǎn yuán,yǎn chàng huì,guān zhòng,mù bù
+A2|tent,camping,sleep,outside,fabric,poles|çadır,kamp,uyumak,dışarı,kumaş,direk|帐篷,露营,睡觉,外面,布,杆子|zhàng peng,lù yíng,shuì jiào,wài miàn,bù,gān zi
+A2|kite,fly,wind,string,sky,paper|uçurtma,uçmak,rüzgar,ip,gökyüzü,kağıt|风筝,飞,风,线,天空,纸|fēng zheng,fēi,fēng,xiàn,tiān kōng,zhǐ
+B1|swing,playground,seat,rope,back,forward|salıncak,park,oturak,ip,ileri,geri|秋千,游乐场,座位,绳子,前,后|qiū qiān,yóu lè chǎng,zuò wèi,shéng zi,qián,hòu
+B1|slide,playground,children,down,ladder,smooth|kaydırak,park,çocuk,aşağı,merdiven,kaymak|滑梯,游乐场,孩子,下,梯子,滑|huá tī,yóu lè chǎng,hái zi,xià,tī zi,huá
+B1|skateboard,wheels,board,ride,balance,trick|kaykay,tekerlek,tahta,sürmek,denge,numara|滑板,轮子,板,滑行,平衡,技巧|huá bǎn,lún zi,bǎn,huá xíng,píng héng,jì qiǎo
+B1|hiking,walk,nature,mountain,path,boots|doğa yürüyüşü,dağ,patika,bot,açık hava,uzun|徒步,走路,自然,山,小路,靴子|tú bù,zǒu lù,zì rán,shān,xiǎo lù,xuē zi
+A2|board game,table,play,dice,pieces,rules|masa oyunu,oynamak,zar,taş,kural,sıra|桌游,桌子,玩,骰子,棋子,规则|zhuō yóu,zhuō zi,wán,tóu zi,qí zi,guī zé
+B1|dice,cube,six,number,roll,game|zar,küp,altı,sayı,atmak,oyun|骰子,立方体,六,数字,掷,游戏|tóu zi,lì fāng tǐ,liù,shù zì,zhì,yóu xì
+B1|rope,tie,pull,jump,knot,long|ip,bağlamak,çekmek,atlamak,düğüm,uzun|绳子,系,拉,跳,结,长|shéng zi,jì,lā,tiào,jié,cháng
+A2|painting,art,colour,brush,canvas,picture|resim,boya,fırça,tuval,renk,sanat|绘画,艺术,颜色,画笔,画布,图画|huì huà,yì shù,yán sè,huà bǐ,huà bù,tú huà
+B1|craft,make,hands,paper,glue,creative|el işi,yapmak,kağıt,tutkal,yaratıcı,makas|手工,制作,手,纸,胶水,创意|shǒu gōng,zhì zuò,shǒu,zhǐ,jiāo shuǐ,chuàng yì
+B1|clap,hands,sound,audience,applause,happy|alkışlamak,el,ses,seyirci,beğenmek,mutlu|鼓掌,手,声音,观众,掌声,开心|gǔ zhǎng,shǒu,shēng yīn,guān zhòng,zhǎng shēng,kāi xīn

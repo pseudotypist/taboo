@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|doctor,hospital,sick,medicine,nurse,patient|doktor,hastane,hasta,ilaç,hemşire,muayene|医生,医院,生病,药,护士,病人|yī shēng,yī yuàn,shēng bìng,yào,hù shì,bìng rén
+A1|teacher,school,student,class,lesson,learn|öğretmen,okul,öğrenci,sınıf,ders,öğretmek|老师,学校,学生,教室,课,教|lǎo shī,xué xiào,xué shēng,jiào shì,kè,jiāo
+A1|student,school,learn,teacher,university,study|öğrenci,okul,öğrenmek,öğretmen,üniversite,ders|学生,学校,学习,老师,大学,上课|xué shēng,xué xiào,xué xí,lǎo shī,dà xué,shàng kè
+A1|baby,small,cry,mother,born,milk|bebek,küçük,ağlamak,anne,doğmak,süt|婴儿,小,哭,妈妈,出生,宝宝|yīng ér,xiǎo,kū,mā ma,chū shēng,bǎo bǎo
+A1|mother,father,parent,woman,child,family|anne,baba,ebeveyn,kadın,çocuk,aile|妈妈,爸爸,父母,女人,孩子,家|mā ma,bà ba,fù mǔ,nǚ rén,hái zi,jiā
+A1|friend,together,know,like,best,school|arkadaş,birlikte,tanımak,sevmek,dost,kanka|朋友,一起,认识,喜欢,好,同学|péng you,yī qǐ,rèn shi,xǐ huan,hǎo,tóng xué
+A1|family,mother,father,children,home,relative|aile,anne,baba,çocuk,ev,akraba|家庭,妈妈,爸爸,孩子,家,亲戚|jiā tíng,mā ma,bà ba,hái zi,jiā,qīn qi
+A2|police,crime,officer,arrest,uniform,law|polis,suç,memur,tutuklamak,üniforma,karakol|警察,犯罪,抓,制服,法律,小偷|jǐng chá,fàn zuì,zhuā,zhì fú,fǎ lǜ,xiǎo tōu
+A1|driver,car,bus,taxi,road,wheel|şoför,araba,otobüs,taksi,yol,direksiyon|司机,车,公交,出租车,路,开|sī jī,chē,gōng jiāo,chū zū chē,lù,kāi
+A1|farmer,farm,field,animal,grow,tractor|çiftçi,çiftlik,tarla,hayvan,ekmek,traktör|农民,农场,田,动物,种,农村|nóng mín,nóng chǎng,tián,dòng wù,zhòng,nóng cūn
+A1|king,queen,crown,castle,country,rule|kral,kraliçe,taç,saray,ülke,yönetmek|国王,王后,皇冠,城堡,国家,统治|guó wáng,wáng hòu,huáng guān,chéng bǎo,guó jiā,tǒng zhì
+A1|singer,song,music,voice,concert,microphone|şarkıcı,şarkı,müzik,ses,konser,mikrofon|歌手,歌,音乐,声音,演唱会,麦克风|gē shǒu,gē,yīn yuè,shēng yīn,yǎn chàng huì,mài kè fēng
+A1|cook,kitchen,food,restaurant,chef,meal|aşçı,mutfak,yemek,restoran,şef,pişirmek|厨师,厨房,做饭,餐厅,菜,炒|chú shī,chú fáng,zuò fàn,cān tīng,cài,chǎo
+A1|waiter,restaurant,food,order,serve,tip|garson,restoran,yemek,sipariş,servis,bahşiş|服务员,餐厅,菜,点菜,端,小费|fú wù yuán,cān tīng,cài,diǎn cài,duān,xiǎo fèi
+A2|pilot,plane,fly,airport,captain,sky|pilot,uçak,uçmak,havalimanı,kaptan,gökyüzü|飞行员,飞机,飞,机场,机长,天空|fēi xíng yuán,fēi jī,fēi,jī chǎng,jī zhǎng,tiān kōng
+A1|nurse,hospital,doctor,patient,care,injection|hemşire,hastane,doktor,hasta,bakım,iğne|护士,医院,医生,病人,照顾,打针|hù shì,yī yuàn,yī shēng,bìng rén,zhào gù,dǎ zhēn
+A2|dentist,teeth,doctor,mouth,pain,drill|dişçi,diş,doktor,ağız,ağrı,dolgu|牙医,牙齿,医生,嘴,疼,拔|yá yī,yá chǐ,yī shēng,zuǐ,téng,bá
+B1|artist,create,art,paint,music,work|sanatçı,yaratmak,sanat,resim,müzik,eser|艺术家,创作,艺术,绘画,音乐,作品|yì shù jiā,chuàng zuò,yì shù,huì huà,yīn yuè,zuò pǐn
+A1|actor,film,play,theatre,role,famous|oyuncu,film,rol,tiyatro,dizi,ünlü|演员,电影,表演,角色,明星,电视剧|yǎn yuán,diàn yǐng,biǎo yǎn,jué sè,míng xīng,diàn shì jù
+A1|neighbour,next,door,house,live,street|komşu,yan,kapı,ev,oturmak,apartman|邻居,旁边,门,房子,住,隔壁|lín jū,páng biān,mén,fáng zi,zhù,gé bì
+A1|guest,visit,invite,house,hotel,welcome|misafir,ziyaret,davet,ev,otel,ağırlamak|客人,来,邀请,家,酒店,欢迎|kè rén,lái,yāo qǐng,jiā,jiǔ diàn,huān yíng
+B1|twins,two,same,born,brother,sister|ikiz,iki,aynı,doğmak,kardeş,benzemek|双胞胎,两,一样,出生,兄弟,姐妹|shuāng bāo tāi,liǎng,yī yàng,chū shēng,xiōng dì,jiě mèi
+B1|firefighter,fire,water,truck,rescue,red|itfaiyeci,yangın,su,kamyon,kurtarmak,söndürmek|消防员,火,水,车,救,灭|xiāo fáng yuán,huǒ,shuǐ,chē,jiù,miè
+A2|engineer,build,design,machine,science,bridge|mühendis,inşaat,tasarım,makine,teknik,köprü|工程师,建,设计,机器,技术,理科|gōng chéng shī,jiàn,shè jì,jī qì,jì shù,lǐ kē
+A2|lawyer,court,law,judge,defend,crime|avukat,mahkeme,hukuk,hâkim,savunmak,dava|律师,法院,法律,法官,辩护,官司|lǜ shī,fǎ yuàn,fǎ lǜ,fǎ guān,biàn hù,guān sī
+A2|scientist,research,laboratory,experiment,discover,science|bilim insanı,araştırma,laboratuvar,deney,keşfetmek,bilim|科学家,研究,实验室,实验,发现,科学|kē xué jiā,yán jiū,shí yàn shì,shí yàn,fā xiàn,kē xué
+B1|journalist,news,newspaper,write,report,interview|gazeteci,haber,gazete,yazmak,röportaj,basın|记者,新闻,报纸,写,采访,报道|jì zhě,xīn wén,bào zhǐ,xiě,cǎi fǎng,bào dào
+A2|customer,shop,buy,pay,service,client|müşteri,dükkan,almak,ödemek,hizmet,alıcı|顾客,商店,买,付钱,服务,客户|gù kè,shāng diàn,mǎi,fù qián,fú wù,kè hù
+A2|boss,work,manager,office,company,employee|patron,iş,müdür,ofis,şirket,çalışan|老板,工作,经理,办公室,公司,员工|lǎo bǎn,gōng zuò,jīng lǐ,bàn gōng shì,gōng sī,yuán gōng
+A2|stranger,know,unknown,person,talk,foreign|yabancı,tanımak,bilinmeyen,kişi,konuşmak,tanıdık|陌生人,认识,不知道,人,说话,小心|mò shēng rén,rèn shi,bù zhī dào,rén,shuō huà,xiǎo xīn
+B2|volunteer,help,free,work,charity,money|gönüllü,yardım,ücretsiz,çalışmak,karşılıksız,dernek|志愿者,帮助,免费,工作,公益,义工|zhì yuàn zhě,bāng zhù,miǎn fèi,gōng zuò,gōng yì,yì gōng
+B2|pedestrian,walk,street,cross,road,foot|yaya,yürümek,sokak,geçmek,yol,kaldırım|行人,走路,街,过,马路,人行道|xíng rén,zǒu lù,jiē,guò,mǎ lù,rén xíng dào
+B2|witness,see,crime,court,police,judge|tanık,görmek,suç,mahkeme,polis,şahit|证人,看见,犯罪,法院,警察,作证|zhèng rén,kàn jiàn,fàn zuì,fǎ yuàn,jǐng chá,zuò zhèng
+A1|father,mother,parent,man,child,family|baba,anne,ebeveyn,erkek,çocuk,aile|爸爸,妈妈,父母,男人,孩子,家庭|bà ba,mā ma,fù mǔ,nán rén,hái zi,jiā tíng
+A1|sister,brother,girl,family,parents,sibling|kız kardeş,erkek kardeş,aile,anne,baba,abla|姐妹,兄弟,女孩,家庭,父母,手足|jiě mèi,xiōng dì,nǚ hái,jiā tíng,fù mǔ,shǒu zú
+A1|brother,sister,boy,family,parents,sibling|erkek kardeş,kız kardeş,aile,anne,baba,ağabey|兄弟,姐妹,男孩,家庭,父母,手足|xiōng dì,jiě mèi,nán hái,jiā tíng,fù mǔ,shǒu zú
+A1|grandmother,old,mother,family,grandchild,parent|büyükanne,yaşlı,anne,aile,torun,nine|祖母,年老,奶奶,家庭,孙子,父母|zǔ mǔ,nián lǎo,nǎi nai,jiā tíng,sūn zi,fù mǔ
+A1|grandfather,old,father,family,grandchild,parent|büyükbaba,yaşlı,baba,aile,torun,dede|祖父,年老,爷爷,家庭,孙子,父母|zǔ fù,nián lǎo,yé ye,jiā tíng,sūn zi,fù mǔ
+A1|child,young,parents,school,small,play|çocuk,genç,ebeveyn,okul,küçük,oynamak|孩子,年幼,父母,学校,小,玩|hái zi,nián yòu,fù mǔ,xué xiào,xiǎo,wán
+A2|adult,grown,child,age,person,responsibility|yetişkin,büyümüş,çocuk,yaş,insan,sorumluluk|成年人,长大,孩子,年龄,人,责任|chéng nián rén,zhǎng dà,hái zi,nián líng,rén,zé rèn
+A2|cousin,aunt,uncle,family,relative,parents|kuzen,teyze,amca,aile,akraba,çocuk|表亲,阿姨,叔叔,家庭,亲戚,父母|biǎo qīn,ā yí,shū shu,jiā tíng,qīn qi,fù mǔ
+A2|relative,family,cousin,aunt,uncle,blood|akraba,aile,kuzen,teyze,amca,kan|亲戚,家庭,表亲,阿姨,叔叔,血缘|qīn qi,jiā tíng,biǎo qīn,ā yí,shū shu,xuè yuán
+A2|couple,two,together,love,married,partner|çift,iki,birlikte,aşk,evli,eş|情侣,两个人,一起,爱,恋人,伴侣|qíng lǚ,liǎng gè rén,yī qǐ,ài,liàn rén,bàn lǚ
+A2|passenger,travel,bus,train,ticket,seat|yolcu,seyahat,otobüs,tren,bilet,koltuk|乘客,旅行,公交,火车,票,座位|chéng kè,lǚ xíng,gōng jiāo,huǒ chē,piào,zuò wèi
+A2|shop assistant,customer,sell,store,help,price|tezgahtar,müşteri,satmak,mağaza,yardım,fiyat|售货员,顾客,卖,商店,帮助,价格|shòu huò yuán,gù kè,mài,shāng diàn,bāng zhù,jià gé
+B1|mechanic,car,repair,engine,garage,tools|tamirci,araba,onarmak,motor,garaj,alet|修理工,汽车,修,发动机,车库,工具|xiū lǐ gōng,qì chē,xiū,fā dòng jī,chē kù,gōng jù
+A2|cleaner,wash,dust,floor,work,broom|temizlik görevlisi,yıkamak,toz,yer,iş,süpürge|保洁员,洗,灰尘,地板,工作,扫帚|bǎo jié yuán,xǐ,huī chén,dì bǎn,gōng zuò,sào zhou
+A2|baker,bread,flour,oven,dough,shop|fırıncı,ekmek,un,fırın,hamur,dükkan|面包师,面包,面粉,烤箱,面团,商店|miàn bāo shī,miàn bāo,miàn fěn,kǎo xiāng,miàn tuán,shāng diàn
+A2|photographer,camera,picture,take,lens,light|fotoğrafçı,kamera,resim,çekmek,lens,ışık|摄影师,相机,照片,拍,镜头,光|shè yǐng shī,xiàng jī,zhào piàn,pāi,jìng tóu,guāng
+A2|author,book,write,story,novel,reader|yazar,kitap,yazmak,hikaye,roman,okur|作家,书,写,故事,小说,读者|zuò jiā,shū,xiě,gù shi,xiǎo shuō,dú zhě

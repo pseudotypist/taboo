@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|hand,finger,arm,hold,five,glove|el,parmak,kol,tutmak,beş,eldiven|手,手指,胳膊,拿,五,手套|shǒu,shǒu zhǐ,gē bo,ná,wǔ,shǒu tào
+A1|eye,see,look,face,glasses,two|göz,görmek,bakmak,yüz,gözlük,kırpmak|眼睛,看,脸,眼镜,闭,瞎|yǎn jing,kàn,liǎn,yǎn jìng,bì,xiā
+A1|nose,smell,face,breathe,middle,cold|burun,koklamak,yüz,nefes,orta,nezle|鼻子,闻,脸,呼吸,中间,感冒|bí zi,wén,liǎn,hū xī,zhōng jiān,gǎn mào
+A1|mouth,eat,speak,lips,teeth,face|ağız,yemek,konuşmak,dudak,diş,yüz|嘴,吃,说话,嘴唇,牙齿,脸|zuǐ,chī,shuō huà,zuǐ chún,yá chǐ,liǎn
+A1|ear,hear,listen,sound,head,music|kulak,duymak,dinlemek,ses,baş,küpe|耳朵,听,声音,头,音乐,耳环|ěr duo,tīng,shēng yīn,tóu,yīn yuè,ěr huán
+A1|hair,head,cut,long,brush,colour|saç,baş,kesmek,uzun,taramak,berber|头发,头,剪,长,梳,理发|tóu fa,tóu,jiǎn,cháng,shū,lǐ fà
+A1|foot,leg,shoe,walk,toe,sock|ayak,bacak,ayakkabı,yürümek,parmak,çorap|脚,腿,鞋,走路,脚趾,袜子|jiǎo,tuǐ,xié,zǒu lù,jiǎo zhǐ,wà zi
+A1|tooth,mouth,dentist,white,bite,brush|diş,ağız,dişçi,beyaz,ısırmak,fırça|牙齿,嘴,牙医,白色,咬,刷|yá chǐ,zuǐ,yá yī,bái sè,yǎo,shuā
+A1|heart,love,blood,beat,red,chest|kalp,aşk,kan,atmak,kırmızı,göğüs|心脏,爱,血,跳,红色,胸|xīn zàng,ài,xuè,tiào,hóng sè,xiōng
+A1|head,brain,hair,top,body,think|baş,beyin,saç,üst,vücut,kafa|头,脑,头发,上面,身体,想|tóu,nǎo,tóu fa,shàng miàn,shēn tǐ,xiǎng
+A1|sleep,bed,night,tired,dream,rest|uyumak,yatak,gece,yorgun,rüya,dinlenmek|睡觉,床,晚上,累,梦,休息|shuì jiào,chuáng,wǎn shàng,lèi,mèng,xiū xi
+A1|medicine,sick,doctor,pill,pharmacy,take|ilaç,hasta,doktor,hap,eczane,içmek|药,生病,医生,吃,药店,片|yào,shēng bìng,yī shēng,chī,yào diàn,piàn
+A1|headache,pain,head,pill,hurt,tired|baş ağrısı,acı,hap,ilaç,yorgun,migren|头疼,痛,药,累,脑袋,不舒服|tóu téng,tòng,yào,lèi,nǎo dai,bù shū fu
+A2|blood,red,heart,body,cut,vein|kan,kırmızı,kalp,vücut,kesik,damar|血,红色,心脏,身体,流,血管|xuè,hóng sè,xīn zàng,shēn tǐ,liú,xuè guǎn
+A1|bone,body,skeleton,break,dog,hard|kemik,vücut,iskelet,kırılmak,köpek,sert|骨头,身体,骷髅,断,狗,硬|gǔ tou,shēn tǐ,kū lóu,duàn,gǒu,yìng
+A1|brain,think,head,smart,mind,memory|beyin,düşünmek,baş,zeki,akıl,hafıza|大脑,想,头,聪明,记忆,思考|dà nǎo,xiǎng,tóu,cōng míng,jì yì,sī kǎo
+A2|stomach,food,belly,hungry,eat,ache|mide,yemek,karın,aç,sindirim,ağrı|胃,食物,肚子,饿,消化,疼|wèi,shí wù,dù zi,è,xiāo huà,téng
+A2|finger,hand,five,ring,point,nail|parmak,el,beş,yüzük,göstermek,tırnak|手指,手,五,戒指,指,指甲|shǒu zhǐ,shǒu,wǔ,jiè zhǐ,zhǐ,zhǐ jiǎ
+B1|cough,throat,sick,cold,sound,chest|öksürmek,boğaz,hasta,nezle,ses,şurup|咳嗽,喉咙,生病,感冒,声音,嗓子|ké sou,hóu lóng,shēng bìng,gǎn mào,shēng yīn,sǎng zi
+A2|exercise,sport,gym,body,healthy,run|egzersiz,spor,salon,vücut,sağlıklı,koşmak|锻炼,运动,健身房,身体,健康,跑步|duàn liàn,yùn dòng,jiàn shēn fáng,shēn tǐ,jiàn kāng,pǎo bù
+A1|tired,sleep,rest,work,energy,exhausted|yorgun,uyumak,dinlenmek,çalışmak,enerji,bitkin|累,睡觉,休息,工作,没力气,困|lèi,shuì jiào,xiū xi,gōng zuò,méi lì qi,kùn
+A2|fever,hot,temperature,sick,thermometer,flu|ateş,sıcak,derece,hasta,termometre,grip|发烧,热,温度,生病,体温计,感冒|fā shāo,rè,wēn dù,shēng bìng,tǐ wēn jì,gǎn mào
+B2|allergy,sneeze,food,pollen,skin,itch|alerji,hapşırmak,reaksiyon,polen,cilt,kaşıntı|过敏,打喷嚏,反应,花粉,皮肤,痒|guò mǐn,dǎ pēn ti,fǎn yìng,huā fěn,pí fū,yǎng
+B1|muscle,strong,body,gym,arm,exercise|kas,güçlü,vücut,spor salonu,kol,egzersiz|肌肉,强壮,身体,健身房,胳膊,锻炼|jī ròu,qiáng zhuàng,shēn tǐ,jiàn shēn fáng,gē bo,duàn liàn
+B1|injury,hurt,accident,pain,damage,sport|sakatlık,yaralanmak,kaza,acı,hasar,spor|受伤,疼,事故,痛,运动,流血|shòu shāng,téng,shì gù,tòng,yùn dòng,liú xuè
+A2|diet,food,weight,lose,healthy,eat|diyet,yemek,kilo,vermek,sağlıklı,zayıflamak|饮食,食物,体重,减肥,健康,吃|yǐn shí,shí wù,tǐ zhòng,jiǎn féi,jiàn kāng,chī
+B1|surgery,operation,doctor,hospital,cut,knife|ameliyat,operasyon,doktor,hastane,kesmek,bıçak|手术,开刀,医生,医院,切,刀|shǒu shù,kāi dāo,yī shēng,yī yuàn,qiē,dāo
+B2|vaccine,injection,protect,disease,needle,virus|aşı,iğne,korumak,hastalık,virüs,bağışıklık|疫苗,打针,保护,病,针,病毒|yì miáo,dǎ zhēn,bǎo hù,bìng,zhēn,bìng dú
+B2|pulse,heart,beat,wrist,rate,blood|nabız,kalp,atmak,bilek,hız,kan|脉搏,心脏,跳,手腕,速度,血|mài bó,xīn zàng,tiào,shǒu wàn,sù dù,xuè
+B1|stress,worry,pressure,work,relax,nervous|stres,endişe,baskı,iş,rahatlamak,gergin|压力,担心,工作,放松,紧张,焦虑|yā lì,dān xīn,gōng zuò,fàng sōng,jǐn zhāng,jiāo lǜ
+A1|arm,hand,shoulder,elbow,body,lift|kol,el,omuz,dirsek,vücut,kaldırmak|胳膊,手,肩膀,肘,身体,抬|gē bo,shǒu,jiān bǎng,zhǒu,shēn tǐ,tái
+A1|leg,foot,knee,walk,run,body|bacak,ayak,diz,yürümek,koşmak,vücut|腿,脚,膝盖,走路,跑,身体|tuǐ,jiǎo,xī gài,zǒu lù,pǎo,shēn tǐ
+A2|knee,leg,bend,joint,walk,cap|diz,bacak,bükmek,eklem,yürümek,kapak|膝盖,腿,弯,关节,走路,跪|xī gài,tuǐ,wān,guān jié,zǒu lù,guì
+A2|shoulder,arm,neck,body,carry,bag|omuz,kol,boyun,vücut,taşımak,çanta|肩膀,胳膊,脖子,身体,扛,包|jiān bǎng,gē bo,bó zi,shēn tǐ,káng,bāo
+A2|neck,head,shoulder,throat,scarf,turn|boyun,baş,omuz,boğaz,atkı,çevirmek|脖子,头,肩膀,喉咙,围巾,转|bó zi,tóu,jiān bǎng,hóu lóng,wéi jīn,zhuǎn
+A1|back,body,spine,behind,shoulder,pain|sırt,vücut,omurga,arka,omuz,ağrı|背部,身体,脊柱,后面,肩膀,疼|bèi bù,shēn tǐ,jǐ zhù,hòu miàn,jiān bǎng,téng
+A2|skin,body,touch,soft,cover,sun|cilt,vücut,dokunmak,yumuşak,deri,güneş|皮肤,身体,摸,软,表面,太阳|pí fū,shēn tǐ,mō,ruǎn,biǎo miàn,tài yáng
+A1|face,eyes,nose,mouth,head,smile|yüz,göz,burun,ağız,baş,gülümsemek|脸,眼睛,鼻子,嘴,头,微笑|liǎn,yǎn jing,bí zi,zuǐ,tóu,wēi xiào
+A2|elbow,arm,bend,joint,sleeve,body|dirsek,kol,bükmek,eklem,giysi kolu,vücut|肘,胳膊,弯,关节,袖子,身体|zhǒu,gē bo,wān,guān jié,xiù zi,shēn tǐ
+A2|throat,neck,swallow,sore,voice,cough|boğaz,boyun,yutmak,ağrı,ses,öksürmek|喉咙,脖子,吞,疼,声音,咳嗽|hóu lóng,bó zi,tūn,téng,shēng yīn,ké sou
+B1|lung,breathe,air,chest,oxygen,two|akciğer,nefes,hava,göğüs,oksijen,iki|肺,呼吸,空气,胸,氧气,两个|fèi,hū xī,kōng qì,xiōng,yǎng qì,liǎng gè
+A2|breathe,air,lung,nose,oxygen,in|nefes almak,hava,akciğer,burun,oksijen,solumak|呼吸,空气,肺,鼻子,氧气,吸|hū xī,kōng qì,fèi,bí zi,yǎng qì,xī
+B1|sneeze,nose,cold,tissue,allergy,sound|hapşırmak,burun,nezle,mendil,alerji,ses|打喷嚏,鼻子,感冒,纸巾,过敏,声音|dǎ pēn ti,bí zi,gǎn mào,zhǐ jīn,guò mǐn,shēng yīn
+B2|yawn,tired,mouth,sleep,bored,open|esnemek,yorgun,ağız,uyku,sıkılmak,açmak|打哈欠,累,嘴,睡觉,无聊,张开|dǎ hā qian,lèi,zuǐ,shuì jiào,wú liáo,zhāng kāi
+A2|pain,hurt,injury,ache,medicine,body|ağrı,acımak,yaralanma,sızı,ilaç,vücut|疼痛,疼,受伤,难受,药,身体|téng tòng,téng,shòu shāng,nán shòu,yào,shēn tǐ
+A2|healthy,sick,exercise,food,strong,body|sağlıklı,hasta,egzersiz,besin,güçlü,vücut|健康,生病,锻炼,食物,强壮,身体|jiàn kāng,shēng bìng,duàn liàn,shí wù,qiáng zhuàng,shēn tǐ
+A1|thirsty,water,drink,dry,mouth,hot|susamış,su,içmek,kuru,ağız,sıcak|口渴,水,喝,干,嘴,热|kǒu kě,shuǐ,hē,gān,zuǐ,rè
+B1|bandage,wound,wrap,injury,white,cloth|bandaj,yara,sarmak,yaralanma,beyaz,bez|绷带,伤口,包扎,受伤,白色,布|bēng dài,shāng kǒu,bāo zā,shòu shāng,bái sè,bù
+A2|ambulance,hospital,siren,patient,emergency,vehicle|ambulans,hastane,siren,hasta,acil,araç|救护车,医院,警报,病人,急救,车辆|jiù hù chē,yī yuàn,jǐng bào,bìng rén,jí jiù,chē liàng
+A2|appointment,doctor,time,date,book,visit|randevu,doktor,saat,tarih,ayarlamak,ziyaret|预约,医生,时间,日期,安排,就诊|yù yuē,yī shēng,shí jiān,rì qī,ān pái,jiù zhěn

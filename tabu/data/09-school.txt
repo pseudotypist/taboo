@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|homework,school,teacher,home,exercise,student|ödev,okul,öğretmen,ev,alıştırma,öğrenci|作业,学校,老师,家,练习,写|zuò yè,xué xiào,lǎo shī,jiā,liàn xí,xiě
+A2|exam,test,school,pass,study,question|sınav,test,okul,geçmek,çalışmak,soru|考试,测试,学校,通过,学习,题|kǎo shì,cè shì,xué xiào,tōng guò,xué xí,tí
+A1|pencil,write,draw,eraser,wood,pen|kurşun kalem,yazmak,çizmek,silgi,tahta,uç|铅笔,写,画,橡皮,木头,笔|qiān bǐ,xiě,huà,xiàng pí,mù tou,bǐ
+A1|paper,write,white,sheet,book,tree|kağıt,yazmak,beyaz,sayfa,kitap,ağaç|纸,写,白色,张,书,树|zhǐ,xiě,bái sè,zhāng,shū,shù
+A1|lesson,teacher,school,learn,class,hour|ders,öğretmen,okul,öğrenmek,sınıf,saat|课,老师,学校,学习,教室,上|kè,lǎo shī,xué xiào,xué xí,jiào shì,shàng
+A1|question,ask,answer,mark,why,exam|soru,sormak,cevap,işaret,neden,sınav|题目,问,回答,为什么,考试,问号|tí mù,wèn,huí dá,wèi shén me,kǎo shì,wèn hào
+A1|number,count,one,math,digit,phone|sayı,saymak,bir,matematik,rakam,numara|数字,数,一,数学,号码,几|shù zì,shǔ,yī,shù xué,hào mǎ,jǐ
+A1|office,work,desk,computer,boss,building|ofis,iş,masa,bilgisayar,patron,büro|办公室,工作,桌子,电脑,老板,上班|bàn gōng shì,gōng zuò,zhuō zi,diàn nǎo,lǎo bǎn,shàng bān
+A1|money,pay,buy,bank,cash,rich|para,ödemek,almak,banka,nakit,zengin|钱,付,买,银行,现金,有钱|qián,fù,mǎi,yín háng,xiàn jīn,yǒu qián
+A1|job,work,money,office,career,boss|iş,çalışmak,para,ofis,kariyer,meslek|工作,上班,钱,办公室,职业,老板|gōng zuò,shàng bān,qián,bàn gōng shì,zhí yè,lǎo bǎn
+B1|alphabet,letter,ABC,order,language,learn|alfabe,harf,ABC,sıra,dil,öğrenmek|字母表,字母,文字,顺序,语言,拼音|zì mǔ biǎo,zì mǔ,wén zì,shùn xù,yǔ yán,pīn yīn
+A1|dictionary,word,meaning,language,book,translate|sözlük,kelime,anlam,dil,kitap,çeviri|词典,单词,意思,语言,书,查|cí diǎn,dān cí,yì si,yǔ yán,shū,chá
+A2|university,student,study,degree,professor,campus|üniversite,öğrenci,okumak,diploma,profesör,kampüs|大学,学生,学习,学位,教授,校园|dà xué,xué shēng,xué xí,xué wèi,jiào shòu,xiào yuán
+A1|language,speak,words,country,learn,communicate|dil,konuşmak,kelime,ülke,öğrenmek,iletişim|语言,说,词,国家,学,交流|yǔ yán,shuō,cí,guó jiā,xué,jiāo liú
+A1|history,past,old,war,date,subject|tarih,geçmiş,eski,savaş,ders,olay|历史,过去,古代,战争,年代,课|lì shǐ,guò qù,gǔ dài,zhàn zhēng,nián dài,kè
+A1|meeting,office,people,talk,work,discuss|toplantı,ofis,insanlar,konuşmak,iş,görüşme|会议,办公室,人,讨论,工作,开|huì yì,bàn gōng shì,rén,tǎo lùn,gōng zuò,kāi
+A2|uniform,school,wear,same,clothes,police|üniforma,okul,giymek,aynı,kıyafet,asker|制服,学校,穿,一样,衣服,校服|zhì fú,xué xiào,chuān,yī yàng,yī fu,xiào fú
+B1|calculator,number,math,count,add,machine|hesap makinesi,sayı,matematik,toplamak,çarpmak,işlem|计算器,数字,数学,算,加,机器|jì suàn qì,shù zì,shù xué,suàn,jiā,jī qì
+B1|geography,map,country,world,subject,mountain|coğrafya,harita,ülke,dünya,ders,dağ|地理,地图,国家,世界,课,山|dì lǐ,dì tú,guó jiā,shì jiè,kè,shān
+A2|mistake,wrong,error,correct,make,sorry|hata,yanlış,doğru,yapmak,özür,kusur|错误,错,对,犯,对不起,改|cuò wù,cuò,duì,fàn,duì bù qǐ,gǎi
+B2|salary,money,work,month,pay,job|maaş,para,çalışmak,ay,ödeme,iş|工资,钱,工作,月,发,老板|gōng zī,qián,gōng zuò,yuè,fā,lǎo bǎn
+B1|interview,job,question,ask,apply,company|mülakat,iş,soru,sormak,başvuru,şirket|面试,工作,问题,问,申请,公司|miàn shì,gōng zuò,wèn tí,wèn,shēn qǐng,gōng sī
+B1|deadline,time,finish,late,work,date|son tarih,zaman,bitirmek,geç,iş,teslim|截止日期,时间,完成,晚,工作,交|jié zhǐ rì qī,shí jiān,wán chéng,wǎn,gōng zuò,jiāo
+B1|presentation,slide,speak,audience,show,explain|sunum,slayt,konuşmak,dinleyici,göstermek,anlatmak|演示,幻灯片,演讲,观众,汇报,说明|yǎn shì,huàn dēng piàn,yǎn jiǎng,guān zhòng,huì bào,shuō míng
+A2|graduate,university,finish,degree,diploma,ceremony|mezun olmak,üniversite,bitirmek,diploma,tören,kep|毕业,大学,完成,学位,证书,典礼|bì yè,dà xué,wán chéng,xué wèi,zhèng shū,diǎn lǐ
+B1|scholarship,money,student,university,free,study|burs,para,öğrenci,üniversite,ücretsiz,başarı|奖学金,钱,学生,大学,免费,成绩|jiǎng xué jīn,qián,xué shēng,dà xué,miǎn fèi,chéng jì
+B2|colleague,work,office,together,job,friend|iş arkadaşı,çalışmak,ofis,birlikte,şirket,mesai|同事,工作,办公室,一起,公司,朋友|tóng shì,gōng zuò,bàn gōng shì,yī qǐ,gōng sī,péng you
+A2|grammar,language,rule,sentence,verb,learn|dilbilgisi,dil,kural,cümle,fiil,gramer|语法,语言,规则,句子,动词,学|yǔ fǎ,yǔ yán,guī zé,jù zi,dòng cí,xué
+B1|translate,language,word,another,meaning,text|çevirmek,dil,kelime,başka,anlam,tercüme|翻译,语言,词,另一种,意思,文字|fān yì,yǔ yán,cí,lìng yī zhǒng,yì si,wén zì
+A2|retire,work,old,stop,pension,age|emekli olmak,çalışmak,yaşlı,bırakmak,maaş,yaş|退休,工作,老,停,养老金,年龄|tuì xiū,gōng zuò,lǎo,tíng,yǎng lǎo jīn,nián líng
+B2|profit,money,business,earn,loss,company|kâr,para,iş,kazanmak,zarar,şirket|利润,钱,生意,赚,亏,公司|lì rùn,qián,shēng yi,zhuàn,kuī,gōng sī
+A2|research,study,scientist,find,university,information|araştırma,incelemek,bilim insanı,bulmak,üniversite,bilgi|研究,学习,科学家,发现,大学,资料|yán jiū,xué xí,kē xué jiā,fā xiàn,dà xué,zī liào
+A1|notebook,write,pages,school,notes,paper|defter,yazmak,sayfa,okul,not,kağıt|笔记本,写,页,学校,笔记,纸|bǐ jì běn,xiě,yè,xué xiào,bǐ jì,zhǐ
+A1|eraser,pencil,rub,mistake,remove,school|silgi,kurşun kalem,silmek,hata,kaldırmak,okul|橡皮,铅笔,擦,错误,去掉,学校|xiàng pí,qiān bǐ,cā,cuò wù,qù diào,xué xiào
+A2|ruler,measure,straight,line,length,centimetre|cetvel,ölçmek,düz,çizgi,uzunluk,santimetre|尺子,测量,直,线,长度,厘米|chǐ zi,cè liáng,zhí,xiàn,cháng dù,lí mǐ
+A1|desk,study,work,table,drawer,office|çalışma masası,ders,iş,çekmece,ofis,bilgisayar|书桌,学习,工作,桌子,抽屉,办公室|shū zhuō,xué xí,gōng zuò,zhuō zi,chōu ti,bàn gōng shì
+A1|classroom,school,teacher,student,lesson,board|sınıf,okul,öğretmen,öğrenci,ders,tahta|教室,学校,老师,学生,课,黑板|jiào shì,xué xiào,lǎo shī,xué shēng,kè,hēi bǎn
+A2|subject,school,lesson,maths,history,study|ders konusu,okul,matematik,tarih,öğrenmek,coğrafya|学科,学校,课,数学,历史,学习|xué kē,xué xiào,kè,shù xué,lì shǐ,xué xí
+A1|answer,question,reply,correct,exam,say|cevap,soru,yanıt,doğru,sınav,söylemek|答案,问题,回答,正确,考试,说|dá àn,wèn tí,huí dá,zhèng què,kǎo shì,shuō
+A1|sentence,word,grammar,write,full stop,language|cümle,kelime,dilbilgisi,yazmak,nokta,dil|句子,词,语法,写,句号,语言|jù zi,cí,yǔ fǎ,xiě,jù hào,yǔ yán
+A1|word,language,meaning,dictionary,speak,letters|kelime,dil,anlam,sözlük,konuşmak,harf|单词,语言,意思,词典,说话,字母|dān cí,yǔ yán,yì si,cí diǎn,shuō huà,zì mǔ
+A1|letter,alphabet,write,character,word,sound|harf,alfabe,yazmak,karakter,kelime,ses|字母,字母表,写,字符,单词,发音|zì mǔ,zì mǔ biǎo,xiě,zì fú,dān cí,fā yīn
+A1|reading,book,text,eyes,library,pages|okuma,kitap,metin,göz,kütüphane,sayfa|阅读,书,文章,眼睛,图书馆,页|yuè dú,shū,wén zhāng,yǎn jing,tú shū guǎn,yè
+A1|writing,pen,paper,text,words,hand|yazı,kalem,kağıt,metin,kelime,el|书写,笔,纸,文字,词,手|shū xiě,bǐ,zhǐ,wén zì,cí,shǒu
+A1|maths,number,add,subtract,school,calculate|matematik,sayı,toplamak,çıkarmak,okul,hesaplamak|数学,数字,加,减,学校,计算|shù xué,shù zì,jiā,jiǎn,xué xiào,jì suàn
+A2|science,experiment,laboratory,physics,chemistry,discover|bilim,deney,laboratuvar,fizik,kimya,keşfetmek|科学,实验,实验室,物理,化学,发现|kē xué,shí yàn,shí yàn shì,wù lǐ,huà xué,fā xiàn
+A2|project,plan,work,team,task,finish|proje,plan,iş,takım,görev,bitirmek|项目,计划,工作,团队,任务,完成|xiàng mù,jì huà,gōng zuò,tuán duì,rèn wù,wán chéng
+B1|certificate,document,course,pass,proof,qualification|sertifika,belge,kurs,başarmak,kanıt,yeterlilik|证书,文件,课程,通过,证明,资格|zhèng shū,wén jiàn,kè chéng,tōng guò,zhèng míng,zī gé
+B1|application,apply,form,job,request,submit|başvuru,form,iş,istek,göndermek,aday|申请,表格,工作,请求,提交,候选人|shēn qǐng,biǎo gé,gōng zuò,qǐng qiú,tí jiāo,hòu xuǎn rén
+B1|contract,agreement,sign,work,document,conditions|sözleşme,anlaşma,imzalamak,iş,belge,koşul|合同,协议,签字,工作,文件,条件|hé tóng,xié yì,qiān zì,gōng zuò,wén jiàn,tiáo jiàn

@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|dog,pet,bark,cat,bone,walk|köpek,evcil,havlamak,kedi,kemik,sadık|狗,宠物,叫,猫,骨头,汪|gǒu,chǒng wù,jiào,māo,gǔ tou,wāng
+A1|cat,pet,mouse,meow,dog,milk|kedi,evcil,fare,miyav,köpek,tüy|猫,宠物,老鼠,喵,狗,抓|māo,chǒng wù,lǎo shǔ,miāo,gǒu,zhuā
+A1|bird,fly,wing,sky,nest,sing|kuş,uçmak,kanat,gökyüzü,yuva,ötmek|鸟,飞,翅膀,天空,窝,唱歌|niǎo,fēi,chì bǎng,tiān kōng,wō,chàng gē
+A1|fish,sea,swim,water,catch,river|balık,deniz,yüzmek,su,olta,tutmak|鱼,海,游泳,水,钓,河|yú,hǎi,yóu yǒng,shuǐ,diào,hé
+A1|horse,ride,race,farm,fast,saddle|at,binmek,yarış,çiftlik,hızlı,eyer|马,骑,比赛,快,草原,跑|mǎ,qí,bǐ sài,kuài,cǎo yuán,pǎo
+A1|cow,milk,farm,grass,moo,beef|inek,süt,çiftlik,ot,möö,et|牛,牛奶,农场,草,肉,耕田|niú,niú nǎi,nóng chǎng,cǎo,ròu,gēng tián
+A2|elephant,big,trunk,animal,grey,nose|fil,büyük,hortum,hayvan,gri,burun|大象,大,鼻子,动物,灰色,耳朵|dà xiàng,dà,bí zi,dòng wù,huī sè,ěr duo
+A1|lion,king,jungle,animal,roar,cat|aslan,kral,orman,hayvan,kükremek,yele|狮子,国王,森林,动物,吼,老虎|shī zi,guó wáng,sēn lín,dòng wù,hǒu,lǎo hǔ
+A1|monkey,banana,tree,climb,jungle,tail|maymun,muz,ağaç,tırmanmak,orman,kuyruk|猴子,香蕉,树,爬,尾巴,手|hóu zi,xiāng jiāo,shù,pá,wěi ba,shǒu
+A1|tree,leaf,wood,green,forest,branch|ağaç,yaprak,odun,yeşil,orman,dal|树,叶子,木头,绿色,森林,树枝|shù,yè zi,mù tou,lǜ sè,sēn lín,shù zhī
+A1|flower,rose,garden,smell,colour,bee|çiçek,gül,bahçe,koku,renk,arı|花,玫瑰,花园,香,颜色,蜜蜂|huā,méi gui,huā yuán,xiāng,yán sè,mì fēng
+A1|sun,hot,sky,yellow,day,light|güneş,sıcak,gökyüzü,sarı,gündüz,ışık|太阳,热,天空,黄色,白天,光|tài yáng,rè,tiān kōng,huáng sè,bái tiān,guāng
+A1|rain,water,cloud,umbrella,wet,weather|yağmur,su,bulut,şemsiye,ıslak,hava|雨,水,云,伞,湿,天气|yǔ,shuǐ,yún,sǎn,shī,tiān qì
+A1|snow,white,winter,cold,ski,ice|kar,beyaz,kış,soğuk,kayak,buz|雪,白色,冬天,冷,滑雪,冰|xuě,bái sè,dōng tiān,lěng,huá xuě,bīng
+A1|sea,water,beach,salt,blue,swim|deniz,su,plaj,tuz,mavi,yüzmek|海,水,沙滩,咸,蓝色,游泳|hǎi,shuǐ,shā tān,xián,lán sè,yóu yǒng
+A1|moon,night,sky,star,round,space|ay,gece,gökyüzü,yıldız,yuvarlak,uzay|月亮,晚上,天空,星星,圆,光|yuè liang,wǎn shàng,tiān kōng,xīng xīng,yuán,guāng
+A1|mountain,high,climb,snow,top,hill|dağ,yüksek,tırmanmak,kar,zirve,tepe|山,高,爬,雪,顶,岩石|shān,gāo,pá,xuě,dǐng,yán shí
+A1|river,water,flow,bridge,fish,long|nehir,su,akmak,köprü,balık,ırmak|河,水,流,桥,鱼,河岸|hé,shuǐ,liú,qiáo,yú,hé àn
+A2|forest,tree,wood,animal,green,jungle|orman,ağaç,odun,hayvan,yeşil,yangın|森林,树,木头,动物,绿色,树林|sēn lín,shù,mù tou,dòng wù,lǜ sè,shù lín
+A1|snake,long,poison,bite,legs,animal|yılan,uzun,zehir,ısırmak,sürünmek,bacak|蛇,长,毒,咬,爬,没有腿|shé,cháng,dú,yǎo,pá,méi yǒu tuǐ
+A1|bee,honey,sting,yellow,flower,buzz|arı,bal,sokmak,sarı,çiçek,kovan|蜜蜂,蜂蜜,蜇,黄色,花,嗡嗡|mì fēng,fēng mì,zhē,huáng sè,huā,wēng wēng
+A1|rabbit,carrot,ears,jump,white,fast|tavşan,havuç,kulak,zıplamak,beyaz,hızlı|兔子,胡萝卜,耳朵,跳,白色,月亮|tù zi,hú luó bo,ěr duo,tiào,bái sè,yuè liang
+A1|island,sea,water,land,beach,alone|ada,deniz,su,kara,plaj,ıssız|岛,海,水,陆地,沙滩,独自|dǎo,hǎi,shuǐ,lù dì,shā tān,dú zì
+A2|desert,sand,hot,dry,camel,empty|çöl,kum,sıcak,kuru,deve,ıssız|沙漠,沙子,热,干,骆驼,空旷|shā mò,shā zi,rè,gān,luò tuo,kōng kuàng
+A1|butterfly,wing,colour,fly,insect,flower|kelebek,kanat,renkli,uçmak,böcek,çiçek|蝴蝶,翅膀,颜色,飞,昆虫,花|hú dié,chì bǎng,yán sè,fēi,kūn chóng,huā
+A2|panda,animal,black,white,bamboo,bear|panda,hayvan,siyah,beyaz,bambu,ayı|熊猫,动物,黑白,竹子,熊,毛|xióng māo,dòng wù,hēi bái,zhú zi,xióng,máo
+B1|penguin,bird,ice,black,white,cold|penguen,kuş,buz,siyah,beyaz,kutup|企鹅,鸟,冰,黑白,不会飞,冷|qǐ é,niǎo,bīng,hēi bái,bù huì fēi,lěng
+B1|rainbow,colour,rain,sun,sky,seven|gökkuşağı,renk,yağmur,güneş,gökyüzü,yedi|彩虹,颜色,雨,太阳,天空,七|cǎi hóng,yán sè,yǔ,tài yáng,tiān kōng,qī
+A2|earthquake,shake,ground,building,disaster,fall|deprem,sallanmak,yer,bina,afet,fay|地震,摇,地面,楼,灾难,倒|dì zhèn,yáo,dì miàn,lóu,zāi nàn,dǎo
+B1|volcano,mountain,lava,fire,erupt,hot|yanardağ,dağ,lav,ateş,patlamak,volkan|火山,山,岩浆,火,爆发,热|huǒ shān,shān,yán jiāng,huǒ,bào fā,rè
+A2|dinosaur,old,big,extinct,million,bones|dinozor,eski,büyük,nesli tükenmek,milyon,fosil|恐龙,古代,大,灭绝,化石,骨头|kǒng lóng,gǔ dài,dà,miè jué,huà shí,gǔ tou
+B1|shark,fish,sea,teeth,dangerous,bite|köpekbalığı,balık,deniz,diş,tehlikeli,ısırmak|鲨鱼,鱼,海,牙齿,危险,咬|shā yú,yú,hǎi,yá chǐ,wēi xiǎn,yǎo
+B1|climate,weather,change,temperature,global,warm|iklim,hava,değişiklik,sıcaklık,küresel,ısınma|气候,天气,变化,温度,全球,变暖|qì hòu,tiān qì,biàn huà,wēn dù,quán qiú,biàn nuǎn
+B1|pollution,dirty,air,environment,factory,smoke|kirlilik,kirli,hava,çevre,fabrika,duman|污染,脏,空气,环境,工厂,烟|wū rǎn,zāng,kōng qì,huán jìng,gōng chǎng,yān
+A1|wind,air,blow,weather,tree,kite|rüzgar,hava,esmek,ağaç,uçurtma,serin|风,空气,吹,天气,树,风筝|fēng,kōng qì,chuī,tiān qì,shù,fēng zheng
+A1|cloud,sky,white,rain,grey,weather|bulut,gökyüzü,beyaz,yağmur,gri,hava|云,天空,白色,雨,灰色,天气|yún,tiān kōng,bái sè,yǔ,huī sè,tiān qì
+A2|leaf,tree,green,branch,fall,plant|yaprak,ağaç,yeşil,dal,düşmek,bitki|叶子,树,绿色,树枝,落,植物|yè zi,shù,lǜ sè,shù zhī,luò,zhí wù
+A1|grass,green,ground,lawn,cow,field|çimen,yeşil,yer,çim,inek,alan|草,绿色,地面,草坪,牛,田野|cǎo,lǜ sè,dì miàn,cǎo píng,niú,tián yě
+B1|root,plant,ground,tree,water,grow|kök,bitki,toprak,ağaç,su,büyümek|根,植物,地下,树,水,生长|gēn,zhí wù,dì xià,shù,shuǐ,shēng zhǎng
+B1|seed,plant,grow,small,soil,flower|tohum,bitki,büyümek,küçük,toprak,çiçek|种子,植物,生长,小,土壤,花|zhǒng zi,zhí wù,shēng zhǎng,xiǎo,tǔ rǎng,huā
+B1|soil,ground,plant,grow,earth,garden|toprak,yer,bitki,yetişmek,yeryüzü,bahçe|土壤,地面,植物,生长,泥土,花园|tǔ rǎng,dì miàn,zhí wù,shēng zhǎng,ní tǔ,huā yuán
+A2|lake,water,land,swim,fish,river|göl,su,kara,yüzmek,balık,nehir|湖,水,陆地,游泳,鱼,河|hú,shuǐ,lù dì,yóu yǒng,yú,hé
+A2|hill,small,mountain,climb,top,high|tepe,küçük,dağ,tırmanmak,zirve,yüksek|小山,低,爬,顶,高,坡|xiǎo shān,dī,pá,dǐng,gāo,pō
+A2|rock,stone,hard,ground,mountain,heavy|kaya,taş,sert,yer,dağ,ağır|岩石,石头,硬,地面,山,重|yán shí,shí tou,yìng,dì miàn,shān,zhòng
+A2|sand,beach,desert,grain,yellow,castle|kum,plaj,çöl,tane,sarı,kale|沙子,沙滩,沙漠,颗粒,黄色,城堡|shā zi,shā tān,shā mò,kē lì,huáng sè,chéng bǎo
+A2|fox,animal,orange,tail,clever,forest|tilki,hayvan,turuncu,kuyruk,kurnaz,orman|狐狸,动物,橙色,尾巴,聪明,森林|hú li,dòng wù,chéng sè,wěi ba,cōng míng,sēn lín
+A2|wolf,animal,forest,howl,dog,pack|kurt,hayvan,orman,ulumak,köpek,sürü|狼,动物,森林,嚎叫,狗,群|láng,dòng wù,sēn lín,háo jiào,gǒu,qún
+A2|bear,animal,forest,big,honey,winter|ayı,hayvan,orman,büyük,bal,kış|熊,动物,森林,大,蜂蜜,冬天|xióng,dòng wù,sēn lín,dà,fēng mì,dōng tiān
+B1|turtle,shell,slow,water,animal,eggs|kaplumbağa,kabuk,yavaş,su,hayvan,yumurta|龟,壳,慢,水,动物,蛋|guī,ké,màn,shuǐ,dòng wù,dàn
+B1|spider,eight,legs,web,small,insect|örümcek,sekiz,bacak,ağ,küçük,böcek|蜘蛛,八,腿,网,小,昆虫|zhī zhū,bā,tuǐ,wǎng,xiǎo,kūn chóng

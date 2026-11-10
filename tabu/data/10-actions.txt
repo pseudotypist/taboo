@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|happy,smile,sad,feel,good,joy|mutlu,gülmek,üzgün,hissetmek,iyi,sevinç|开心,笑,难过,感觉,好,快乐|kāi xīn,xiào,nán guò,gǎn jué,hǎo,kuài lè
+A1|sad,cry,happy,feel,tears,bad|üzgün,ağlamak,mutlu,hissetmek,gözyaşı,kötü|难过,哭,开心,感觉,眼泪,伤心|nán guò,kū,kāi xīn,gǎn jué,yǎn lèi,shāng xīn
+A1|run,fast,legs,race,walk,sport|koşmak,hızlı,bacak,yarış,yürümek,spor|跑,快,腿,比赛,走,运动|pǎo,kuài,tuǐ,bǐ sài,zǒu,yùn dòng
+A1|sing,song,voice,music,microphone,choir|şarkı söylemek,ses,müzik,mikrofon,koro,nota|唱歌,声音,音乐,麦克风,歌手,合唱|chàng gē,shēng yīn,yīn yuè,mài kè fēng,gē shǒu,hé chàng
+A2|cry,tears,sad,baby,eyes,laugh|ağlamak,gözyaşı,üzgün,bebek,göz,gülmek|哭,眼泪,难过,婴儿,眼睛,笑|kū,yǎn lèi,nán guò,yīng ér,yǎn jing,xiào
+A1|laugh,funny,joke,smile,happy,ha|gülmek,komik,şaka,gülümsemek,mutlu,kahkaha|笑,有趣,笑话,开心,哈哈,微笑|xiào,yǒu qù,xiào huà,kāi xīn,hā hā,wēi xiào
+A1|wash,water,clean,soap,hands,dirty|yıkamak,su,temiz,sabun,el,kirli|洗,水,干净,肥皂,手,脏|xǐ,shuǐ,gān jìng,féi zào,shǒu,zāng
+A2|drive,car,road,wheel,licence,driver|araba sürmek,yol,direksiyon,ehliyet,şoför,trafik|开车,路,方向盘,驾照,司机,交通|kāi chē,lù,fāng xiàng pán,jià zhào,sī jī,jiāo tōng
+A1|buy,money,shop,pay,sell,get|satın almak,para,dükkan,ödemek,satmak,alışveriş|买,钱,商店,付,卖,购物|mǎi,qián,shāng diàn,fù,mài,gòu wù
+A1|love,heart,like,feel,kiss,romantic|aşk,kalp,sevmek,his,öpmek,romantik|爱情,心,喜欢,感觉,亲,浪漫|ài qíng,xīn,xǐ huan,gǎn jué,qīn,làng màn
+A1|angry,mad,shout,feel,red,upset|kızgın,sinirli,bağırmak,hissetmek,kırmızı,öfke|生气,火,喊,感觉,红,愤怒|shēng qì,huǒ,hǎn,gǎn jué,hóng,fèn nù
+A1|write,pen,paper,letter,word,read|yazmak,kalem,kağıt,mektup,kelime,okumak|写,笔,纸,信,字,读|xiě,bǐ,zhǐ,xìn,zì,dú
+A1|dream,sleep,night,wish,imagine,nightmare|rüya,uyumak,gece,dilek,hayal,kabus|梦,睡觉,晚上,愿望,想象,噩梦|mèng,shuì jiào,wǎn shàng,yuàn wàng,xiǎng xiàng,è mèng
+A1|surprise,unexpected,party,gift,shock,know|sürpriz,beklenmedik,parti,hediye,şok,şaşırmak|惊喜,没想到,派对,礼物,吓,突然|jīng xǐ,méi xiǎng dào,pài duì,lǐ wù,xià,tū rán
+A1|afraid,fear,scared,dark,danger,horror|korkmuş,korku,ürkmek,karanlık,tehlike,cesur|害怕,恐怖,吓,黑,危险,鬼|hài pà,kǒng bù,xià,hēi,wēi xiǎn,guǐ
+A1|lazy,work,nothing,sofa,sleep,active|tembel,çalışmak,hiçbir şey,koltuk,uyumak,üşenmek|懒,工作,不做,沙发,睡觉,勤快|lǎn,gōng zuò,bù zuò,shā fā,shuì jiào,qín kuài
+A1|shy,quiet,talk,red,nervous,people|utangaç,sessiz,konuşmak,kızarmak,çekingen,insanlar|害羞,安静,说话,脸红,紧张,内向|hài xiū,ān jìng,shuō huà,liǎn hóng,jǐn zhāng,nèi xiàng
+B2|whisper,quiet,ear,secret,speak,low|fısıldamak,sessiz,kulak,sır,konuşmak,alçak|低语,安静,耳朵,秘密,说,小声|dī yǔ,ān jìng,ěr duo,mì mì,shuō,xiǎo shēng
+A1|jump,up,high,legs,air,rope|zıplamak,yukarı,yüksek,bacak,hava,ip|跳,上,高,腿,空中,绳|tiào,shàng,gāo,tuǐ,kōng zhōng,shéng
+A2|climb,up,mountain,tree,ladder,high|tırmanmak,yukarı,dağ,ağaç,merdiven,yüksek|爬,上,山,树,梯子,高|pá,shàng,shān,shù,tī zi,gāo
+A1|borrow,lend,give,back,money,library|ödünç almak,vermek,geri,para,kütüphane,borç|借,还,给,钱,图书馆,用|jiè,huán,gěi,qián,tú shū guǎn,yòng
+A1|forget,remember,memory,lose,mind,name|unutmak,hatırlamak,hafıza,kaybetmek,akıl,isim|忘记,记得,记忆,丢,想不起,名字|wàng jì,jì de,jì yì,diū,xiǎng bù qǐ,míng zì
+A1|wait,time,queue,patient,late,bus|beklemek,zaman,sıra,sabır,geç,otobüs|等,时间,排队,耐心,晚,车|děng,shí jiān,pái duì,nài xīn,wǎn,chē
+B1|promise,word,keep,swear,say,break|söz vermek,tutmak,yemin,demek,bozmak,garanti|承诺,话,遵守,发誓,说,保证|chéng nuò,huà,zūn shǒu,fā shì,shuō,bǎo zhèng
+B1|jealous,envy,want,other,love,angry|kıskanç,haset,istemek,başkası,aşk,sinir|嫉妒,羡慕,想要,别人,爱,吃醋|jí dù,xiàn mù,xiǎng yào,bié rén,ài,chī cù
+B1|proud,happy,success,achieve,parent,feel|gururlu,mutlu,başarı,kazanmak,ebeveyn,övünmek|骄傲,开心,成功,父母,感觉,自豪|jiāo ào,kāi xīn,chéng gōng,fù mǔ,gǎn jué,zì háo
+B1|embarrassed,red,face,shy,mistake,ashamed|mahcup,kızarmak,yüz,utanmak,hata,rezil|尴尬,脸红,害羞,错误,丢脸,不好意思|gān gà,liǎn hóng,hài xiū,cuò wù,diū liǎn,bù hǎo yì si
+A2|complain,unhappy,problem,say,bad,service|şikayet etmek,mutsuz,sorun,söylemek,kötü,hizmet|抱怨,不满意,问题,说,不好,投诉|bào yuàn,bù mǎn yì,wèn tí,shuō,bù hǎo,tóu sù
+A2|apologise,sorry,mistake,forgive,say,wrong|özür dilemek,pardon,hata,affetmek,söylemek,yanlış|道歉,对不起,错误,原谅,说,错|dào qiàn,duì bù qǐ,cuò wù,yuán liàng,shuō,cuò
+A1|celebrate,party,birthday,happy,festival,success|kutlamak,parti,doğum günü,mutlu,bayram,başarı|庆祝,派对,生日,开心,节日,成功|qìng zhù,pài duì,shēng rì,kāi xīn,jié rì,chéng gōng
+A2|argue,fight,disagree,shout,angry,discuss|tartışmak,kavga,katılmamak,bağırmak,kızgın,münakaşa|吵架,打架,不同意,喊,生气,争论|chǎo jià,dǎ jià,bù tóng yì,hǎn,shēng qì,zhēng lùn
+A1|lonely,alone,sad,nobody,friend,miss|yalnız,tek,üzgün,kimse,arkadaş,özlemek|孤独,一个人,难过,没有人,朋友,寂寞|gū dú,yī gè rén,nán guò,méi yǒu rén,péng you,jì mò
+B1|hesitate,wait,sure,decide,pause,doubt|tereddüt etmek,beklemek,emin,karar,duraksamak,şüphe|犹豫,等,不确定,决定,停,怀疑|yóu yù,děng,bù què dìng,jué dìng,tíng,huái yí
+B2|exaggerate,big,more,truth,lie,story|abartmak,büyük,fazla,gerçek,yalan,hikaye|夸张,大,更多,真的,假,故事|kuā zhāng,dà,gèng duō,zhēn de,jiǎ,gù shi
+A1|eat,food,mouth,hungry,meal,chew|yemek yemek,yiyecek,ağız,aç,öğün,çiğnemek|吃,食物,嘴,饿,饭,嚼|chī,shí wù,zuǐ,è,fàn,jiáo
+A1|drink,water,thirsty,cup,mouth,liquid|içmek,su,susamak,bardak,ağız,sıvı|喝,水,口渴,杯子,嘴,液体|hē,shuǐ,kǒu kě,bēi zi,zuǐ,yè tǐ
+A1|walk,feet,legs,slow,run,step|yürümek,ayak,bacak,yavaş,koşmak,adım|走路,脚,腿,慢,跑,步|zǒu lù,jiǎo,tuǐ,màn,pǎo,bù
+A1|listen,ear,sound,hear,music,attention|dinlemek,kulak,ses,duymak,müzik,dikkat|听,耳朵,声音,音乐,注意,收音机|tīng,ěr duo,shēng yīn,yīn yuè,zhù yì,shōu yīn jī
+A1|speak,talk,voice,mouth,language,say|konuşmak,sohbet,ses,ağız,dil,söylemek|说话,谈,声音,嘴,语言,讲|shuō huà,tán,shēng yīn,zuǐ,yǔ yán,jiǎng
+A1|read,book,words,eyes,page,story|okumak,kitap,kelime,göz,sayfa,hikaye|读,书,字,眼睛,页,故事|dú,shū,zì,yǎn jing,yè,gù shi
+A1|open,close,door,window,inside,key|açmak,kapatmak,kapı,pencere,içeri,anahtar|打开,关,门,窗户,里面,钥匙|dǎ kāi,guān,mén,chuāng hu,lǐ miàn,yào shi
+A1|close,open,door,window,shut,lock|kapatmak,açmak,kapı,pencere,örtmek,kilit|关闭,打开,门,窗户,关上,锁|guān bì,dǎ kāi,mén,chuāng hu,guān shàng,suǒ
+A1|give,take,present,hand,receive,offer|vermek,almak,hediye,el,kabul,sunmak|给,拿,礼物,手,收到,送|gěi,ná,lǐ wù,shǒu,shōu dào,sòng
+A1|take,give,hand,carry,get,hold|almak,vermek,el,taşımak,edinmek,tutmak|拿,给,手,带,得到,握|ná,gěi,shǒu,dài,dé dào,wò
+A2|carry,hold,heavy,bag,lift,move|taşımak,tutmak,ağır,çanta,kaldırmak,hareket|搬,拿,重,包,抬,移动|bān,ná,zhòng,bāo,tái,yí dòng
+A2|push,pull,move,door,hand,away|itmek,çekmek,hareket,kapı,el,uzak|推,拉,移动,门,手,向前|tuī,lā,yí dòng,mén,shǒu,xiàng qián
+A2|pull,push,rope,hand,towards,drag|çekmek,itmek,ip,el,kendine,sürüklemek|拉,推,绳子,手,靠近,拖|lā,tuī,shéng zi,shǒu,kào jìn,tuō
+A1|help,support,need,problem,assist,together|yardım etmek,destek,ihtiyaç,sorun,kolaylaştırmak,birlikte|帮助,支持,需要,问题,协助,一起|bāng zhù,zhī chí,xū yào,wèn tí,xié zhù,yī qǐ
+A1|choose,option,decide,pick,select,prefer|seçmek,seçenek,karar,tercih,belirlemek,beğenmek|选择,选项,决定,挑,喜欢,比较|xuǎn zé,xuǎn xiàng,jué dìng,tiāo,xǐ huan,bǐ jiào
+A1|remember,forget,memory,past,mind,name|hatırlamak,unutmak,hafıza,geçmiş,akıl,isim|记得,忘记,记忆,过去,脑子,名字|jì de,wàng jì,jì yì,guò qù,nǎo zi,míng zì

@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|school,student,teacher,learn,class,study|okul,öğrenci,öğretmen,öğrenmek,sınıf,ders|学校,学生,老师,学习,教室,上课|xué xiào,xué shēng,lǎo shī,xué xí,jiào shì,shàng kè
+A1|hospital,doctor,sick,nurse,patient,ambulance|hastane,doktor,hasta,hemşire,ambulans,ameliyat|医院,医生,生病,护士,病人,救护车|yī yuàn,yī shēng,shēng bìng,hù shì,bìng rén,jiù hù chē
+A1|airport,plane,fly,travel,passport,terminal|havalimanı,uçak,uçmak,seyahat,pasaport,terminal|机场,飞机,飞,旅行,护照,登机|jī chǎng,fēi jī,fēi,lǚ xíng,hù zhào,dēng jī
+A1|hotel,room,stay,travel,night,reception|otel,oda,kalmak,seyahat,gece,resepsiyon|酒店,房间,住,旅行,晚上,前台|jiǔ diàn,fáng jiān,zhù,lǚ xíng,wǎn shàng,qián tái
+A1|beach,sand,sea,sun,swim,summer|plaj,kum,deniz,güneş,yüzmek,yaz|沙滩,沙子,海,太阳,游泳,夏天|shā tān,shā zi,hǎi,tài yáng,yóu yǒng,xià tiān
+A1|park,green,tree,walk,children,bench|park,yeşil,ağaç,yürümek,çocuk,bank|公园,绿色,树,散步,孩子,玩|gōng yuán,lǜ sè,shù,sàn bù,hái zi,wán
+A1|car,drive,wheel,road,engine,taxi|araba,sürmek,tekerlek,yol,motor,otomobil|汽车,开,轮子,路,司机,出租车|qì chē,kāi,lún zi,lù,sī jī,chū zū chē
+A1|bus,stop,driver,public,ticket,passenger|otobüs,durak,şoför,toplu taşıma,bilet,yolcu|公共汽车,站,司机,票,乘客,公交|gōng gòng qì chē,zhàn,sī jī,piào,chéng kè,gōng jiāo
+A1|train,station,rail,track,travel,fast|tren,istasyon,ray,vagon,seyahat,hızlı|火车,站,铁路,轨道,高铁,车厢|huǒ chē,zhàn,tiě lù,guǐ dào,gāo tiě,chē xiāng
+A1|plane,fly,sky,airport,pilot,wing|uçak,uçmak,gökyüzü,havalimanı,pilot,kanat|飞机,飞,天空,机场,飞行员,翅膀|fēi jī,fēi,tiān kōng,jī chǎng,fēi xíng yuán,chì bǎng
+A1|bicycle,ride,wheel,two,pedal,helmet|bisiklet,sürmek,tekerlek,iki,pedal,kask|自行车,骑,轮子,两,踏板,单车|zì xíng chē,qí,lún zi,liǎng,tà bǎn,dān chē
+A1|street,road,car,walk,city,name|sokak,yol,araba,yürümek,şehir,cadde|街,路,车,走,城市,道|jiē,lù,chē,zǒu,chéng shì,dào
+A1|city,big,people,building,town,capital|şehir,büyük,insan,bina,kasaba,başkent|城市,大,人,楼,首都,农村|chéng shì,dà,rén,lóu,shǒu dū,nóng cūn
+A1|shop,buy,sell,money,store,customer|dükkan,almak,satmak,para,mağaza,müşteri|商店,买,卖,钱,顾客,超市|shāng diàn,mǎi,mài,qián,gù kè,chāo shì
+A2|market,buy,vegetable,fruit,sell,fresh|pazar,almak,sebze,meyve,satmak,taze|市场,买,蔬菜,水果,卖,菜|shì chǎng,mǎi,shū cài,shuǐ guǒ,mài,cài
+A1|bank,money,account,save,card,loan|banka,para,hesap,biriktirmek,kart,kredi|银行,钱,账户,存,卡,贷款|yín háng,qián,zhàng hù,cún,kǎ,dài kuǎn
+A1|library,book,read,quiet,borrow,study|kütüphane,kitap,okumak,sessiz,ödünç,ders|图书馆,书,读,安静,借,学习|tú shū guǎn,shū,dú,ān jìng,jiè,xué xí
+A2|museum,old,history,art,visit,painting|müze,eski,tarih,sanat,ziyaret,sergi|博物馆,古老,历史,艺术,参观,展览|bó wù guǎn,gǔ lǎo,lì shǐ,yì shù,cān guān,zhǎn lǎn
+A1|bridge,river,cross,over,water,connect|köprü,nehir,geçmek,üstünde,su,bağlamak|桥,河,过,上面,水,连接|qiáo,hé,guò,shàng miàn,shuǐ,lián jiē
+A2|village,small,country,farm,town,people|köy,küçük,kırsal,çiftlik,kasaba,insan|村子,小,农村,农场,城市,农民|cūn zi,xiǎo,nóng cūn,nóng chǎng,chéng shì,nóng mín
+A1|farm,animal,cow,field,grow,tractor|çiftlik,hayvan,inek,tarla,yetiştirmek,traktör|农场,动物,牛,田,种,拖拉机|nóng chǎng,dòng wù,niú,tián,zhòng,tuō lā jī
+B1|passport,travel,country,border,document,visa|pasaport,seyahat,ülke,sınır,belge,vize|护照,旅行,国家,边境,证件,签证|hù zhào,lǚ xíng,guó jiā,biān jìng,zhèng jiàn,qiān zhèng
+A1|ticket,buy,travel,concert,price,entrance|bilet,almak,seyahat,konser,fiyat,giriş|票,买,旅行,演唱会,价格,入口|piào,mǎi,lǚ xíng,yǎn chàng huì,jià gé,rù kǒu
+A1|map,direction,find,road,country,paper|harita,yön,bulmak,yol,ülke,navigasyon|地图,方向,找,路,国家,导航|dì tú,fāng xiàng,zhǎo,lù,guó jiā,dǎo háng
+A2|tourist,travel,visit,camera,holiday,foreign|turist,seyahat,gezmek,kamera,tatil,yabancı|游客,旅行,参观,拍照,假期,外国|yóu kè,lǚ xíng,cān guān,pāi zhào,jià qī,wài guó
+A1|subway,underground,train,city,station,metro|metro,yeraltı,tren,şehir,istasyon,durak|地铁,地下,火车,城市,站,线|dì tiě,dì xià,huǒ chē,chéng shì,zhàn,xiàn
+A1|taxi,car,driver,yellow,pay,ride|taksi,araba,şoför,sarı,ödemek,taksimetre|出租车,车,司机,黄色,付钱,打车|chū zū chē,chē,sī jī,huáng sè,fù qián,dǎ chē
+A2|traffic,car,jam,road,light,busy|trafik,araba,sıkışık,yol,lamba,yoğun|交通,车,堵,路,红绿灯,拥挤|jiāo tōng,chē,dǔ,lù,hóng lǜ dēng,yōng jǐ
+B1|luggage,bag,travel,airport,carry,suitcase|bagaj,çanta,seyahat,havalimanı,taşımak,bavul|行李,包,旅行,机场,拿,箱子|xíng lǐ,bāo,lǚ xíng,jī chǎng,ná,xiāng zi
+B1|souvenir,travel,buy,gift,remember,tourist|hediyelik eşya,seyahat,almak,hatıra,turist,magnet|纪念品,旅行,买,礼物,记住,游客|jì niàn pǐn,lǚ xíng,mǎi,lǐ wù,jì zhù,yóu kè
+B1|harbour,ship,sea,boat,port,dock|liman,gemi,deniz,tekne,iskele,yük|港口,船,海,码头,货,停|gǎng kǒu,chuán,hǎi,mǎ tóu,huò,tíng
+B1|skyscraper,tall,building,city,floor,high|gökdelen,uzun,bina,şehir,kat,yüksek|摩天大楼,高,楼,城市,层,大厦|mó tiān dà lóu,gāo,lóu,chéng shì,céng,dà shà
+B1|destination,travel,arrive,place,go,journey|varış noktası,seyahat,ulaşmak,yer,gitmek,yolculuk|目的地,旅行,到,地方,去,终点|mù dì dì,lǚ xíng,dào,dì fang,qù,zhōng diǎn
+A2|pharmacy,medicine,buy,prescription,health,shop|eczane,ilaç,almak,reçete,sağlık,dükkan|药店,药,买,处方,健康,商店|yào diàn,yào,mǎi,chǔ fāng,jiàn kāng,shāng diàn
+A2|bakery,bread,cake,oven,flour,shop|ekmek fırını,pasta,un,satmak,sıcak,dükkan|面包店,面包,蛋糕,烤箱,面粉,商店|miàn bāo diàn,miàn bāo,dàn gāo,kǎo xiāng,miàn fěn,shāng diàn
+A1|post office,letter,stamp,send,parcel,address|postane,mektup,pul,göndermek,paket,adres|邮局,信,邮票,寄,包裹,地址|yóu jú,xìn,yóu piào,jì,bāo guǒ,dì zhǐ
+A1|station,train,bus,platform,ticket,wait|istasyon,tren,otobüs,peron,bilet,beklemek|车站,火车,公交,站台,票,等|chē zhàn,huǒ chē,gōng jiāo,zhàn tái,piào,děng
+A1|cinema,film,screen,ticket,watch,seats|sinema,film,ekran,bilet,izlemek,koltuk|电影院,电影,屏幕,票,看,座位|diàn yǐng yuàn,diàn yǐng,píng mù,piào,kàn,zuò wèi
+A1|swimming pool,water,swim,deep,sport,lifeguard|yüzme havuzu,su,derin,spor,cankurtaran,kulvar|游泳池,水,游泳,深,运动,救生员|yóu yǒng chí,shuǐ,yóu yǒng,shēn,yùn dòng,jiù shēng yuán
+A2|playground,children,play,swing,slide,park|oyun parkı,çocuk,salıncak,kaydırak,eğlence,bahçe|游乐场,孩子,玩,秋千,滑梯,公园|yóu lè chǎng,hái zi,wán,qiū qiān,huá tī,gōng yuán
+A2|garage,car,park,repair,door,house|garaj,araba,park etmek,tamir,kapı,ev|车库,汽车,停,修理,门,房子|chē kù,qì chē,tíng,xiū lǐ,mén,fáng zi
+A2|balcony,apartment,outside,railing,view,flowers|balkon,daire,dışarı,korkuluk,manzara,çiçek|阳台,公寓,外面,栏杆,风景,花|yáng tái,gōng yù,wài miàn,lán gān,fēng jǐng,huā
+A1|kitchen,cook,food,oven,fridge,room|mutfak,pişirmek,yemek,fırın,buzdolabı,oda|厨房,做饭,食物,烤箱,冰箱,房间|chú fáng,zuò fàn,shí wù,kǎo xiāng,bīng xiāng,fáng jiān
+A1|bathroom,shower,wash,toilet,sink,room|banyo,duş,yıkanmak,tuvalet,lavabo,oda|浴室,淋浴,洗澡,厕所,洗手池,房间|yù shì,lín yù,xǐ zǎo,cè suǒ,xǐ shǒu chí,fáng jiān
+A1|bedroom,sleep,bed,pillow,night,room|yatak odası,uyumak,yastık,gece,dolap,dinlenmek|卧室,睡觉,床,枕头,晚上,房间|wò shì,shuì jiào,chuáng,zhěn tou,wǎn shàng,fáng jiān
+A2|roof,house,top,rain,tile,cover|çatı,ev,üst,yağmur,kiremit,örtmek|屋顶,房子,上面,雨,瓦,遮盖|wū dǐng,fáng zi,shàng miàn,yǔ,wǎ,zhē gài
+B1|tunnel,underground,road,train,dark,mountain|tünel,yeraltı,yol,tren,karanlık,dağ|隧道,地下,路,火车,黑,山|suì dào,dì xià,lù,huǒ chē,hēi,shān
+B1|pavement,walk,street,pedestrian,road,side|kaldırım,yürümek,sokak,yaya,yol,kenar|人行道,走路,街,行人,马路,旁边|rén xíng dào,zǒu lù,jiē,xíng rén,mǎ lù,páng biān
+A2|entrance,enter,door,exit,building,inside|giriş,girmek,kapı,çıkış,bina,içeri|入口,进,门,出口,楼,里面|rù kǒu,jìn,mén,chū kǒu,lóu,lǐ miàn
+A2|exit,leave,door,entrance,outside,sign|çıkış,ayrılmak,kapı,giriş,dışarı,işaret|出口,离开,门,入口,外面,标志|chū kǒu,lí kāi,mén,rù kǒu,wài miàn,biāo zhì

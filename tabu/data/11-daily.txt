@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|birthday,cake,party,year,gift,candle|doğum günü,pasta,parti,yaş,hediye,mum|生日,蛋糕,派对,岁,礼物,蜡烛|shēng rì,dàn gāo,pài duì,suì,lǐ wù,là zhú
+A1|gift,give,birthday,present,box,surprise|hediye,vermek,doğum günü,paket,kutu,sürpriz|礼物,送,生日,盒子,惊喜,包|lǐ wù,sòng,shēng rì,hé zi,jīng xǐ,bāo
+A1|summer,hot,season,sun,holiday,beach|yaz,sıcak,mevsim,güneş,tatil,plaj|夏天,热,季节,太阳,假期,沙滩|xià tiān,rè,jì jié,tài yáng,jià qī,shā tān
+A1|winter,cold,snow,season,coat,ice|kış,soğuk,kar,mevsim,mont,buz|冬天,冷,雪,季节,外套,冰|dōng tiān,lěng,xuě,jì jié,wài tào,bīng
+A1|spring,season,flower,warm,green,grow|ilkbahar,mevsim,çiçek,ılık,yeşil,büyümek|春天,季节,花,暖和,绿,生长|chūn tiān,jì jié,huā,nuǎn huo,lǜ,shēng zhǎng
+A1|weekend,Saturday,Sunday,rest,work,free|hafta sonu,cumartesi,pazar,dinlenmek,iş,boş|周末,星期六,星期天,休息,工作,放假|zhōu mò,xīng qī liù,xīng qī tiān,xiū xi,gōng zuò,fàng jià
+A1|week,seven,days,Monday,month,Sunday|hafta,yedi,gün,pazartesi,ay,pazar|星期,七,天,周一,月,周末|xīng qī,qī,tiān,zhōu yī,yuè,zhōu mò
+A1|today,now,day,tomorrow,yesterday,date|bugün,şimdi,gün,yarın,dün,tarih|今天,现在,天,明天,昨天,日期|jīn tiān,xiàn zài,tiān,míng tiān,zuó tiān,rì qī
+A1|morning,early,wake,sun,breakfast,day|sabah,erken,uyanmak,güneş,kahvaltı,gün|早上,早,起床,太阳,早餐,天|zǎo shàng,zǎo,qǐ chuáng,tài yáng,zǎo cān,tiān
+A1|night,dark,sleep,moon,star,day|gece,karanlık,uyumak,ay,yıldız,gündüz|晚上,黑,睡觉,月亮,星星,白天|wǎn shàng,hēi,shuì jiào,yuè liang,xīng xīng,bái tiān
+A1|year,month,twelve,new,calendar,age|yıl,ay,on iki,yeni,takvim,yaş|年,月,十二,新,日历,岁|nián,yuè,shí èr,xīn,rì lì,suì
+A1|red,colour,blood,tomato,stop,rose|kırmızı,renk,kan,domates,dur,gül|红色,颜色,血,西红柿,停,玫瑰|hóng sè,yán sè,xuè,xī hóng shì,tíng,méi gui
+A1|blue,colour,sky,sea,cold,jeans|mavi,renk,gökyüzü,deniz,soğuk,kot|蓝色,颜色,天空,海,牛仔裤,冷|lán sè,yán sè,tiān kōng,hǎi,niú zǎi kù,lěng
+A1|black,colour,dark,night,white,coffee|siyah,renk,karanlık,gece,beyaz,kara|黑色,颜色,暗,晚上,白色,头发|hēi sè,yán sè,àn,wǎn shàng,bái sè,tóu fa
+A1|hot,cold,summer,sun,temperature,fire|sıcak,soğuk,yaz,güneş,derece,ateş|热,冷,夏天,太阳,温度,火|rè,lěng,xià tiān,tài yáng,wēn dù,huǒ
+A1|big,small,large,size,huge,giant|büyük,küçük,kocaman,boyut,dev,iri|大,小,尺寸,巨大,宽,高|dà,xiǎo,chǐ cùn,jù dà,kuān,gāo
+A1|fast,slow,quick,speed,run,car|hızlı,yavaş,çabuk,sürat,koşmak,araba|快,慢,速度,跑,车,迅速|kuài,màn,sù dù,pǎo,chē,xùn sù
+A1|expensive,money,cheap,price,cost,much|pahalı,para,ucuz,fiyat,maliyet,çok|贵,钱,便宜,价格,花,多|guì,qián,pián yi,jià gé,huā,duō
+A2|dangerous,safe,risk,careful,hurt,warning|tehlikeli,güvenli,risk,dikkat,zarar,uyarı|危险,安全,小心,受伤,警告,风险|wēi xiǎn,ān quán,xiǎo xīn,shòu shāng,jǐng gào,fēng xiǎn
+A2|noisy,loud,sound,quiet,ear,neighbour|gürültülü,yüksek,ses,sessiz,kulak,komşu|吵,大声,声音,安静,耳朵,邻居|chǎo,dà shēng,shēng yīn,ān jìng,ěr duo,lín jū
+A2|empty,full,nothing,inside,glass,space|boş,dolu,hiçbir şey,iç,bardak,yer|空,满,没有,里面,杯子,地方|kōng,mǎn,méi yǒu,lǐ miàn,bēi zi,dì fang
+A2|secret,tell,hide,nobody,know,whisper|sır,söylemek,saklamak,kimse,bilmek,gizli|秘密,告诉,藏,没有人,知道,悄悄|mì mì,gào su,cáng,méi yǒu rén,zhī dao,qiāo qiāo
+A1|luck,good,chance,fortune,lottery,win|şans,iyi,fırsat,talih,çekiliş,kazanmak|运气,好,机会,幸运,赢,彩票|yùn qì,hǎo,jī huì,xìng yùn,yíng,cǎi piào
+B1|queue,wait,line,people,stand,behind|bekleme sırası,beklemek,insanlar,durmak,arka,ön|队伍,等,排队,人,站,后面|duì wu,děng,pái duì,rén,zhàn,hòu miàn
+A2|opposite,different,other,side,against,same|zıt,farklı,diğer,taraf,karşı,ters|相反,不同,另一边,对面,反,对|xiāng fǎn,bù tóng,lìng yī biān,duì miàn,fǎn,duì
+B1|habit,always,do,every,routine,bad|alışkanlık,her zaman,yapmak,rutin,kötü,huy|习惯,总是,做,每天,坏,改|xí guàn,zǒng shì,zuò,měi tiān,huài,gǎi
+B1|rumour,hear,true,gossip,people,spread|söylenti,duymak,doğru,dedikodu,insanlar,yayılmak|谣言,听说,真的,八卦,人,传|yáo yán,tīng shuō,zhēn de,bā guà,rén,chuán
+A2|advice,help,suggest,should,give,opinion|tavsiye,yardım,önermek,gerekmek,vermek,öğüt|建议,帮助,应该,给,意见,提|jiàn yì,bāng zhù,yīng gāi,gěi,yì jiàn,tí
+B2|coincidence,chance,same,time,accident,surprise|tesadüf,şans,aynı,zaman,kaza,rastlantı|巧合,碰巧,一样,时间,偶然,没想到|qiǎo hé,pèng qiǎo,yī yàng,shí jiān,ǒu rán,méi xiǎng dào
+B2|priority,first,important,most,order,urgent|öncelik,ilk,önemli,en,sıra,acil|优先,第一,重要,最,顺序,紧急|yōu xiān,dì yī,zhòng yào,zuì,shùn xù,jǐn jí
+B1|compromise,agree,middle,both,give,deal|uzlaşma,anlaşmak,orta,iki taraf,taviz,ödün|妥协,同意,中间,双方,让步,商量|tuǒ xié,tóng yì,zhōng jiān,shuāng fāng,ràng bù,shāng liang
+A2|autumn,season,leaves,fall,trees,cool|sonbahar,mevsim,yaprak,dökülmek,ağaç,serin|秋天,季节,叶子,落,树,凉|qiū tiān,jì jié,yè zi,luò,shù,liáng
+A1|tomorrow,today,yesterday,next,day,future|yarın,bugün,dün,sonraki,gün,gelecek|明天,今天,昨天,下一个,天,未来|míng tiān,jīn tiān,zuó tiān,xià yī gè,tiān,wèi lái
+A1|yesterday,today,tomorrow,last,day,past|dün,bugün,yarın,önceki,gün,geçmiş|昨天,今天,明天,上一个,天,过去|zuó tiān,jīn tiān,míng tiān,shàng yī gè,tiān,guò qù
+A1|afternoon,day,noon,lunch,morning,evening|öğleden sonra,gündüz,öğle yemeği,sabah,akşam,saat|下午,白天,中午,午饭,早上,傍晚|xià wǔ,bái tiān,zhōng wǔ,wǔ fàn,zǎo shàng,bàng wǎn
+A1|evening,day,sunset,dinner,night,late|akşam,gün,gün batımı,akşam yemeği,gece,geç|傍晚,白天,日落,晚饭,晚上,晚|bàng wǎn,bái tiān,rì luò,wǎn fàn,wǎn shàng,wǎn
+A1|minute,time,sixty,seconds,hour,clock|dakika,zaman,altmış,saniye,saat,kısa|分钟,时间,六十,秒,小时,钟|fēn zhōng,shí jiān,liù shí,miǎo,xiǎo shí,zhōng
+A1|hour,time,sixty,minutes,clock,day|bir saat,zaman,altmış,dakika,gün,süre|小时,时间,六十,分钟,钟,天|xiǎo shí,shí jiān,liù shí,fēn zhōng,zhōng,tiān
+A1|month,year,calendar,days,twelve,date|takvim ayı,yıl,gün,on iki,tarih,süre|月份,年,日历,天,十二,日期|yuè fèn,nián,rì lì,tiān,shí èr,rì qī
+A1|white,colour,snow,milk,black,light|beyaz,renk,kar,süt,siyah,açık|白色,颜色,雪,牛奶,黑色,浅|bái sè,yán sè,xuě,niú nǎi,hēi sè,qiǎn
+A1|green,colour,grass,leaf,tree,blue|yeşil,renk,çimen,yaprak,ağaç,mavi|绿色,颜色,草,叶子,树,蓝色|lǜ sè,yán sè,cǎo,yè zi,shù,lán sè
+A1|yellow,colour,sun,banana,lemon,bright|sarı,renk,güneş,muz,limon,parlak|黄色,颜色,太阳,香蕉,柠檬,亮|huáng sè,yán sè,tài yáng,xiāng jiāo,níng méng,liàng
+A1|cold,hot,winter,ice,temperature,snow|soğuk,sıcak,kış,buz,derece,kar|冷,热,冬天,冰,温度,雪|lěng,rè,dōng tiān,bīng,wēn dù,xuě
+A1|small,big,little,size,tiny,short|küçük,büyük,ufak,boyut,minik,kısa|小,大,尺寸,微小,短,少|xiǎo,dà,chǐ cùn,wēi xiǎo,duǎn,shǎo
+A1|slow,fast,speed,turtle,time,quick|yavaş,hızlı,hız,kaplumbağa,zaman,ağır|慢,快,速度,龟,时间,缓慢|màn,kuài,sù dù,guī,shí jiān,huǎn màn
+A1|cheap,expensive,price,money,low,cost|ucuz,pahalı,fiyat,para,düşük,maliyet|便宜,贵,价格,钱,低,费用|pián yi,guì,jià gé,qián,dī,fèi yòng
+A1|clean,dirty,wash,soap,tidy,dust|temiz,kirli,yıkamak,sabun,düzenli,toz|干净,脏,洗,肥皂,整齐,灰尘|gān jìng,zāng,xǐ,féi zào,zhěng qí,huī chén
+A1|dirty,clean,mud,dust,wash,stain|kirli,temiz,çamur,toz,yıkamak,leke|脏,干净,泥,灰尘,洗,污渍|zāng,gān jìng,ní,huī chén,xǐ,wū zì
+A1|full,empty,inside,no space,filled,container|dolu,boş,içerisi,yer kalmamak,doldurmak,kap|满,空,里面,没空间,装,容器|mǎn,kōng,lǐ miàn,méi kōng jiān,zhuāng,róng qì
+A1|quiet,noisy,silent,sound,library,whisper|sessiz,gürültülü,susmak,ses,kütüphane,fısıldamak|安静,吵,无声,声音,图书馆,小声|ān jìng,chǎo,wú shēng,shēng yīn,tú shū guǎn,xiǎo shēng

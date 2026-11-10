@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A2|wedding,marry,bride,ring,celebrate,family|düğün,evlenmek,gelin,yüzük,kutlamak,aile|婚礼,结婚,新娘,戒指,庆祝,家庭|hūn lǐ,jié hūn,xīn niáng,jiè zhǐ,qìng zhù,jiā tíng
+A2|country,nation,flag,border,world,capital|ülke,millet,bayrak,sınır,dünya,başkent|国家,国旗,边境,世界,首都,民族|guó jiā,guó qí,biān jìng,shì jiè,shǒu dū,mín zú
+A1|world,Earth,globe,country,planet,map|dünya,yerküre,ülke,gezegen,harita,küre|世界,地球,国家,行星,地图,全球|shì jiè,dì qiú,guó jiā,xíng xīng,dì tú,quán qiú
+A1|flag,country,colour,pole,wave,nation|bayrak,ülke,renk,direk,dalgalanmak,millet|旗子,国旗,国家,颜色,杆,升|qí zi,guó qí,guó jiā,yán sè,gān,shēng
+A1|New Year,calendar,first,celebrate,midnight,fireworks|yılbaşı,takvim,ilk,kutlamak,gece yarısı,havai fişek|新年,日历,第一,庆祝,半夜,烟花|xīn nián,rì lì,dì yī,qìng zhù,bàn yè,yān huā
+B1|teamwork,together,group,help,goal,cooperate|takım çalışması,birlikte,grup,yardım,hedef,işbirliği|团队合作,一起,小组,帮助,目标,配合|tuán duì hé zuò,yī qǐ,xiǎo zǔ,bāng zhù,mù biāo,pèi hé
+B1|community,people,together,local,neighbours,group|topluluk,insanlar,birlikte,yerel,komşular,grup|社区,人,一起,当地,邻居,群体|shè qū,rén,yī qǐ,dāng dì,lín jū,qún tǐ
+A1|festival,celebrate,music,people,culture,holiday|festival,kutlamak,müzik,insanlar,kültür,şenlik|庆典,庆祝,音乐,人,文化,放假|qìng diǎn,qìng zhù,yīn yuè,rén,wén huà,fàng jià
+A2|capital,city,country,main,government,politics|başkent,şehir,ülke,ana,hükümet,siyaset|首都,城市,国家,主要,政府,政治|shǒu dū,chéng shì,guó jiā,zhǔ yào,zhèng fǔ,zhèng zhì
+A1|war,fight,army,peace,soldier,weapon|savaş,dövüşmek,ordu,barış,asker,silah|战争,打,军队,和平,士兵,武器|zhàn zhēng,dǎ,jūn duì,hé píng,shì bīng,wǔ qì
+A1|peace,war,quiet,dove,calm,world|barış,savaş,sessiz,güvercin,huzur,dünya|和平,战争,安静,鸽子,平静,世界|hé píng,zhàn zhēng,ān jìng,gē zi,píng jìng,shì jiè
+A1|culture,tradition,country,art,language,people|kültür,gelenek,ülke,sanat,dil,toplum|文化,传统,国家,艺术,语言,习惯|wén huà,chuán tǒng,guó jiā,yì shù,yǔ yán,xí guàn
+A2|tradition,old,culture,custom,family,pass|gelenek,eski,kültür,görenek,aile,âdet|传统,古老,文化,习惯,家庭,传|chuán tǒng,gǔ lǎo,wén huà,xí guàn,jiā tíng,chuán
+B1|fireworks,sky,night,colour,explode,celebrate|havai fişek,gökyüzü,gece,renk,patlamak,kutlamak|烟花,天空,晚上,颜色,爆炸,过年|yān huā,tiān kōng,wǎn shàng,yán sè,bào zhà,guò nián
+A2|dragon,fire,fly,legend,scales,monster|ejderha,ateş,uçmak,efsane,pul,canavar|龙,火,飞,传说,鳞片,怪物|lóng,huǒ,fēi,chuán shuō,lín piàn,guài wù
+A2|castle,king,old,stone,tower,princess|kale,kral,eski,taş,kule,prenses|城堡,国王,古老,石头,塔,公主|chéng bǎo,guó wáng,gǔ lǎo,shí tou,tǎ,gōng zhǔ
+B1|recycling,waste,reuse,paper,plastic,bin|geri dönüşüm,atık,yeniden kullanmak,kağıt,plastik,kutu|回收,废物,再用,纸,塑料,垃圾桶|huí shōu,fèi wù,zài yòng,zhǐ,sù liào,lā jī tǒng
+A2|energy,power,electricity,heat,food,fuel|enerji,güç,elektrik,ısı,besin,yakıt|能量,动力,电,热,食物,燃料|néng liàng,dòng lì,diàn,rè,shí wù,rán liào
+B2|drought,dry,rain,water,farm,shortage|kuraklık,kuru,yağmur,su,tarla,kıtlık|干旱,干,雨,水,农田,缺乏|gān hàn,gān,yǔ,shuǐ,nóng tián,quē fá
+B1|flood,water,rain,river,overflow,disaster|sel,su,yağmur,nehir,taşmak,afet|洪水,水,雨,河,淹,灾难|hóng shuǐ,shuǐ,yǔ,hé,yān,zāi nàn
+B2|wildlife,animals,nature,forest,protect,habitat|yaban hayatı,hayvan,doğa,orman,korumak,yaşam alanı|野生动物,自然,森林,保护,栖息地,自由|yě shēng dòng wù,zì rán,sēn lín,bǎo hù,qī xī dì,zì yóu
+B1|ocean,sea,water,deep,big,wave|okyanus,deniz,su,derin,büyük,dalga|海洋,海,水,深,大,浪|hǎi yáng,hǎi,shuǐ,shēn,dà,làng
+A2|ancient,old,history,past,ruins,ago|antik,eski,tarih,geçmiş,kalıntı,çağ|古老,旧,历史,过去,遗迹,很久|gǔ lǎo,jiù,lì shǐ,guò qù,yí jì,hěn jiǔ
+B1|leader,group,guide,team,decision,follow|lider,grup,yönetmek,takım,karar,takip|领导者,小组,带领,团队,决定,跟随|lǐng dǎo zhě,xiǎo zǔ,dài lǐng,tuán duì,jué dìng,gēn suí
+A2|continent,land,large,seven,world,ocean|kıta,kara,büyük,yedi,dünya,okyanus|大洲,陆地,大,七,世界,海洋|dà zhōu,lù dì,dà,qī,shì jiè,hǎi yáng
+A2|population,people,number,country,million,many|nüfus,insanlar,sayı,ülke,milyon,kalabalık|人口,人,数量,国家,亿,多|rén kǒu,rén,shù liàng,guó jiā,yì,duō
+B1|election,vote,president,choose,party,candidate|seçim,oy,başkan,seçmek,parti,sandık|选举,投票,总统,选,票,候选人|xuǎn jǔ,tóu piào,zǒng tǒng,xuǎn,piào,hòu xuǎn rén
+B1|currency,money,exchange,coin,note,country|para birimi,döviz,madeni para,banknot,değiştirmek,ülke|货币,钱,兑换,硬币,纸币,国家|huò bì,qián,duì huàn,yìng bì,zhǐ bì,guó jiā
+B1|border,country,line,cross,passport,between|sınır,ülke,çizgi,geçmek,pasaport,arasında|边境,国家,线,过,护照,之间|biān jìng,guó jiā,xiàn,guò,hù zhào,zhī jiān
+B2|legend,story,old,myth,hero,true|efsane,hikaye,eski,mit,kahraman,gerçek|传说,故事,古老,神话,英雄,真的|chuán shuō,gù shi,gǔ lǎo,shén huà,yīng xióng,zhēn de
+B2|environment,nature,protect,pollution,green,Earth|çevre,doğa,korumak,kirlilik,yeşil,Dünya|环境,自然,保护,污染,绿色,地球|huán jìng,zì rán,bǎo hù,wū rǎn,lǜ sè,dì qiú
+B1|economy,money,country,market,trade,growth|ekonomi,para,ülke,piyasa,ticaret,büyüme|经济,钱,国家,市场,贸易,发展|jīng jì,qián,guó jiā,shì chǎng,mào yì,fā zhǎn
+B1|generation,age,young,old,family,parents|nesil,yaş,genç,yaşlı,aile,kuşak|一代,年龄,年轻,老,家庭,父母|yī dài,nián líng,nián qīng,lǎo,jiā tíng,fù mǔ
+A2|nature,trees,animals,outside,environment,forest|doğa,ağaç,hayvan,dışarı,çevre,orman|自然,树,动物,外面,环境,森林|zì rán,shù,dòng wù,wài miàn,huán jìng,sēn lín
+A1|weather,rain,sun,wind,cloud,forecast|hava durumu,yağmur,güneş,rüzgar,bulut,tahmin|天气,雨,太阳,风,云,预报|tiān qì,yǔ,tài yáng,fēng,yún,yù bào
+A2|temperature,hot,cold,degree,measure,thermometer|sıcaklık,sıcak,soğuk,derece,ölçmek,termometre|温度,热,冷,度,测量,温度计|wēn dù,rè,lěng,dù,cè liáng,wēn dù jì
+A1|fire,hot,burn,flame,smoke,water|yangın,sıcak,yanmak,alev,duman,su|火灾,热,烧,火焰,烟,水|huǒ zāi,rè,shāo,huǒ yàn,yān,shuǐ
+A2|land,sea,ground,earth,dry,area|kara,deniz,yer,toprak,kuru,alan|陆地,海,地面,土地,干,地区|lù dì,hǎi,dì miàn,tǔ dì,gān,dì qū
+A2|space,stars,planet,rocket,universe,astronaut|uzay,yıldız,gezegen,roket,evren,astronot|太空,星星,行星,火箭,宇宙,宇航员|tài kōng,xīng xīng,xíng xīng,huǒ jiàn,yǔ zhòu,yǔ háng yuán
+A2|future,past,tomorrow,next,time,plan|gelecek,geçmiş,yarın,sonraki,zaman,plan|未来,过去,明天,下一个,时间,计划|wèi lái,guò qù,míng tiān,xià yī gè,shí jiān,jì huà
+A2|past,future,yesterday,before,history,time|geçmiş,gelecek,dün,önce,tarih,zaman|过去,未来,昨天,以前,历史,时间|guò qù,wèi lái,zuó tiān,yǐ qián,lì shǐ,shí jiān
+A2|change,different,new,old,become,transform|değişim,farklı,yeni,eski,olmak,dönüşüm|变化,不同,新,旧,变成,改变|biàn huà,bù tóng,xīn,jiù,biàn chéng,gǎi biàn
+A2|rule,follow,obey,game,allowed,break|kural,uymak,oyun,izin,yasak,ihlal|规则,遵守,游戏,允许,禁止,违反|guī zé,zūn shǒu,yóu xì,yǔn xǔ,jìn zhǐ,wéi fǎn
+B1|law,legal,court,police,rule,crime|hukuk,yasal,mahkeme,polis,kural,suç|法律,合法,法院,警察,规则,犯罪|fǎ lǜ,hé fǎ,fǎ yuàn,jǐng chá,guī zé,fàn zuì
+B1|rights,freedom,equality,law,people,protect|haklar,özgürlük,eşitlik,hukuk,insan,korumak|权利,自由,平等,法律,人,保护|quán lì,zì yóu,píng děng,fǎ lǜ,rén,bǎo hù
+B1|safety,danger,protect,careful,accident,security|güvenlik,tehlike,korumak,dikkat,kaza,tedbir|安全,危险,保护,小心,事故,防护|ān quán,wēi xiǎn,bǎo hù,xiǎo xīn,shì gù,fáng hù
+B1|emergency,urgent,help,danger,ambulance,call|acil durum,ivedi,yardım,tehlike,ambulans,aramak|紧急情况,急,帮助,危险,救护车,呼叫|jǐn jí qíng kuàng,jí,bāng zhù,wēi xiǎn,jiù hù chē,hū jiào
+B1|solution,problem,answer,solve,find,method|çözüm,sorun,cevap,çözmek,bulmak,yöntem|解决方案,问题,答案,解决,找,方法|jiě jué fāng àn,wèn tí,dá àn,jiě jué,zhǎo,fāng fǎ
+A2|problem,difficulty,solution,trouble,solve,help|sorun,zorluk,çözüm,sıkıntı,çözmek,yardım|问题,困难,解决方案,麻烦,解决,帮助|wèn tí,kùn nán,jiě jué fāng àn,má fan,jiě jué,bāng zhù
+B2|resource,water,energy,material,natural,use|kaynak,su,enerji,malzeme,doğal,kullanmak|资源,水,能源,材料,天然,使用|zī yuán,shuǐ,néng yuán,cái liào,tiān rán,shǐ yòng

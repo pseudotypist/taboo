@@ -1,0 +1,53 @@
+# Format: LEVEL|english,5 taboo|türkçe,5 yasak|中文,5个禁词|pinyin,5 taboo pinyin
+# UTF-8. Pinyin fields align one-to-one with the six Chinese fields.
+# Levels are estimates for the English target sense; A1/A2/B1/B2 only.
+A1|computer,screen,keyboard,mouse,laptop,internet|bilgisayar,ekran,klavye,fare,laptop,internet|电脑,屏幕,键盘,鼠标,笔记本,上网|diàn nǎo,píng mù,jiàn pán,shǔ biāo,bǐ jì běn,shàng wǎng
+A1|camera,photo,picture,take,lens,phone|fotoğraf makinesi,kamera,resim,çekmek,lens,telefon|相机,照片,拍,镜头,手机,摄影|xiàng jī,zhào piàn,pāi,jìng tóu,shǒu jī,shè yǐng
+A1|internet,online,web,computer,connect,wifi|internet,çevrimiçi,web,bilgisayar,bağlanmak,wifi|互联网,上网,网站,电脑,连接,网络|hù lián wǎng,shàng wǎng,wǎng zhàn,diàn nǎo,lián jiē,wǎng luò
+A1|radio,listen,music,station,sound,news|radyo,dinlemek,müzik,istasyon,ses,frekans|收音机,听,音乐,电台,声音,广播|shōu yīn jī,tīng,yīn yuè,diàn tái,shēng yīn,guǎng bō
+A1|star,sky,night,shine,space,moon|yıldız,gökyüzü,gece,parlamak,uzay,kaymak|星星,天空,晚上,闪,太空,亮|xīng xīng,tiān kōng,wǎn shàng,shǎn,tài kōng,liàng
+B1|robot,machine,metal,artificial,human,future|robot,makine,metal,yapay,insan,gelecek|机器人,机器,金属,人工,人类,未来|jī qì rén,jī qì,jīn shǔ,rén gōng,rén lèi,wèi lái
+A1|email,send,message,computer,address,inbox|e-posta,göndermek,mesaj,bilgisayar,adres,mail|电子邮件,发,信息,电脑,地址,邮箱|diàn zǐ yóu jiàn,fā,xìn xī,diàn nǎo,dì zhǐ,yóu xiāng
+B1|password,secret,login,account,code,enter|şifre,gizli,giriş,hesap,kod,parola|密码,秘密,登录,账户,数字,输入|mì mǎ,mì mì,dēng lù,zhàng hù,shù zì,shū rù
+A2|battery,charge,energy,phone,power,empty|pil,şarj,enerji,telefon,güç,bitmek|电池,充电,能量,手机,电,没电|diàn chí,chōng diàn,néng liàng,shǒu jī,diàn,méi diàn
+A1|video,watch,film,record,screen,camera|video,izlemek,film,kaydetmek,ekran,kamera|视频,看,电影,录,屏幕,相机|shì pín,kàn,diàn yǐng,lù,píng mù,xiàng jī
+B1|keyboard,type,computer,letter,key,piano|klavye,yazmak,bilgisayar,harf,tuş,piyano|键盘,打字,电脑,字母,键,钢琴|jiàn pán,dǎ zì,diàn nǎo,zì mǔ,jiàn,gāng qín
+A2|screen,display,phone,computer,touch,television|ekran,görüntü,telefon,bilgisayar,dokunmak,televizyon|屏幕,显示,手机,电脑,触摸,电视|píng mù,xiǎn shì,shǒu jī,diàn nǎo,chù mō,diàn shì
+B1|rocket,space,launch,moon,fly,fire|roket,uzay,fırlatmak,ay,uçmak,ateş|火箭,太空,发射,月亮,飞,航天|huǒ jiàn,tài kōng,fā shè,yuè liang,fēi,háng tiān
+A2|planet,Earth,space,sun,Mars,round|gezegen,Dünya,uzay,güneş,Mars,yörünge|行星,地球,太空,太阳,火星,圆|xíng xīng,dì qiú,tài kōng,tài yáng,huǒ xīng,yuán
+B1|electricity,power,light,energy,wire,plug|elektrik,güç,ışık,enerji,kablo,priz|电,能量,灯,电线,插座,发电|diàn,néng liàng,dēng,diàn xiàn,chā zuò,fā diàn
+B1|engine,car,motor,power,machine,fuel|motor,araba,güç,makine,yakıt,çalışmak|发动机,汽车,马达,动力,机器,油|fā dòng jī,qì chē,mǎ dá,dòng lì,jī qì,yóu
+B1|satellite,space,orbit,signal,Earth,GPS|uydu,uzay,yörünge,sinyal,Dünya,anten|卫星,太空,轨道,信号,地球,导航|wèi xīng,tài kōng,guǐ dào,xìn hào,dì qiú,dǎo háng
+B2|microscope,small,see,laboratory,lens,cell|mikroskop,küçük,görmek,laboratuvar,mercek,hücre|显微镜,小,看,实验室,镜片,细胞|xiǎn wēi jìng,xiǎo,kàn,shí yàn shì,jìng piàn,xì bāo
+B1|experiment,test,science,laboratory,try,result|deney,test,bilim,laboratuvar,denemek,sonuç|实验,测试,科学,实验室,试,结果|shí yàn,cè shì,kē xué,shí yàn shì,shì,jié guǒ
+B2|gravity,fall,Earth,pull,weight,apple|yer çekimi,düşmek,Dünya,çekmek,ağırlık,elma|重力,掉,地球,吸引,重量,苹果|zhòng lì,diào,dì qiú,xī yǐn,zhòng liàng,píng guǒ
+B1|oxygen,air,breathe,gas,need,lungs|oksijen,hava,nefes,gaz,ihtiyaç,akciğer|氧气,空气,呼吸,气体,需要,肺|yǎng qì,kōng qì,hū xī,qì tǐ,xū yào,fèi
+B1|virus,sick,infection,computer,spread,small|virüs,hasta,enfeksiyon,bilgisayar,yayılmak,bulaşmak|病毒,生病,感染,电脑,传播,小|bìng dú,shēng bìng,gǎn rǎn,diàn nǎo,chuán bō,xiǎo
+A2|download,file,internet,computer,save,upload|indirmek,dosya,internet,bilgisayar,kaydetmek,yüklemek|下载,文件,网络,电脑,保存,上传|xià zài,wén jiàn,wǎng luò,diàn nǎo,bǎo cún,shàng chuán
+A2|headphones,music,ears,listen,sound,wear|kulaklık,müzik,kulak,dinlemek,ses,takmak|耳机,音乐,耳朵,听,声音,戴|ěr jī,yīn yuè,ěr duo,tīng,shēng yīn,dài
+B1|charger,battery,phone,cable,plug,power|şarj aleti,pil,telefon,kablo,priz,güç|充电器,电池,手机,线,插座,电|chōng diàn qì,diàn chí,shǒu jī,xiàn,chā zuò,diàn
+B2|telescope,star,see,far,space,lens|teleskop,yıldız,görmek,uzak,uzay,mercek|望远镜,星星,看,远,太空,镜片|wàng yuǎn jìng,xīng xīng,kàn,yuǎn,tài kōng,jìng piàn
+A2|invention,new,create,idea,first,useful|icat,yeni,yaratmak,fikir,ilk,yararlı|发明,新,创造,想法,第一,有用|fā míng,xīn,chuàng zào,xiǎng fǎ,dì yī,yǒu yòng
+B2|artificial intelligence,computer,robot,smart,machine,learn|yapay zeka,bilgisayar,robot,akıllı,makine,öğrenmek|人工智能,电脑,机器人,聪明,机器,学习|rén gōng zhì néng,diàn nǎo,jī qì rén,cōng míng,jī qì,xué xí
+B1|software,program,computer,code,application,hardware|yazılım,program,bilgisayar,kod,uygulama,donanım|软件,程序,电脑,代码,应用,硬件|ruǎn jiàn,chéng xù,diàn nǎo,dài mǎ,yìng yòng,yìng jiàn
+B2|atom,small,science,matter,centre,energy|atom,küçük,bilim,madde,merkez,enerji|原子,小,科学,物质,中心,能量|yuán zǐ,xiǎo,kē xué,wù zhì,zhōng xīn,néng liàng
+A2|laptop,computer,portable,keyboard,screen,battery|dizüstü bilgisayar,taşınabilir,klavye,ekran,pil,çanta|笔记本电脑,便携,键盘,屏幕,电池,上网|bǐ jì běn diàn nǎo,biàn xié,jiàn pán,píng mù,diàn chí,shàng wǎng
+A2|printer,paper,ink,computer,copy,machine|yazıcı,kağıt,mürekkep,bilgisayar,kopya,makine|打印机,纸,墨水,电脑,复印,机器|dǎ yìn jī,zhǐ,mò shuǐ,diàn nǎo,fù yìn,jī qì
+A2|mouse,computer,click,pointer,button,hand|bilgisayar faresi,tıklamak,imleç,düğme,el,ekran|鼠标,电脑,点击,指针,按键,手|shǔ biāo,diàn nǎo,diǎn jī,zhǐ zhēn,àn jiàn,shǒu
+B1|microphone,voice,speak,sing,sound,record|mikrofon,ses,konuşmak,şarkı söylemek,kayıt,sahne|麦克风,声音,说话,唱歌,录音,舞台|mài kè fēng,shēng yīn,shuō huà,chàng gē,lù yīn,wǔ tái
+B1|speaker,sound,music,loud,volume,listen|hoparlör,ses,müzik,yüksek,ses seviyesi,dinlemek|音箱,声音,音乐,响,音量,听|yīn xiāng,shēng yīn,yīn yuè,xiǎng,yīn liàng,tīng
+A2|remote control,television,button,channel,battery,distance|uzaktan kumanda,televizyon,düğme,kanal,pil,mesafe|遥控器,电视,按钮,频道,电池,距离|yáo kòng qì,diàn shì,àn niǔ,pín dào,diàn chí,jù lí
+B1|cable,wire,connect,electricity,plug,charger|kablo,tel,bağlamak,elektrik,fiş,şarj aleti|电缆,电线,连接,电,插头,充电器|diàn lǎn,diàn xiàn,lián jiē,diàn,chā tóu,chōng diàn qì
+B1|plug,socket,electricity,pins,cable,connect|fiş,priz,elektrik,uç,kablo,takmak|插头,插座,电,金属,线,连接|chā tóu,chā zuò,diàn,jīn shǔ,xiàn,lián jiē
+B1|socket,wall,plug,electricity,holes,power|priz,duvar,fiş,elektrik,delik,güç|插座,墙,插头,电,孔,电源|chā zuò,qiáng,chā tóu,diàn,kǒng,diàn yuán
+A1|website,internet,page,address,browser,online|web sitesi,internet,sayfa,adres,tarayıcı,çevrimiçi|网站,互联网,网页,地址,浏览器,在线|wǎng zhàn,hù lián wǎng,wǎng yè,dì zhǐ,liú lǎn qì,zài xiàn
+B1|link,click,website,address,connect,page|bağlantı,tıklamak,site,adres,bağlamak,sayfa|链接,点击,网站,地址,连接,网页|liàn jiē,diǎn jī,wǎng zhàn,dì zhǐ,lián jiē,wǎng yè
+A2|file,computer,save,document,name,folder|dosya,bilgisayar,kaydetmek,belge,ad,klasör|文件,电脑,保存,文档,名字,文件夹|wén jiàn,diàn nǎo,bǎo cún,wén dàng,míng zì,wén jiàn jiā
+A2|folder,files,computer,organise,documents,inside|klasör,dosya,bilgisayar,düzenlemek,belge,içinde|文件夹,文件,电脑,整理,文档,里面|wén jiàn jiā,wén jiàn,diàn nǎo,zhěng lǐ,wén dàng,lǐ miàn
+B1|upload,internet,file,send,download,server|yüklemek,internet,dosya,göndermek,indirmek,sunucu|上传,网络,文件,发送,下载,服务器|shàng chuán,wǎng luò,wén jiàn,fā sòng,xià zài,fú wù qì
+A2|search,find,internet,look,word,result|aramak,bulmak,internet,bakmak,kelime,sonuç|搜索,找,网络,查,词,结果|sōu suǒ,zhǎo,wǎng luò,chá,cí,jié guǒ
+A2|click,mouse,button,press,computer,select|tıklamak,fare,düğme,basmak,bilgisayar,seçmek|点击,鼠标,按钮,按,电脑,选择|diǎn jī,shǔ biāo,àn niǔ,àn,diàn nǎo,xuǎn zé
+A2|save,file,computer,keep,document,store|kaydetmek,dosya,bilgisayar,saklamak,belge,depolamak|保存,文件,电脑,保留,文档,存储|bǎo cún,wén jiàn,diàn nǎo,bǎo liú,wén dàng,cún chǔ
+B1|delete,remove,file,computer,erase,trash|silmek,kaldırmak,dosya,bilgisayar,yok etmek,çöp|删除,去掉,文件,电脑,擦,垃圾桶|shān chú,qù diào,wén jiàn,diàn nǎo,cā,lā jī tǒng
+B1|memory,remember,brain,past,forget,computer|hafıza,hatırlamak,beyin,geçmiş,unutmak,bellek|记忆,记得,大脑,过去,忘记,电脑|jì yì,jì de,dà nǎo,guò qù,wàng jì,diàn nǎo
+B1|signal,phone,connection,radio,wave,send|sinyal,telefon,bağlantı,radyo,dalga,göndermek|信号,手机,连接,无线电,波,发送|xìn hào,shǒu jī,lián jiē,wú xiàn diàn,bō,fā sòng

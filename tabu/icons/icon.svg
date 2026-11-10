@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8e5beb"/>
+      <stop offset="1" stop-color="#e63462"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#g)"/>
+  <g transform="rotate(-8 256 256)">
+    <rect x="116" y="84" width="280" height="352" rx="40" fill="#1b1533" opacity=".25" transform="translate(0 14)"/>
+    <rect x="116" y="76" width="280" height="352" rx="40" fill="#fff"/>
+    <path d="M116 116a40 40 0 0 1 40-40h200a40 40 0 0 1 40 40v88H116z" fill="#1b1533"/>
+    <text x="256" y="170" text-anchor="middle" font-family="'Arial Rounded MT Bold','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="78" fill="#fff">TABU</text>
+    <rect x="166" y="244" width="180" height="28" rx="14" fill="#e5383b"/>
+    <rect x="188" y="300" width="136" height="28" rx="14" fill="#e5383b"/>
+    <rect x="156" y="356" width="200" height="28" rx="14" fill="#e5383b"/>
+  </g>
+</svg>
