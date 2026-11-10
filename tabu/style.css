@@ -175,11 +175,15 @@ h2:first-child { margin-top: 4px; }
   font-size: min(3.2rem, calc((min(100vw, 560px) - 80px) / (var(--n) * .7)));
 }
 .helpers { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; margin-top: 12px; }
-.helpers span { background: rgba(255, 255, 255, .14); border-radius: 999px; padding: 5px 12px; font-size: 1rem; font-weight: 600; }
-.helpers span i { font-style: normal; font-size: .7rem; font-weight: 800; opacity: .65; margin-right: 6px; letter-spacing: .05em; }
-.taboo-list { list-style: none; margin: 0; padding: 6px 12px; flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: space-evenly; }
+.helpers > span { background: rgba(255, 255, 255, .14); border-radius: 999px; padding: 5px 12px; font-size: 1rem; font-weight: 600; }
+.helpers > span i { font-style: normal; font-size: .7rem; font-weight: 800; opacity: .65; margin-right: 6px; letter-spacing: .05em; }
+.pinyin { display: block; font-size: .8rem; font-weight: 500; line-height: 1.25; text-transform: none; letter-spacing: normal; }
+.card-top > .pinyin { margin-top: 6px; color: #d1cbea; font-size: clamp(.85rem, 3.5vw, 1.1rem); }
+.helpers .pinyin { margin-top: 2px; font-size: .75rem; opacity: .85; }
+.taboo-list { list-style: none; margin: 0; padding: 6px 12px; flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: space-evenly; overflow-y: auto; }
 .taboo-list li { text-align: center; font-weight: 800; color: #d7263d; text-transform: uppercase; font-size: clamp(1.15rem, 5.6vw, 1.6rem); line-height: 1.15; overflow-wrap: anywhere; }
 .taboo-list li + li { border-top: 2px dashed #eee8f7; padding-top: 6px; }
+.taboo-list .pinyin { margin-top: 2px; color: #7b3b49; font-size: clamp(.75rem, 3vw, .9rem); }
 
 .dock { display: grid; grid-template-columns: 1fr 1fr 1.25fr; gap: 10px; flex: none; }
 .act {
@@ -211,7 +215,7 @@ h2:first-child { margin-top: 4px; }
 .panel { background: #fff; border-radius: 22px; padding: 6px; color: var(--ink); }
 .srow { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; min-height: 52px; padding: 6px 8px 6px 14px; border-radius: 16px; font-weight: 800; font-size: 1.05rem; text-align: left; }
 .srow + .srow { border-top: 1px solid #f0ecf8; }
-.srow span { text-transform: uppercase; overflow-wrap: anywhere; }
+.srow > span { text-transform: uppercase; overflow-wrap: anywhere; }
 .srow em { font-style: normal; flex: none; width: 44px; height: 40px; border-radius: 12px; display: grid; place-items: center; color: #fff; font-size: 1.2rem; }
 .res-c em { background: var(--ok); }
 .res-t em { background: var(--bad); }
@@ -256,10 +260,19 @@ h2:first-child { margin-top: 4px; }
 .sheet p { font-weight: 600; margin-bottom: 8px; }
 .confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 30; }
 
-@media (max-height: 640px) {
+@media (max-height: 740px) {
   .act { min-height: 68px; }
   .timer { height: 48px; font-size: 1.7rem; }
-  .card-top { padding: 10px 14px 12px; }
+  .card-top { padding: 8px 12px; }
+  .card-top small { margin-bottom: 4px; }
+  .play .word { font-size: min(2.4rem, calc((min(100vw, 560px) - 80px) / (var(--n) * .7))); }
+  .card-top > .pinyin { margin-top: 4px; font-size: .8rem; }
+  .helpers { margin-top: 6px; gap: 4px; }
+  .helpers > span { padding: 3px 6px; font-size: .75rem; }
+  .helpers > span i { font-size: .6rem; margin-right: 4px; }
+  .taboo-list li { font-size: 1rem; line-height: 1.1; }
+  .taboo-list li + li { padding-top: 3px; }
+  .taboo-list .pinyin { font-size: .675rem; line-height: 1.15; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
