@@ -47,7 +47,23 @@ node tools/build-cards.mjs
 
 Komuta CEFR-J kelime listesinin CSV dosyasının yolu verilirse, sabitlenmemiş kartların seviyesi o listeden yeniden okunur.
 
-Yeni sürümü yayınlamadan önce telefonun eski dosyaları tutmaması için `sw.js` içindeki `CACHE` adını değiştir (örneğin `tabu-v2`).
+### Yasak kelimelerin çevirisi
+
+Oyunda Çince oynayan takım her yasak kelimenin İngilizcesini, İngilizce oynayan takım Çincesini ve pinyinini görebilir. Bu çeviriler kartların içinde değil, üç ayrı dosyada durur:
+
+- `data/gloss-zh-en.txt`: `汉字|english`. Çince yasak kelimenin İngilizce anlamı.
+- `data/gloss-en-zh.txt`: `english|汉字`. İngilizce yasak kelimenin Çincesi.
+- `data/pinyin-extra.txt`: `汉字|pin yin`. Hiçbir kartta geçmeyen Çince çevirilerin okunuşu.
+
+Bir kelime yalnızca tek kartta farklı anlamdaysa satır `kelime@kart-kimliği|çeviri` biçiminde yazılır (örneğin `key@piano|键`). Kart kimliği İngilizce ana kelimedir; boşluk yerine tire kullanılır. Bir yasak kelime aynı zamanda başka bir kartın ana kelimesiyse çevirisi oradan otomatik alınır.
+
+Yeni kart eklediğinde derleme, çevirisi ya da pinyini eksik kalan kelimeleri `WARNING` satırlarıyla listeler; o kelimeler oyunda çevirisiz görünür.
+
+Türkçe yasak kelimelerin çevirisi yoktur; Türkçe yalnızca ana kelimede gösterilir.
+
+### Güncelleme
+
+Oyun internete bağlıyken her açılışta dosyaların yenisini sunucuya sorar, bu yüzden yeni sürüm bir sonraki açılışta gelir. Dosya listesi değişirse (yeni bir dosya eklenirse) `sw.js` içindeki `ASSETS` listesine ekle ve `CACHE` adını değiştir.
 
 Site `data/*.txt` dosyalarını doğrudan okumaz; üretilmiş `cards.js` dosyasını
 yükler. Veri değişiklikleriyle birlikte yeni `cards.js` dosyası da GitHub'a

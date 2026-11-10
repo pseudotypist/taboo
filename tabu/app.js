@@ -10,11 +10,27 @@ const LEVELS = ['A1', 'A2', 'B1', 'B2'];
 const CATS = window.TABU_CATS;
 const CARDS = window.TABU_CARDS.map(([id, cat, lvl, en, tr, zh, pinyin = []]) => ({ id, cat, lvl, en, tr, zh, pinyin }));
 const BY_ID = Object.fromEntries(CARDS.map((c) => [c.id, c]));
-const COLORS = ['#e63462', '#2f6fed', '#0e9f6e', '#8e5beb', '#e8590c', '#0b8a96', '#d6338a', '#5562d8'];
+const GLOSS = window.TABU_GLOSS || { ze: {}, ez: {}, zo: {}, eo: {} };
+const COLORS = ['#d93a2b', '#2659d9', '#17895a', '#6d4bd8', '#dc6414', '#0d8589', '#cf3a7f', '#3847a8'];
+// Line icons drawn on a 24 x 24 grid, so they look the same on every phone (emoji do not).
+const ICONS = {
+  back: 'M15 5l-7 7 7 7',
+  menu: 'M4 7h16M4 12h16M4 17h16',
+  pause: 'M9 5v14M15 5v14',
+  check: 'M5 12.5l4.5 4.5L19 7.5',
+  cross: 'M6 6l12 12M18 6L6 18',
+  skip: 'M4 18v-5a5 5 0 0 1 5-5h10M15 4l4 4-4 4',
+  nopass: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM5.7 5.7l12.6 12.6',
+  shield: 'M12 3l7 2.8v5.4c0 4.4-2.9 8.2-7 9.8-4.1-1.6-7-5.4-7-9.8V5.8z',
+  one: 'M12 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM5 20c.7-3.6 3.5-6 7-6s6.3 2.4 7 6',
+  statue: 'M5 21h14M7 18h10M8.5 18V9M15.5 18V9M12 18V9M6 9h12l-2-4H8z',
+  trophy: 'M8 4h8v5a4 4 0 0 1-8 0zM8 5.5H5c0 2.6 1.3 4 3.2 4.3M16 5.5h3c0 2.6-1.3 4-3.2 4.3M12 13v4M8.5 20h7M10 17h4',
+};
+const icon = (name) => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="${ICONS[name]}"/></svg>`;
 const JOKERS = ['double', 'extra', 'nopass', 'shield', 'one', 'statue'];
-const JOKER_ICON = { double: '×2', extra: '+30', nopass: '🚫', shield: '🛡️', one: '☝️', statue: '🗿' };
+const JOKER_ICON = { double: '×2', extra: '+30', nopass: icon('nopass'), shield: icon('shield'), one: icon('one'), statue: icon('statue') };
 const JOKER_CHANCE = [0, 0.25, 0.5];
-const RES_ICON = { c: '✓', t: '✕', p: '↷', '-': '–' };
+const RES_ICON = { c: icon('check'), t: icon('cross'), p: icon('skip'), '-': '–' };
 const NEXT_RES = { c: 't', t: 'p', p: '-', '-': 'c' };
 const STEP = { time: [30, 180, 15], passes: [-1, 10, 1], correct: [1, 5, 1], taboo: [0, 5, 1], passCost: [0, 3, 1], target: [10, 200, 5], rounds: [1, 20, 1] };
 const MIN_CARDS = 20;
@@ -29,7 +45,7 @@ const T = {
     deckInfo: '{n} kart · 3 dil',
     setup: 'Oyun Kurulumu', teams: 'Takımlar', team: 'Takım', addTeam: '+ Takım ekle',
     playLang: 'Oyun dili', levels: 'Kelime seviyesi', levelHint: 'A1–A2 kolay · B1 orta · B2 zor',
-    helpers: 'Kartta çevirisini göster', available: '{n} kart uygun', tooFew: 'Bu seçimle yeterli kart yok (en az {n} lazım)',
+    helpers: 'Kartta çevirisini göster', helpHint: 'Yasak kelimelerin çevirisi yalnızca İngilizce ↔ Çince arasında var; diğer dillerde sadece ana kelime çevrilir.', available: '{n} kart uygun', tooFew: 'Bu seçimle yeterli kart yok (en az {n} lazım)',
     rules: 'Kurallar', time: 'Tur süresi', sec: 'sn', passes: 'Tur başına pas hakkı', unlimited: 'Sınırsız',
     pCorrect: 'Doğru bilme puanı', pTaboo: 'Tabu cezası', pPass: 'Pas cezası',
     winBy: 'Oyun nasıl biter?', winScore: 'Hedef puan', winRounds: 'Tur sayısı',
@@ -70,7 +86,7 @@ const T = {
     deckInfo: '{n} cards · 3 languages',
     setup: 'Game Setup', teams: 'Teams', team: 'Team', addTeam: '+ Add team',
     playLang: 'Play language', levels: 'Word level', levelHint: 'A1–A2 easy · B1 medium · B2 hard',
-    helpers: 'Show translation on the card', available: '{n} cards available', tooFew: 'Not enough cards for this choice (need {n})',
+    helpers: 'Show translation on the card', helpHint: 'Taboo words are translated only between English and Chinese; for other languages only the main word is translated.', available: '{n} cards available', tooFew: 'Not enough cards for this choice (need {n})',
     rules: 'Rules', time: 'Round time', sec: 's', passes: 'Passes per round', unlimited: 'Unlimited',
     pCorrect: 'Points per correct card', pTaboo: 'Taboo penalty', pPass: 'Pass penalty',
     winBy: 'How does the game end?', winScore: 'Target score', winRounds: 'Number of rounds',
@@ -111,7 +127,7 @@ const T = {
     deckInfo: '{n} 张卡 · 3 种语言',
     setup: '游戏设置', teams: '队伍', team: '队伍', addTeam: '+ 添加队伍',
     playLang: '游戏语言', levels: '词汇等级', levelHint: 'A1–A2 简单 · B1 中等 · B2 较难',
-    helpers: '在卡片上显示翻译', available: '可用 {n} 张卡', tooFew: '符合条件的卡片不够（至少需要 {n} 张）',
+    helpers: '在卡片上显示翻译', helpHint: '禁词的翻译目前只有英语和中文之间才有；其他语言只翻译主词。', available: '可用 {n} 张卡', tooFew: '符合条件的卡片不够（至少需要 {n} 张）',
     rules: '规则', time: '每轮时间', sec: '秒', passes: '每轮可跳过次数', unlimited: '不限',
     pCorrect: '猜对得分', pTaboo: '说出禁词扣分', pPass: '跳过扣分',
     winBy: '游戏如何结束？', winScore: '目标分数', winRounds: '固定轮数',
@@ -162,7 +178,7 @@ const browserLang = () => { const l = (navigator.language || 'en').toLowerCase()
 let ui = store.get('ui', browserLang());
 if (!LANGS.includes(ui)) ui = 'en';
 
-const newTeam = (color) => ({ name: '', color, lang: ui, levels: [1, 1, 1, 1], helpers: [] });
+const newTeam = (color) => ({ name: '', color, lang: ui, levels: [1, 1, 1, 1], helpers: [], pinyin: true });
 const defaultSetup = () => ({
   teams: [newTeam(0), newTeam(1)],
   rules: { time: 60, passes: -1, correct: 1, taboo: 1, passCost: 0, win: 'score', target: 30, rounds: 5, tabooWords: 5, jokers: 1, sound: true, noRepeat: true },
@@ -193,6 +209,21 @@ const saveSetup = () => store.set('setup', setup);
 /* ================= helpers ================= */
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pinyinHtml = (card, index = 0) => card.pinyin[index] ? `<span class="pinyin" lang="zh-Latn">${esc(card.pinyin[index])}</span>` : '';
+
+// Helper translations. The three head words of a card are the same concept, so index 0 works for any
+// pair of languages. Taboo words are each language's own clue words, so they only have a gloss where
+// one was written: Chinese -> English and English -> Chinese (data/gloss-*.txt).
+const hasWordGloss = (lang, helper) => (lang === 'zh' && helper === 'en') || (lang === 'en' && helper === 'zh');
+function glossOf(card, lang, index, helper) {
+  if (index === 0) return { text: card[helper][0], pinyin: helper === 'zh' ? card.pinyin[0] || '' : '' };
+  const word = card[lang][index], key = card.id + '|' + word;
+  if (lang === 'zh' && helper === 'en') { const g = GLOSS.zo[key] || GLOSS.ze[word]; return g ? { text: g, pinyin: '' } : null; }
+  if (lang === 'en' && helper === 'zh') { const g = GLOSS.eo[key] || GLOSS.ez[word]; return g ? { text: g[0], pinyin: g[1] } : null; }
+  return null;
+}
+const glossHtml = (cls, g, helper, showPinyin, tagged) => !g ? '' :
+  `<span class="${cls}" lang="${LOCALE[helper]}">${tagged ? `<i>${LANG_TAG[helper]}</i>` : ''}<b>${esc(g.text)}</b>${showPinyin && g.pinyin ? `<span class="pinyin" lang="zh-Latn">${esc(g.pinyin)}</span>` : ''}</span>`;
+const tally = (c, tb, p) => `<span class="tl">${icon('check')}${c}</span><span class="tl">${icon('cross')}${tb}</span><span class="tl">${icon('skip')}${p}</span>`;
 function t(key, lang, vars) {
   if (lang && typeof lang === 'object') { vars = lang; lang = null; }
   let s = (T[lang || ui] || T.en)[key];
@@ -208,7 +239,7 @@ function wordWidth(w) {
   let max = 0;
   for (const token of w.split(/[\s-]+/)) {
     let n = 0;
-    for (const ch of token) n += ch.codePointAt(0) > 0x2e7f ? 1.5 : 1;
+    for (const ch of token) n += ch.codePointAt(0) > 0x2e7f ? 1.85 : 1; // a Chinese character is nearly two condensed capitals wide
     if (n > max) max = n;
   }
   return Math.max(4.2, max).toFixed(2);
@@ -287,7 +318,7 @@ function startGame() {
     cats: [...setup.cats],
     teams: setup.teams.map((tm, i) => ({
       name: tm.name.trim() || `${t('team')} ${i + 1}`, color: tm.color, lang: tm.lang,
-      levels: [...tm.levels], helpers: tm.helpers.filter((l) => l !== tm.lang),
+      levels: [...tm.levels], helpers: tm.helpers.filter((l) => l !== tm.lang), pinyin: tm.pinyin !== false,
       score: 0, turns: 0, c: 0, t: 0, p: 0,
     })),
     turn: 0, round: 1, joker: null, used: {}, tiebreak: false, over: false, winners: [],
@@ -449,7 +480,7 @@ function endGame() {
   confetti();
 }
 
-function ask(text, fn, lang) { modal = { text, fn, yes: t('yes', lang), no: t('no', lang) }; }
+function ask(text, fn, lang) { modal = { text, fn, lang, yes: t('yes', lang), no: t('no', lang) }; }
 
 /* ================= views ================= */
 const stepRow = (label, key, value) => `<div class="rrow"><span>${label}</span><div class="stepper"><button data-act="step" data-k="${key}" data-d="-1" aria-label="−">−</button><b>${value}</b><button data-act="step" data-k="${key}" data-d="1" aria-label="+">+</button></div></div>`;
@@ -463,7 +494,10 @@ function viewHome() {
   const giftLabel = String(gift?.copy?.openButton || '如果你是{name}，就点这里').replaceAll('{name}', gift?.recipientName || '于悦');
   return `<section class="screen home">
     <div class="langs seg">${LANGS.map((l) => `<button class="${ui === l ? 'on' : ''}" data-act="lang" data-v="${l}">${LANG_NAME[l]}</button>`).join('')}</div>
-    <div class="logo" role="img" aria-label="Tabu"><span>T</span><span>A</span><span>B</span><span>U</span></div>
+    <div class="hero" role="img" aria-label="Tabu">
+      <div class="hcard hback"></div>
+      <div class="hcard hfront"><b>TABU</b><i class="tape"></i><u></u><u></u><u></u></div>
+    </div>
     <p class="tagline">${t('tagline')}</p>
     <div class="menu">
       ${canResume ? `<button class="btn big primary" data-act="resumeGame">${t('resumeGame')}</button>` : ''}
@@ -481,6 +515,8 @@ function viewSetup() {
   const counts = s.teams.map((tm) => countFor(tm, s.cats));
   const ready = counts.every((n) => n >= MIN_CARDS);
   const seenN = seenCount();
+  const usesChinese = (tm) => tm.lang === 'zh' || tm.helpers.includes('zh');
+  const headOnly = (tm) => tm.helpers.some((h) => !hasWordGloss(tm.lang, h));
   const teams = s.teams.map((tm, i) => `<div class="tcard" style="--team:${COLORS[tm.color]}">
       <div class="trow">
         <button class="dot" data-act="color" data-i="${i}" aria-label="${t('team')} ${i + 1}"></button>
@@ -489,11 +525,11 @@ function viewSetup() {
       </div>
       <div class="field"><label>${t('playLang')}</label><div class="seg">${LANGS.map((l) => `<button class="${tm.lang === l ? 'on' : ''}" data-act="tlang" data-i="${i}" data-v="${l}">${LANG_NAME[l]}</button>`).join('')}</div></div>
       <div class="field"><label>${t('levels')} <small>· ${t('levelHint')}</small></label><div class="chips">${LEVELS.map((lv, k) => `<button class="chip ${tm.levels[k] ? 'on' : ''}" data-act="tlevel" data-i="${i}" data-v="${k}">${lv}</button>`).join('')}</div></div>
-      <div class="field"><label>${t('helpers')}</label><div class="chips">${LANGS.filter((l) => l !== tm.lang).map((l) => `<button class="chip ${tm.helpers.includes(l) ? 'on' : ''}" data-act="thelp" data-i="${i}" data-v="${l}">${LANG_NAME[l]}</button>`).join('')}</div></div>
+      <div class="field"><label>${t('helpers')}</label><div class="chips">${LANGS.filter((l) => l !== tm.lang).map((l) => `<button class="chip ${tm.helpers.includes(l) ? 'on' : ''}" data-act="thelp" data-i="${i}" data-v="${l}">${LANG_NAME[l]}</button>`).join('')}${usesChinese(tm) ? `<button class="chip ${tm.pinyin !== false ? 'on' : ''}" data-act="tpinyin" data-i="${i}" lang="zh-Latn">pīnyīn</button>` : ''}</div>${headOnly(tm) ? `<p class="fhint">${t('helpHint')}</p>` : ''}</div>
       <div class="avail ${counts[i] < MIN_CARDS ? 'bad' : ''}">${counts[i] < MIN_CARDS ? t('tooFew', { n: MIN_CARDS }) : t('available', { n: counts[i] })}</div>
     </div>`).join('');
   return `<section class="screen">
-    <header class="top"><button class="back" data-act="go" data-v="home" aria-label="${t('home')}">‹</button><h1>${t('setup')}</h1><span></span></header>
+    <header class="top"><button class="back" data-act="go" data-v="home" aria-label="${t('home')}">${icon('back')}</button><h1>${t('setup')}</h1><span></span></header>
     <div class="scroll">
       <h2>${t('teams')}</h2>
       ${teams}
@@ -527,11 +563,11 @@ function viewReady() {
   const g = game, tm = g.teams[g.turn], L = tm.lang, r = g.rules;
   const goal = g.tiebreak ? t('tiebreak', L) : r.win === 'score' ? t('toTarget', L, { n: r.target }) : t('roundOf', L, { a: g.round, b: r.rounds });
   const jk = g.joker ? t('j', L)[g.joker] : null;
-  return `<section class="screen team ready">
-    <header class="top"><button class="round-btn" data-act="menu" aria-label="${t('menu', L)}">☰</button><span class="goal">${goal}</span></header>
+  return `<section class="screen team ready" lang="${LOCALE[L]}">
+    <header class="top"><button class="round-btn" data-act="menu" aria-label="${t('menu', L)}">${icon('menu')}</button><span class="goal">${goal}</span></header>
     <div class="mid">
       <p class="kicker">${t('round', L, { n: g.round })}</p>
-      <h1 class="tname-big">${esc(tm.name)}</h1>
+      <h1 class="tname-big" style="--n:${wordWidth(tm.name)}">${esc(tm.name)}</h1>
       <p class="badges"><span>${LANG_NAME[tm.lang]}</span><span>${LEVELS.filter((_, i) => tm.levels[i]).join(' · ')}</span></p>
       ${jk ? `<div class="joker"><span class="jicon">${JOKER_ICON[g.joker]}</span><div><small>${t('jokerTitle', L)}</small><b>${jk[0]}</b><p>${jk[1]}</p></div></div>` : ''}
       <p class="hand">${t('handPhone', L)}</p>
@@ -545,12 +581,17 @@ function viewPlay() {
   const g = game, r = round, tm = g.teams[r.team], L = tm.lang, c = r.cur;
   const left = r.paused ? r.remaining : r.endAt - performance.now();
   const sec = Math.max(0, Math.ceil(left / 1000));
-  const words = c[L];
-  const helpers = tm.helpers.map((h) => `<span lang="${LOCALE[h]}"><i>${LANG_TAG[h]}</i>${esc(c[h][0])}${h === 'zh' ? pinyinHtml(c) : ''}</span>`).join('');
+  const words = c[L], showPinyin = tm.pinyin !== false;
+  const helpers = tm.helpers.map((h) => glossHtml('hg', glossOf(c, L, 0, h), h, showPinyin, true)).join('');
+  const rowHelper = tm.helpers.find((h) => hasWordGloss(L, h));
+  const rows = words.slice(1, 1 + g.rules.tabooWords).map((w, i) => {
+    const gl = rowHelper ? glossOf(c, L, i + 1, rowHelper) : null;
+    return `<li class="${gl ? 'two' : ''}"><span class="tw" style="--n:${wordWidth(w)}">${esc(w)}${L === 'zh' && showPinyin ? pinyinHtml(c, i + 1) : ''}</span>${glossHtml('tg', gl, rowHelper, showPinyin, false)}</li>`;
+  }).join('');
   const jk = r.joker ? t('j', L)[r.joker] : null;
-  return `<section class="screen team play ${r.flash ? 'flash-' + r.flash : ''}">
+  return `<section class="screen team play ${r.flash ? 'flash-' + r.flash : ''}" lang="${LOCALE[L]}">
     <header class="pbar">
-      <button class="round-btn" data-act="pause" aria-label="${t('paused', L)}">❚❚</button>
+      <button class="round-btn" data-act="pause" aria-label="${t('paused', L)}">${icon('pause')}</button>
       <div class="pmid"><b>${esc(tm.name)}</b><span>${signed(roundScore(r, g.rules))}</span></div>
       <div id="timer" class="timer ${sec <= 10 ? 'low' : ''}">${sec}</div>
     </header>
@@ -560,15 +601,16 @@ function viewPlay() {
       <div class="card-top">
         <small>${t('cat', L)[CATS[c.cat]]} · ${LEVELS[c.lvl]}</small>
         <h1 class="word" style="--n:${wordWidth(words[0])}">${esc(words[0])}</h1>
-        ${L === 'zh' ? pinyinHtml(c) : ''}
+        ${L === 'zh' && showPinyin ? pinyinHtml(c) : ''}
         ${helpers ? `<div class="helpers">${helpers}</div>` : ''}
       </div>
-      <ul class="taboo-list">${words.slice(1, 1 + g.rules.tabooWords).map((w, i) => `<li>${esc(w)}${L === 'zh' ? pinyinHtml(c, i + 1) : ''}</li>`).join('')}</ul>
+      <div class="tape"><span>${t('taboo', L)}</span></div>
+      <ul class="taboo-list">${rows}</ul>
     </article>
     <footer class="dock">
-      <button class="act taboo" data-act="mark" data-v="t"><i>✕</i>${t('taboo', L)}</button>
-      <button class="act pass" data-act="mark" data-v="p" ${r.passesLeft === 0 ? 'disabled' : ''}><i>↷</i>${t('pass', L)}<small>${r.passesLeft < 0 ? '∞' : r.passesLeft}</small></button>
-      <button class="act correct" data-act="mark" data-v="c"><i>✓</i>${t('correct', L)}</button>
+      <button class="act taboo" data-act="mark" data-v="t">${icon('cross')}${t('taboo', L)}</button>
+      <button class="act pass" data-act="mark" data-v="p" ${r.passesLeft === 0 ? 'disabled' : ''}>${icon('skip')}${t('pass', L)}<small>${r.passesLeft < 0 ? '∞' : r.passesLeft}</small></button>
+      <button class="act correct" data-act="mark" data-v="c">${icon('check')}${t('correct', L)}</button>
     </footer>
     ${r.paused ? `<div class="overlay"><div class="sheet"><h3>${t('paused', L)}</h3>
       <button class="btn primary" data-act="resume">${t('cont', L)}</button>
@@ -581,13 +623,19 @@ function viewSummary() {
   const g = game, r = round, tm = g.teams[r.team], L = tm.lang;
   const n = { c: 0, t: 0, p: 0, '-': 0 };
   for (const c of r.cards) n[c.res]++;
-  const rows = r.cards.map((c, i) => `<button class="srow res-${c.res === '-' ? 'n' : c.res}" data-act="fix" data-i="${i}"><span lang="${LOCALE[L]}">${esc(BY_ID[c.id][L][0])}${L === 'zh' ? pinyinHtml(BY_ID[c.id]) : ''}</span><em>${RES_ICON[c.res]}</em></button>`).join('');
-  return `<section class="screen team summary">
+  const showPinyin = tm.pinyin !== false;
+  // Each row also carries the word in the team's helper languages: the round summary is where words stick.
+  const rows = r.cards.map((c, i) => {
+    const card = BY_ID[c.id];
+    const sub = tm.helpers.map((h) => { const gl = glossOf(card, L, 0, h); return `<span lang="${LOCALE[h]}">${esc(gl.text)}${showPinyin && gl.pinyin ? ` <i lang="zh-Latn">${esc(gl.pinyin)}</i>` : ''}</span>`; }).join(' · ');
+    return `<button class="srow res-${c.res === '-' ? 'n' : c.res}" data-act="fix" data-i="${i}"><span class="sw"><b>${esc(card[L][0])}</b>${L === 'zh' && showPinyin ? pinyinHtml(card) : ''}${sub ? `<small>${sub}</small>` : ''}</span><em>${RES_ICON[c.res]}</em></button>`;
+  }).join('');
+  return `<section class="screen team summary" lang="${LOCALE[L]}">
     <header class="shead">
       <p>${t(r.timeUp ? 'timeUp' : 'roundOver', L)}</p>
       <h1>${esc(tm.name)}</h1>
       <div class="pts">${signed(roundScore(r, g.rules))}</div>
-      <div class="tally"><span>✓ ${n.c}</span><span>✕ ${n.t}</span><span>↷ ${n.p}</span></div>
+      <div class="tally">${tally(n.c, n.t, n.p)}</div>
     </header>
     <div class="scroll panel">${rows || `<p class="empty">${t('noCards', L)}</p>`}</div>
     ${rows ? `<p class="hint">${t('fixHint', L)}</p>` : ''}
@@ -601,11 +649,11 @@ function viewOver() {
   const max = Math.max(1, ...order.map((x) => Math.abs(x.score)));
   const title = g.winners.length === 1 ? t('winner', { t: esc(g.teams[g.winners[0]].name) }) : t('tie');
   return `<section class="screen over">
-    <div class="mid"><div class="trophy">🏆</div><h1>${title}</h1></div>
+    <div class="mid"><div class="trophy">${icon('trophy')}</div><h1>${title}</h1></div>
     <div class="rank">${order.map((x) => `<div class="rrank" style="--c:${COLORS[x.color]}">
       <span>${esc(x.name)}</span><b>${x.score}</b>
       <div class="barw"><i style="width:${Math.max(3, (Math.max(0, x.score) / max) * 100)}%"></i></div>
-      <small>✓ ${x.c} · ✕ ${x.t} · ↷ ${x.p}</small></div>`).join('')}</div>
+      <small>${tally(x.c, x.t, x.p)}</small></div>`).join('')}</div>
     <button class="btn primary big" data-act="again">${t('again')}</button>
     <button class="btn" data-act="go" data-v="home">${t('home')}</button>
   </section>`;
@@ -620,7 +668,7 @@ function viewStats() {
   const fmt = new Intl.DateTimeFormat(LOCALE[ui], { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
   const games = stats.games.slice(0, 10).map((gm) => `<div class="grow"><time>${fmt.format(new Date(gm.d))}</time><div class="scores">${scoreChips(gm.teams, gm.w)}</div></div>`).join('');
   return `<section class="screen">
-    <header class="top"><button class="back" data-act="go" data-v="home" aria-label="${t('home')}">‹</button><h1>${t('stats')}</h1><span></span></header>
+    <header class="top"><button class="back" data-act="go" data-v="home" aria-label="${t('home')}">${icon('back')}</button><h1>${t('stats')}</h1><span></span></header>
     <div class="scroll">
       <div class="tiles">
         <div class="tile"><b>${stats.games.length}</b><span>${t('games')}</span></div>
@@ -629,7 +677,7 @@ function viewStats() {
       </div>
       <h2>${t('recent')}</h2>
       ${games || `<p class="note">${t('noStats')}</p>`}
-      ${hard.length ? `<h2>${t('hardest')}</h2><div class="group">${hard.map((x) => `<div class="hrow"><span lang="${LOCALE[ui]}">${esc(BY_ID[x.id][ui][0])}${ui === 'zh' ? pinyinHtml(BY_ID[x.id]) : ''}</span><small>✓ ${x.s.c} · ✕ ${x.s.t} · ↷ ${x.s.p}</small></div>`).join('')}</div>` : ''}
+      ${hard.length ? `<h2>${t('hardest')}</h2><div class="group">${hard.map((x) => `<div class="hrow"><span lang="${LOCALE[ui]}">${esc(BY_ID[x.id][ui][0])}${ui === 'zh' ? pinyinHtml(BY_ID[x.id]) : ''}</span><small>${tally(x.s.c, x.s.t, x.s.p)}</small></div>`).join('')}</div>` : ''}
       ${stats.games.length || played ? `<p class="note"><button class="link" data-act="resetStats">${t('resetStats')}</button></p>` : ''}
     </div>
   </section>`;
@@ -637,11 +685,11 @@ function viewStats() {
 
 function viewHowto() {
   return `<section class="screen">
-    <header class="top"><button class="back" data-act="go" data-v="home" aria-label="${t('home')}">‹</button><h1>${t('howTo')}</h1><span></span></header>
+    <header class="top"><button class="back" data-act="go" data-v="home" aria-label="${t('home')}">${icon('back')}</button><h1>${t('howTo')}</h1><span></span></header>
     <div class="scroll">
       <ol class="how">${t('how').map((line) => `<li>${line}</li>`).join('')}</ol>
       <h2>${t('jokers')}</h2>
-      <div class="group">${JOKERS.map((j) => `<div class="hrow"><span>${JOKER_ICON[j]} ${t('j')[j][0]}</span><small style="white-space:normal;text-align:right">${t('j')[j][1]}</small></div>`).join('')}</div>
+      <div class="group">${JOKERS.map((j) => `<div class="jrow"><span class="jicon">${JOKER_ICON[j]}</span><div><b>${t('j')[j][0]}</b><p>${t('j')[j][1]}</p></div></div>`).join('')}</div>
       <p class="credit">${t('credit')}</p>
     </div>
   </section>`;
@@ -649,14 +697,15 @@ function viewHowto() {
 
 function viewModal() {
   if (!modal) return '';
+  const langAttr = modal.lang ? ` lang="${LOCALE[modal.lang]}"` : '';
   if (modal.menu) {
     const L = modal.lang;
-    return `<div class="overlay"><div class="sheet"><h3>${t('menu', L)}</h3>
+    return `<div class="overlay"${langAttr}><div class="sheet"><h3>${t('menu', L)}</h3>
       <button class="btn" data-act="askEnd">${t('endGame', L)}</button>
       <button class="btn" data-act="toHome">${t('home', L)}</button>
       <button class="btn primary" data-act="modalNo">${t('close', L)}</button></div></div>`;
   }
-  return `<div class="overlay"><div class="sheet"><p>${modal.text}</p>
+  return `<div class="overlay"${langAttr}><div class="sheet"><p>${modal.text}</p>
     <button class="btn primary" data-act="modalYes">${modal.yes}</button>
     <button class="btn" data-act="modalNo">${modal.no}</button></div></div>`;
 }
@@ -677,10 +726,10 @@ function render() {
   let color = '';
   if (game && screen === 'ready') color = COLORS[game.teams[game.turn].color];
   else if (game && round && (screen === 'play' || screen === 'summary')) color = COLORS[game.teams[round.team].color];
-  document.documentElement.style.setProperty('--team', color || '#8e5beb');
+  document.documentElement.style.setProperty('--team', color || '#6d4bd8');
   document.body.classList.toggle('teamed', !!color);
   const meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) meta.content = color || '#15122a';
+  if (meta) meta.content = color || '#1b1714';
 }
 
 /* ================= actions ================= */
@@ -694,6 +743,7 @@ const ACTIONS = {
   },
   go(b) { screen = b.dataset.v; },
   resumeGame() { round = null; screen = 'ready'; },
+  tpinyin(b) { const tm = setup.teams[+b.dataset.i]; tm.pinyin = tm.pinyin === false; },
 
   color(b) {
     const tm = setup.teams[+b.dataset.i], taken = setup.teams.filter((x) => x !== tm).map((x) => x.color);

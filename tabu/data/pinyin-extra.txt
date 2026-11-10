@@ -1,0 +1,99 @@
+# Pinyin for Chinese glosses that never appear on a card themselves: 汉字|pin yin
+# Same style as the cards: one syllable per character, tone marks, no mark on a neutral tone.
+烤面包|kǎo miàn bāo
+鸡|jī
+谷物|gǔ wù
+豆子|dòu zi
+蛋筒|dàn tǒng
+土豆泥|tǔ dòu ní
+番茄酱|fān qié jiàng
+方块|fāng kuài
+意大利面|yì dà lì miàn
+之后|zhī hòu
+填馅|tián xiàn
+马鞍|mǎ ān
+哞|mōu
+象鼻|xiàng bí
+丛林|cóng lín
+百万|bǎi wàn
+鸭舌帽|yā shé mào
+打电话|dǎ diàn huà
+倒影|dào yǐng
+泡泡|pào pao
+刀片|dāo piàn
+蜡|là
+皮革|pí gé
+洗衣服|xǐ yī fu
+噪音|zào yīn
+小地毯|xiǎo dì tǎn
+存放|cún fàng
+刷毛|shuā máo
+航站楼|háng zhàn lóu
+长椅|cháng yǐ
+公共|gōng gòng
+头盔|tóu kuī
+城镇|chéng zhèn
+堵车|dǔ chē
+繁忙|fán máng
+小船|xiǎo chuán
+旅程|lǚ chéng
+最好|zuì hǎo
+警官|jǐng guān
+逮捕|dài bǔ
+钻|zuàn
+有名|yǒu míng
+拜访|bài fǎng
+卡车|kǎ chē
+未知|wèi zhī
+兄弟姐妹|xiōng dì jiě mèi
+听见|tīng jiàn
+跳动|tiào dòng
+药片|yào piàn
+筋疲力尽|jīn pí lì jìn
+流感|liú gǎn
+损伤|sǔn shāng
+频率|pín lǜ
+膝盖骨|xī gài gǔ
+预订|yù dìng
+无线网|wú xiàn wǎng
+发光|fā guāng
+收件箱|shōu jiàn xiāng
+插脚|chā jiǎo
+芭蕾|bā lěi
+玩家|wán jiā
+动画|dòng huà
+好笑|hǎo xiào
+喜剧|xǐ jù
+人群|rén qún
+享受|xiǎng shòu
+魔杖|mó zhàng
+光滑|guāng huá
+展示|zhǎn shì
+文凭|wén píng
+不高兴|bù gāo xìng
+震惊|zhèn jīng
+借出|jiè chū
+违背|wéi bèi
+实现|shí xiàn
+想念|xiǎng niàn
+确定|què dìng
+真相|zhēn xiàng
+谎言|huǎng yán
+提供|tí gōng
+远离|yuǎn lí
+更喜欢|gèng xǐ huan
+醒|xǐng
+空间|kōng jiān
+边|biān
+反对|fǎn duì
+每|měi
+日常|rì cháng
+交易|jiāo yì
+乌龟|wū guī
+装满|zhuāng mǎn
+地球仪|dì qiú yí
+飘|piāo
+打仗|dǎ zhàng
+习俗|xí sú
+溢出|yì chū
+增长|zēng zhǎng
