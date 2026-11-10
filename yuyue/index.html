@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f3">
+  <meta name="description" content="有一封信，只想交给你。">
+  <title>有一封信，只写给于悦</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23fff8f3'/%3E%3Cpath d='M32 51 11 31C-2 17 16 3 32 18 48 3 66 17 53 31Z' fill='%23c64d6e'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="settings.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-view="intro">
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="heart" viewBox="0 0 24 24">
+      <path d="M20.9 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.9-8.6a5.5 5.5 0 0 0 0-7.8Z"/>
+    </symbol>
+  </svg>
+
+  <div class="paper-grain" aria-hidden="true"></div>
+  <canvas id="heart-rain" aria-hidden="true"></canvas>
+  <header class="letterhead">
+    <a class="recipient" href="./" aria-label="回到开头">
+      <svg class="tiny-heart" aria-hidden="true"><use href="#heart"/></svg>
+      <span data-copy="address">致 于悦</span>
+    </a>
+    <span class="postmark" aria-hidden="true"><span data-copy="stamp">只给你</span><i>♡</i></span>
+  </header>
+
+  <main id="main-content">
+    <section id="intro" class="view intro" aria-labelledby="intro-title">
+      <div class="intro-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="art-heart art-heart-one">♡</span><span class="art-heart art-heart-two">♡</span>
+        <svg class="envelope" viewBox="0 0 360 250" fill="none">
+          <path d="M65 73 173 16a15 15 0 0 1 14 0l108 57v130H65Z" fill="#f3d2cf" stroke="#d9aaa9" stroke-width="1.5"/>
+          <g class="note-paper">
+            <rect x="86" y="39" width="188" height="139" rx="5" fill="#fffdf9" stroke="#e8d8cf"/>
+            <path d="M119 72h76m-76 13h121m-121 13h92" stroke="#ead5cc" stroke-width="2" stroke-linecap="round"/>
+            <path d="m188 124 13 11 16-13" stroke="#d98da0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <path d="M65 75v128a10 10 0 0 0 10 10h210a10 10 0 0 0 10-10V75L180 151Z" fill="#f6ddd5" stroke="#d9aaa9" stroke-width="1.5"/>
+          <path d="m66 204 88-76m140 76-88-76" stroke="#dfb8b0" stroke-width="1.2"/>
+          <path d="M65 75 180 151 295 75" stroke="#d9aaa9" stroke-width="1.5"/>
+          <circle cx="180" cy="149" r="25" fill="#c64d6e"/>
+          <circle cx="180" cy="149" r="20" stroke="#fff8f3" stroke-opacity=".28"/>
+          <path d="m180 160-10-10a6 6 0 0 1 10-6 6 6 0 0 1 10 6Z" fill="#fff1ed"/>
+        </svg>
+      </div>
+      <p class="eyebrow" data-copy="introEyebrow">有一件小事，想悄悄告诉你</p>
+      <h1 id="intro-title" class="intro-title" data-copy="introTitle">有一封信，<br>只想交给你。</h1>
+      <p class="supporting" data-copy="introNote">不过，这封信只能由你亲手打开。</p>
+      <button id="open-letter" class="button primary" type="button">
+        <svg aria-hidden="true"><use href="#heart"/></svg>
+        <span data-copy="openButton">如果你是于悦，就点这里</span>
+        <span class="button-arrow" aria-hidden="true">↗</span>
+      </button>
+      <p class="footnote" data-copy="introFooter">请把这一点点好奇心，留给我。</p>
+    </section>
+
+    <section id="challenge" class="view challenge" aria-labelledby="question-title" hidden>
+      <div class="question-seal" aria-hidden="true"><svg><use href="#heart"/></svg></div>
+      <p class="eyebrow" data-copy="challengeEyebrow">那就证明给我看吧</p>
+      <h1 id="question-title" class="question-title" tabindex="-1" data-copy="question">世界上最帅的男人叫什么名字？</h1>
+      <div class="small-rule" aria-hidden="true"><span>♡</span></div>
+      <form id="answer-form" class="answer-form" novalidate>
+        <label for="answer" data-copy="inputLabel">他的名字是……</label>
+        <input id="answer" name="answer" type="text" inputmode="text" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="100" aria-describedby="question-title answer-error challenge-note" required>
+        <p id="answer-error" class="answer-error" role="alert"></p>
+        <button class="button primary answer-button" type="submit">
+          <span data-copy="answerButton">确认答案</span>
+          <svg aria-hidden="true"><use href="#heart"/></svg>
+        </button>
+      </form>
+      <p id="challenge-note" class="footnote" data-copy="challengeNote">这道题，你一定知道答案。</p>
+    </section>
+
+    <section id="finale" class="view finale" aria-labelledby="love-title" hidden>
+      <div class="love-composition">
+        <svg class="heart-outline" viewBox="0 0 640 560" fill="none" aria-hidden="true">
+          <path d="M320 496C261 443 69 322 52 210 28 53 224 16 320 151 416 16 612 53 588 210c-17 112-209 233-268 286Z" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M321 511C252 450 56 330 40 211 15 39 229 7 321 133 413 7 627 39 602 211c-16 119-212 239-281 300Z" stroke="currentColor" stroke-width=".75" stroke-dasharray="2 9"/>
+        </svg>
+        <p class="eyebrow final-eyebrow" data-copy="finalEyebrow">有句话，只想对于悦说</p>
+        <div class="final-heart" aria-hidden="true"><svg><use href="#heart"/></svg></div>
+        <h1 id="love-title" class="love-title" lang="en" tabindex="-1"></h1>
+        <p class="signature"><span aria-hidden="true">— </span><span id="signature"></span><span class="signature-heart" aria-hidden="true"> ♡</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer" aria-hidden="true"><span class="footer-line"></span><span>♡</span><span class="footer-line"></span></footer>
+
+  <dialog id="confirmation" aria-labelledby="confirm-title" aria-describedby="confirm-note">
+    <button id="close-confirmation" class="close-dialog" type="button" aria-label="关闭">×</button>
+    <div class="dialog-heart" aria-hidden="true"><svg><use href="#heart"/></svg></div>
+    <h2 id="confirm-title" data-copy="confirmTitle">真的是你吗？</h2>
+    <p id="confirm-note" class="supporting" data-copy="confirmNote">我要再确认一下，这份心意有没有送对人。</p>
+    <button id="confirm-yes" class="button primary" type="button"><span data-copy="yesButton">是我呀</span><span aria-hidden="true">♡</span></button>
+  </dialog>
+
+  <noscript><p class="no-script">请开启浏览器的 JavaScript，再打开这封信。</p></noscript>
+</body>
+</html>
