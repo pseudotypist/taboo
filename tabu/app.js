@@ -41,6 +41,7 @@ const EXTRA_SECONDS = 30;
 const T = {
   tr: {
     tagline: 'Anlat, ama yasak kelimeleri söyleme!',
+    theme: 'Görünüm', themeAuto: 'Otomatik', themeLight: 'Açık', themeDark: 'Koyu',
     newGame: 'Yeni Oyun', resumeGame: 'Oyuna Devam Et', stats: 'İstatistikler', howTo: 'Nasıl Oynanır?',
     deckInfo: '{n} kart · 3 dil',
     setup: 'Oyun Kurulumu', teams: 'Takımlar', team: 'Takım', addTeam: '+ Takım ekle',
@@ -82,6 +83,7 @@ const T = {
   },
   en: {
     tagline: "Describe it, but don't say the taboo words!",
+    theme: 'Appearance', themeAuto: 'Auto', themeLight: 'Light', themeDark: 'Dark',
     newGame: 'New Game', resumeGame: 'Continue Game', stats: 'Statistics', howTo: 'How to Play',
     deckInfo: '{n} cards · 3 languages',
     setup: 'Game Setup', teams: 'Teams', team: 'Team', addTeam: '+ Add team',
@@ -123,6 +125,7 @@ const T = {
   },
   zh: {
     tagline: '只能描述，不能说出禁词！',
+    theme: '外观', themeAuto: '自动', themeLight: '浅色', themeDark: '深色',
     newGame: '新游戏', resumeGame: '继续游戏', stats: '统计', howTo: '怎么玩？',
     deckInfo: '{n} 张卡 · 3 种语言',
     setup: '游戏设置', teams: '队伍', team: '队伍', addTeam: '+ 添加队伍',
@@ -177,6 +180,29 @@ const store = {
 const browserLang = () => { const l = (navigator.language || 'en').toLowerCase(); return l.startsWith('tr') ? 'tr' : l.startsWith('zh') ? 'zh' : 'en'; };
 let ui = store.get('ui', browserLang());
 if (!LANGS.includes(ui)) ui = 'en';
+
+// Appearance: 'auto' follows the system. The inline script in index.html applies the same choice
+// before the first paint (it reads the same 'tabu1.theme' key), so there is no light flash.
+// The dark theme is switched off for now: the game is always light and the Auto/Light/Dark switch is
+// hidden. Its code and CSS stay; set this to true here AND in index.html to bring it back.
+const DARK_THEME_ENABLED = false;
+const THEMES = ['auto', 'light', 'dark'];
+let themePref = store.get('theme', 'auto');
+if (!THEMES.includes(themePref)) themePref = 'auto';
+const darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+const isDark = () => DARK_THEME_ENABLED && (themePref === 'dark' || (themePref === 'auto' && !!darkQuery?.matches));
+const applyTheme = () => { document.documentElement.dataset.theme = isDark() ? 'dark' : 'light'; };
+applyTheme();
+
+// The native wrapper (native.js) is optional: every call is guarded, so a missing or broken file changes nothing.
+function native(name, ...args) {
+  try {
+    const n = window.TabuNative, fn = n && n[name];
+    if (typeof fn !== 'function') return;
+    const out = fn.apply(n, args);
+    if (out && typeof out.catch === 'function') out.catch(() => {});
+  } catch { /* the game never depends on the wrapper */ }
+}
 
 const newTeam = (color) => ({ name: '', color, lang: ui, levels: [1, 1, 1, 1], helpers: [], pinyin: true });
 const defaultSetup = () => ({
@@ -273,7 +299,7 @@ function tone(freq, at, dur, type = 'sine', vol = 0.2) {
   osc.start(t0);
   osc.stop(t0 + dur + 0.03);
 }
-const sfx = {
+const sfxSound = {
   start() { tone(523, 0, 0.1, 'triangle', 0.22); tone(784, 0.1, 0.16, 'triangle', 0.22); },
   correct() { tone(660, 0, 0.12, 'triangle', 0.26); tone(990, 0.1, 0.2, 'triangle', 0.26); },
   taboo() { tone(150, 0, 0.45, 'sawtooth', 0.3); tone(113, 0, 0.45, 'square', 0.14); },
@@ -282,12 +308,18 @@ const sfx = {
   end() { tone(196, 0, 0.28, 'sawtooth', 0.3); tone(147, 0.24, 0.7, 'sawtooth', 0.3); },
   win() { [523, 659, 784, 1047, 1319].forEach((f, i) => tone(f, i * 0.13, 0.28, 'triangle', 0.25)); },
 };
+// Each effect is a sound plus, in the native app, a haptic of the same name ('start' feels like a tap).
+const sfx = Object.fromEntries(Object.keys(sfxSound).map((k) => [k, () => {
+  native('haptic', k === 'start' ? 'tap' : k);
+  try { sfxSound[k](); } catch { /* audio is optional */ }
+}]));
 
 let wakeLock = null;
 async function wakeOn() {
+  native('keepAwake', true);
   try { if ('wakeLock' in navigator && !wakeLock) { wakeLock = await navigator.wakeLock.request('screen'); wakeLock.addEventListener('release', () => { wakeLock = null; }); } } catch { /* denied or unsupported */ }
 }
-function wakeOff() { try { if (wakeLock) wakeLock.release(); } catch { /* already released */ } wakeLock = null; }
+function wakeOff() { native('keepAwake', false); try { if (wakeLock) wakeLock.release(); } catch { /* already released */ } wakeLock = null; }
 
 function confetti() {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -493,7 +525,8 @@ function viewHome() {
   const gift = window.LOVE_LETTER;
   const giftLabel = String(gift?.copy?.openButton || '如果你是{name}，就点这里').replaceAll('{name}', gift?.recipientName || '于悦');
   return `<section class="screen home">
-    <div class="langs seg">${LANGS.map((l) => `<button class="${ui === l ? 'on' : ''}" data-act="lang" data-v="${l}">${LANG_NAME[l]}</button>`).join('')}</div>
+    <div class="langs seg${DARK_THEME_ENABLED ? '' : ' solo'}">${LANGS.map((l) => `<button class="${ui === l ? 'on' : ''}" data-act="lang" data-v="${l}">${LANG_NAME[l]}</button>`).join('')}</div>
+    ${DARK_THEME_ENABLED ? `<div class="themes seg compact" role="group" aria-label="${t('theme')}">${THEMES.map((m) => `<button class="${themePref === m ? 'on' : ''}" data-act="theme" data-v="${m}" aria-pressed="${themePref === m}">${t('theme' + m[0].toUpperCase() + m.slice(1))}</button>`).join('')}</div>` : ''}
     <div class="hero" role="img" aria-label="Tabu">
       <div class="hcard hback"></div>
       <div class="hcard hfront"><b>TABU</b><i class="tape"></i><u></u><u></u><u></u></div>
@@ -710,6 +743,13 @@ function viewModal() {
     <button class="btn" data-act="modalNo">${modal.no}</button></div></div>`;
 }
 
+// Mirrors color-mix(in srgb, var(--team) 14%, #0c0e0b) in style.css, for the status bar colour.
+const TEAM_BASE = '#0c0e0b', TEAM_MIX_DARK = 0.14; // the dark theme's --team-base and --team-mix
+function mixHex(a, b, w) {
+  const ch = (h, i) => parseInt(h.slice(1 + i * 2, 3 + i * 2), 16);
+  return '#' + [0, 1, 2].map((i) => Math.round(ch(a, i) * w + ch(b, i) * (1 - w)).toString(16).padStart(2, '0')).join('');
+}
+
 const VIEWS = { home: viewHome, setup: viewSetup, ready: viewReady, play: viewPlay, summary: viewSummary, over: viewOver, stats: viewStats, howto: viewHowto };
 
 function render() {
@@ -728,8 +768,13 @@ function render() {
   else if (game && round && (screen === 'play' || screen === 'summary')) color = COLORS[game.teams[round.team].color];
   document.documentElement.style.setProperty('--team', color || '#6d4bd8');
   document.body.classList.toggle('teamed', !!color);
+  // The status bar matches what is under it: the ink strip (light) or the page (dark) on paper screens,
+  // the team colour on team screens (deepened in dark, the same mix style.css makes). Its text is always light.
+  const dark = isDark();
+  const bar = color ? (dark ? mixHex(color, TEAM_BASE, TEAM_MIX_DARK) : color) : (dark ? '#0c0e0b' : '#1b1714');
   const meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) meta.content = color || '#1b1714';
+  if (meta) meta.content = bar;
+  native('statusBar', bar, true);
 }
 
 /* ================= actions ================= */
@@ -741,6 +786,7 @@ const ACTIONS = {
     // Until a setup has been saved, new teams simply follow the interface language.
     if (!store.get('setup', null)) setup.teams.forEach((tm) => { tm.lang = ui; tm.helpers = []; });
   },
+  theme(b) { themePref = THEMES.includes(b.dataset.v) ? b.dataset.v : 'auto'; store.set('theme', themePref); applyTheme(); },
   go(b) { screen = b.dataset.v; },
   resumeGame() { round = null; screen = 'ready'; },
   tpinyin(b) { const tm = setup.teams[+b.dataset.i]; tm.pinyin = tm.pinyin === false; },
@@ -810,10 +856,18 @@ document.addEventListener('gesturestart', (e) => e.preventDefault());
 // iOS Safari only shows :active (pressed) styles when the page listens for touches.
 document.addEventListener('touchstart', () => {}, { passive: true });
 
+// While on Auto, follow the system switching between light and dark (e.g. at sunset).
+if (darkQuery) {
+  const onSystemTheme = () => { if (themePref === 'auto') { applyTheme(); render(); } };
+  if (darkQuery.addEventListener) darkQuery.addEventListener('change', onSystemTheme);
+  else if (darkQuery.addListener) darkQuery.addListener(onSystemTheme);
+}
+
 document.documentElement.lang = LOCALE[ui];
 render();
 
-if ('serviceWorker' in navigator && (location.protocol === 'https:' || ['localhost', '127.0.0.1'].includes(location.hostname))) {
+// Inside the native app the files ship with the app, so there is no service worker.
+if (!window.TabuNative?.isNative && 'serviceWorker' in navigator && (location.protocol === 'https:' || ['localhost', '127.0.0.1'].includes(location.hostname))) {
   navigator.serviceWorker.register('sw.js').catch(() => { /* offline support is optional */ });
 }
 })();

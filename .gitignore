@@ -1,0 +1,26 @@
+# Dependencies and generated web bundle
+node_modules/
+www/
+
+# macOS
+.DS_Store
+
+# Android build outputs and local machine files
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/app/release/
+*.keystore
+*.jks
+keystore.properties
+
+# iOS build outputs and user state
+ios/App/build/
+ios/DerivedData/
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/

@@ -1,0 +1,31 @@
+{
+  "appId": "com.pseudotypist.tabu.yuyue",
+  "appName": "TabuYuyue",
+  "webDir": "www",
+  "backgroundColor": "#f4eee2",
+  "android": {
+    "backgroundColor": "#f4eee2"
+  },
+  "ios": {
+    "backgroundColor": "#f4eee2",
+    "contentInset": "never"
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover",
+      "style": "DARK"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "launchAutoHide": true,
+      "launchFadeOutDuration": 200,
+      "backgroundColor": "#f4eee2",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DARK"
+    }
+  }
+}

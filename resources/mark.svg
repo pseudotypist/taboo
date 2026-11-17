@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="150 150 724 724" width="1024" height="1024">
+  <!-- Tabu card mark, after the logo on the game's home screen: paper card with ink header,
+       yellow/ink hazard tape and red taboo lines, yellow card behind. Transparent background.
+       scripts/make-resources.mjs swaps OUTLINE for paper on dark backgrounds. -->
+  <defs>
+    <clipPath id="tape"><rect x="262" y="374" width="500" height="34"/></clipPath>
+  </defs>
+  <g transform="rotate(9 512 512)">
+    <rect x="262" y="192" width="500" height="640" rx="60" fill="#1b1714" transform="translate(14 22)"/>
+    <rect x="262" y="192" width="500" height="640" rx="60" fill="#f5b91f" stroke="OUTLINE" stroke-width="20"/>
+  </g>
+  <g transform="rotate(-6 512 512)">
+    <rect x="262" y="192" width="500" height="640" rx="60" fill="#1b1714" transform="translate(10 26)"/>
+    <rect x="262" y="192" width="500" height="640" rx="60" fill="#fffdf8"/>
+    <path d="M262 252a60 60 0 0 1 60-60h380a60 60 0 0 1 60 60v122H262z" fill="#1b1714"/>
+    <text x="512" y="331" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="900" font-size="124" letter-spacing="6" fill="#f4eee2">TABU</text>
+    <g clip-path="url(#tape)">
+      <rect x="262" y="374" width="500" height="34" fill="#f5b91f"/>
+      <path d="M262 408l34-34h30l-34 34zm64 0l34-34h30l-34 34zm64 0l34-34h30l-34 34zm64 0l34-34h30l-34 34zm64 0l34-34h30l-34 34zm64 0l34-34h30l-34 34zm64 0l34-34h30l-34 34zm64 0l34-34h30l-34 34z" fill="#1b1714"/>
+    </g>
+    <rect x="337" y="472" width="350" height="54" rx="27" fill="#e2412e"/>
+    <rect x="387" y="574" width="250" height="54" rx="27" fill="#e2412e"/>
+    <rect x="322" y="676" width="380" height="54" rx="27" fill="#e2412e"/>
+    <rect x="262" y="192" width="500" height="640" rx="60" fill="none" stroke="OUTLINE" stroke-width="20"/>
+  </g>
+</svg>

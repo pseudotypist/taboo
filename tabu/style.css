@@ -1,3 +1,24 @@
+/* The same three typefaces ship with the game on every platform, so a phone app, an Android browser and
+   Safari all draw the same letters. Files are in fonts/ (SIL Open Font License, see fonts/LICENSE.txt). */
+@font-face { font-family: "Tabu Display"; font-weight: 600; font-style: normal; font-display: block; src: url("fonts/barlow-condensed-latin-600-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Display"; font-weight: 600; font-style: normal; font-display: block; src: url("fonts/barlow-condensed-latin-ext-600-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Tabu Display"; font-weight: 700; font-style: normal; font-display: block; src: url("fonts/barlow-condensed-latin-700-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Display"; font-weight: 700; font-style: normal; font-display: block; src: url("fonts/barlow-condensed-latin-ext-700-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Tabu Display"; font-weight: 800; font-style: normal; font-display: block; src: url("fonts/barlow-condensed-latin-800-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Display"; font-weight: 800; font-style: normal; font-display: block; src: url("fonts/barlow-condensed-latin-ext-800-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Tabu Text"; font-weight: 500; font-style: normal; font-display: block; src: url("fonts/barlow-latin-500-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Text"; font-weight: 500; font-style: normal; font-display: block; src: url("fonts/barlow-latin-ext-500-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Tabu Text"; font-weight: 600; font-style: normal; font-display: block; src: url("fonts/barlow-latin-600-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Text"; font-weight: 600; font-style: normal; font-display: block; src: url("fonts/barlow-latin-ext-600-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Tabu Text"; font-weight: 700; font-style: normal; font-display: block; src: url("fonts/barlow-latin-700-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Text"; font-weight: 700; font-style: normal; font-display: block; src: url("fonts/barlow-latin-ext-700-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Tabu Mono"; font-weight: 500; font-style: normal; font-display: block; src: url("fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Mono"; font-weight: 500; font-style: normal; font-display: block; src: url("fonts/jetbrains-mono-latin-ext-500-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Tabu Mono"; font-weight: 700; font-style: normal; font-display: block; src: url("fonts/jetbrains-mono-latin-700-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Mono"; font-weight: 700; font-style: normal; font-display: block; src: url("fonts/jetbrains-mono-latin-ext-700-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Tabu Mono"; font-weight: 800; font-style: normal; font-display: block; src: url("fonts/jetbrains-mono-latin-800-normal.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Tabu Mono"; font-weight: 800; font-style: normal; font-display: block; src: url("fonts/jetbrains-mono-latin-ext-800-normal.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
 /* Tabu looks like the thing it is: a printed card game. Paper, ink, three spot colours,
    and the yellow-and-black tape that marks the forbidden words. */
 :root {
@@ -10,18 +31,75 @@
   --yellow: #f5b91f;
   --green: #1f9d62;
   --team: #6d4bd8;
-  --display: "Avenir Next Condensed", "Arial Narrow", "Helvetica Neue", "PingFang SC", system-ui, sans-serif;
-  --text: "Avenir Next", "PingFang SC", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  /* Roles. Light theme: they all come from the ink and paper above. */
+  --line: var(--ink);          /* outlines */
+  --shadow: var(--ink);        /* hard offset shadows */
+  --fill: var(--ink);          /* printed dark bands: card top, timer, tape stripes */
+  --on-fill: var(--paper);
+  --sel: var(--ink);           /* the chosen chip / segment */
+  --on-sel: var(--paper);
+  --on-yellow: var(--ink);
+  --on-accent: #fff;           /* text on red and green buttons */
+  --on-team: #fff;             /* text straight on a team colour */
+  --red-ink: var(--red);       /* red used as text */
+  --green-ink: var(--green);
+  --rule: rgba(27, 23, 20, .16);      /* dashed separators */
+  --chip-line: rgba(27, 23, 20, .32);
+  --grain: rgba(27, 23, 20, .09);
+  --strip: var(--ink);         /* behind the phone's status bar */
+  --scrim: rgba(27, 23, 20, .74);
+  --team-mix: 100%;            /* how much of the team colour the team screens show */
+  --team-base: #0c0e0b;        /* only matters when --team-mix is below 100% (dark theme) */
+  color-scheme: light;
+  --display: "Tabu Display", "Avenir Next Condensed", "Arial Narrow", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  --text: "Tabu Text", "Avenir Next", "PingFang SC", "Noto Sans CJK SC", system-ui, -apple-system, sans-serif;
   --latin: system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; /* pinyin: has every tone mark */
+  --cw: .58;                  /* width of one capital of the display face, in em: sizes the head word */
   --sat: env(safe-area-inset-top, 0px);
   --sab: env(safe-area-inset-bottom, 0px);
+}
+/* Dark is not a dimmed copy of the paper look: it is an old terminal. One amber phosphor colour on
+   near-black, a monospace face, flat single-pixel-ish lines, no shadows and no texture. Red, green and
+   the team colour are the only other colours, and each one means something.
+   app.js and the inline script in index.html set data-theme from the Auto / Light / Dark choice. */
+:root[data-theme="dark"] {
+  --paper: #0c0e0b;
+  --paper-2: #1a1e17;
+  --card: #11140f;
+  --ink: #e0b25a;
+  --ink-2: #a08545;
+  --red: #cf5a44;
+  --yellow: #e0b25a;
+  --green: #62b47c;
+  --line: #6f5c30;
+  --shadow: transparent;
+  --fill: #0c0e0b;
+  --on-fill: #f3e7c8;
+  --sel: #e0b25a;
+  --on-sel: #0c0e0b;
+  --on-yellow: #0c0e0b;
+  --on-accent: #0c0e0b;
+  --on-team: #f3e7c8;
+  --red-ink: #ff7b63;
+  --green-ink: #7fd197;
+  --rule: rgba(224, 178, 90, .2);
+  --chip-line: rgba(224, 178, 90, .38);
+  --grain: transparent;
+  --strip: #0c0e0b;
+  --scrim: rgba(0, 0, 0, .84);
+  --cw: .63;
+  --team-mix: 14%;             /* keep in sync with TEAM_MIX_DARK in app.js */
+  --team-base: #0c0e0b;        /* keep in sync with TEAM_BASE_DARK in app.js */
+  --display: "Tabu Mono", ui-monospace, Menlo, "PingFang SC", "Noto Sans CJK SC", monospace;
+  --text: "Tabu Mono", ui-monospace, Menlo, "PingFang SC", "Noto Sans CJK SC", monospace;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body { height: 100%; margin: 0; overflow: hidden; }
 body {
   background-color: var(--paper);
-  background-image: radial-gradient(rgba(27, 23, 20, .09) 1px, transparent 1.3px);
+  background-image: radial-gradient(var(--grain) 1px, transparent 1.3px);
   background-size: 16px 16px;
   color: var(--ink);
   font-family: var(--text);
@@ -36,8 +114,8 @@ body {
   transition: background-color .25s;
 }
 /* The phone's clock sits on an ink strip on paper screens and directly on the colour on team screens. */
-body::before { content: ""; position: fixed; inset: 0 0 auto 0; height: var(--sat); background: var(--ink); z-index: 5; }
-body.teamed { background-color: var(--team); }
+body::before { content: ""; position: fixed; inset: 0 0 auto 0; height: var(--sat); background: var(--strip); z-index: 5; }
+body.teamed { background-color: var(--team); background-color: color-mix(in srgb, var(--team) var(--team-mix), var(--team-base)); }
 body.teamed::before { background: transparent; }
 
 #app { height: 100dvh; max-width: 560px; margin: 0 auto; display: flex; flex-direction: column; }
@@ -57,14 +135,14 @@ button:disabled { cursor: default; }
 /* ---------- shared controls ---------- */
 .btn {
   display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%;
-  min-height: 54px; padding: 0 18px; border: 2.5px solid var(--ink); border-radius: 14px;
+  min-height: 54px; padding: 0 18px; border: 2.5px solid var(--line); border-radius: 14px;
   background: var(--card); color: var(--ink);
   font-family: var(--display); font-weight: 700; font-size: 1.25rem; letter-spacing: .05em; text-transform: uppercase;
-  box-shadow: 0 4px 0 var(--ink); transition: transform .06s, box-shadow .06s;
+  box-shadow: 0 4px 0 var(--shadow); transition: transform .06s, box-shadow .06s;
 }
-.btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--ink); }
+.btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--shadow); }
 .btn.big { min-height: 64px; font-size: 1.55rem; }
-.btn.primary { background: var(--yellow); }
+.btn.primary { background: var(--yellow); color: var(--on-yellow); }
 .btn.ghost { background: transparent; border-style: dashed; box-shadow: none; color: var(--ink-2); }
 .btn:disabled { opacity: .45; box-shadow: none; transform: none; }
 .link { color: var(--ink); font-weight: 700; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; padding: 6px; }
@@ -73,59 +151,61 @@ button:disabled { cursor: default; }
 .top h1 { font-family: var(--display); font-weight: 800; font-size: 1.7rem; letter-spacing: .04em; text-transform: uppercase; line-height: 1; }
 .top > span:empty { width: 46px; }
 .back, .round-btn {
-  width: 46px; height: 46px; border: 2.5px solid var(--ink); border-radius: 12px; background: var(--card); color: var(--ink);
-  display: grid; place-items: center; box-shadow: 0 3px 0 var(--ink); flex: none;
+  width: 46px; height: 46px; border: 2.5px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink);
+  display: grid; place-items: center; box-shadow: 0 3px 0 var(--shadow); flex: none;
 }
-.back:active, .round-btn:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--ink); }
+.back:active, .round-btn:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--shadow); }
 
 h2 {
   display: flex; align-items: center; gap: 10px; margin: 26px 2px 12px;
   font-family: var(--display); font-weight: 700; font-size: 1.05rem; letter-spacing: .14em; text-transform: uppercase;
 }
-h2::after { content: ""; flex: 1; height: 2.5px; border-radius: 2px; background: var(--ink); }
+h2::after { content: ""; flex: 1; height: 2.5px; border-radius: 2px; background: var(--line); }
 h2:first-child { margin-top: 4px; }
 
 .chips { display: flex; gap: 8px; flex-wrap: wrap; }
 .chip {
-  min-height: 40px; padding: 0 14px; border: 2px solid rgba(27, 23, 20, .32); border-radius: 10px;
+  min-height: 40px; padding: 0 14px; border: 2px solid var(--chip-line); border-radius: 10px;
   color: var(--ink-2); font-weight: 600; font-size: .95rem;
 }
-.chip.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.chip.on { background: var(--sel); border-color: var(--sel); color: var(--on-sel); }
 
-.seg { display: flex; border: 2px solid var(--ink); border-radius: 12px; overflow: hidden; background: var(--card); }
+.seg { display: flex; border: 2px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--card); }
 .seg button { flex: 1; min-height: 42px; padding: 0 6px; color: var(--ink-2); font-weight: 600; font-size: .95rem; }
-.seg button + button { border-left: 2px solid var(--ink); }
-.seg button.on { background: var(--ink); color: var(--paper); }
+.seg button + button { border-left: 2px solid var(--line); }
+.seg button.on { background: var(--sel); color: var(--on-sel); }
 
-.group { background: var(--card); border: 2.5px solid var(--ink); border-radius: 16px; padding: 2px 14px; }
-.rrow { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 58px; border-bottom: 2px dashed rgba(27, 23, 20, .16); font-weight: 600; }
+.group { background: var(--card); border: 2.5px solid var(--line); border-radius: 16px; padding: 2px 14px; }
+.rrow { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 58px; border-bottom: 2px dashed var(--rule); font-weight: 600; }
 .rrow.col { flex-direction: column; align-items: stretch; gap: 8px; padding: 12px 0; }
 .group > :last-child { border-bottom: 0; }
 .stepper { display: flex; align-items: center; gap: 4px; flex: none; }
-.stepper button { width: 40px; height: 40px; border: 2px solid var(--ink); border-radius: 10px; background: var(--paper); font-size: 1.4rem; font-weight: 600; line-height: 1; }
+.stepper button { width: 40px; height: 40px; border: 2px solid var(--line); border-radius: 10px; background: var(--paper); font-size: 1.4rem; font-weight: 600; line-height: 1; }
 .stepper button:active { background: var(--paper-2); }
 .stepper b { min-width: 82px; text-align: center; font-family: var(--display); font-weight: 700; font-size: 1.3rem; letter-spacing: .02em; font-variant-numeric: tabular-nums; }
-.switch { width: 58px; height: 34px; border: 2px solid var(--ink); border-radius: 999px; background: var(--paper-2); position: relative; flex: none; transition: background .15s; }
+.switch { width: 58px; height: 34px; border: 2px solid var(--line); border-radius: 999px; background: var(--paper-2); position: relative; flex: none; transition: background .15s; }
 .switch::after { content: ""; position: absolute; top: 4px; left: 4px; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); transition: transform .15s; }
 .switch.on { background: var(--green); }
 .switch.on::after { transform: translateX(24px); background: var(--card); }
 .note { color: var(--ink-2); font-size: .9rem; margin: 14px 4px 8px; }
 
-.tape { display: block; background: repeating-linear-gradient(-45deg, var(--ink) 0 8px, var(--yellow) 8px 16px); }
+.tape { display: block; background: repeating-linear-gradient(-45deg, var(--fill) 0 8px, var(--yellow) 8px 16px); }
 
 /* ---------- home ---------- */
 .home { justify-content: flex-start; gap: 12px; overflow-y: auto; }
 .home > * { flex-shrink: 0; }
-.langs { margin-bottom: auto; }
+.themes, .langs.solo { margin-bottom: auto; }
+.seg.compact { border-radius: 10px; }
+.seg.compact button { min-height: 34px; font-size: .85rem; }
 .hero { position: relative; height: 232px; margin-top: 12px; }
 .hcard {
   position: absolute; left: 50%; top: 10px; width: 156px; height: 208px; margin-left: -78px;
-  border: 3px solid var(--ink); border-radius: 18px; background: var(--card); box-shadow: 6px 6px 0 var(--ink);
+  border: 3px solid var(--line); border-radius: 18px; background: var(--card); box-shadow: 6px 6px 0 var(--shadow);
 }
 .hback { background: var(--yellow); transform: rotate(9deg) translate(28px, 2px); }
 .hfront { transform: rotate(-6deg) translate(-14px, 0); overflow: hidden; display: flex; flex-direction: column; align-items: center; }
 .hfront b {
-  width: 100%; padding: 14px 0 9px; background: var(--ink); color: var(--paper); text-align: center;
+  width: 100%; padding: 14px 0 9px; background: var(--fill); color: var(--on-fill); text-align: center;
   font-family: var(--display); font-weight: 800; font-size: 2.7rem; letter-spacing: .07em; line-height: 1;
 }
 .hfront .tape { width: 100%; height: 12px; }
@@ -145,70 +225,70 @@ h2:first-child { margin-top: 4px; }
 .foot { text-align: center; color: var(--ink-2); font-family: var(--display); font-weight: 600; font-size: .95rem; letter-spacing: .14em; text-transform: uppercase; margin-top: auto; padding-top: 14px; }
 
 /* ---------- setup ---------- */
-.tcard { background: var(--card); border: 2.5px solid var(--ink); border-radius: 16px; margin-bottom: 14px; overflow: hidden; }
-.trow { display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: var(--team); border-bottom: 2.5px solid var(--ink); }
-.dot { width: 42px; height: 42px; border: 2.5px solid var(--ink); border-radius: 50%; background: var(--card); flex: none; display: grid; place-items: center; }
-.dot::after { content: ""; width: 20px; height: 20px; border-radius: 50%; background: var(--team); border: 2px solid var(--ink); }
+.tcard { background: var(--card); border: 2.5px solid var(--line); border-radius: 16px; margin-bottom: 14px; overflow: hidden; }
+.trow { display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: var(--team); background: color-mix(in srgb, var(--team) var(--team-mix), var(--team-base)); border-bottom: 2.5px solid var(--line); }
+.dot { width: 42px; height: 42px; border: 2.5px solid var(--line); border-radius: 50%; background: var(--card); flex: none; display: grid; place-items: center; }
+.dot::after { content: ""; width: 20px; height: 20px; border-radius: 50%; background: var(--team); border: 2px solid var(--line); }
 .tname {
-  flex: 1; min-width: 0; height: 44px; border: 2.5px solid var(--ink); border-radius: 10px; background: var(--card);
+  flex: 1; min-width: 0; height: 44px; border: 2.5px solid var(--line); border-radius: 10px; background: var(--card);
   color: var(--ink); font: inherit; font-size: 1.1rem; font-weight: 700; padding: 0 12px;
   -webkit-user-select: text; user-select: text; outline: none;
 }
 .tname:focus { box-shadow: 0 0 0 3px var(--yellow); }
 .tname::placeholder { color: var(--ink-2); font-weight: 600; }
-.x { width: 42px; height: 42px; border: 2.5px solid var(--ink); border-radius: 10px; background: var(--card); color: var(--ink); font-size: 1rem; font-weight: 700; flex: none; }
+.x { width: 42px; height: 42px; border: 2.5px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); font-size: 1rem; font-weight: 700; flex: none; }
 .field { padding: 12px 14px 0; }
 .field > label { display: block; margin: 0 0 7px; font-family: var(--display); font-weight: 700; font-size: .9rem; letter-spacing: .12em; text-transform: uppercase; }
 .field > label small { font-family: var(--text); font-weight: 500; font-size: .78rem; letter-spacing: 0; text-transform: none; color: var(--ink-2); }
 .fhint { margin-top: 8px; font-size: .82rem; color: var(--ink-2); }
-.avail { padding: 12px 14px 14px; font-size: .9rem; font-weight: 700; color: var(--green); }
-.avail.bad { color: var(--red); }
+.avail { padding: 12px 14px 14px; font-size: .9rem; font-weight: 700; color: var(--green-ink); }
+.avail.bad { color: var(--red-ink); }
 
 /* ---------- team coloured screens ---------- */
-.team { color: #fff; }
-.goal { padding: 8px 14px; border-radius: 10px; background: var(--ink); color: var(--paper); font-family: var(--display); font-weight: 700; font-size: 1.05rem; letter-spacing: .08em; text-transform: uppercase; }
+.team { color: var(--on-team); }
+.goal { padding: 8px 14px; border-radius: 10px; background: var(--fill); color: var(--on-fill); font-family: var(--display); font-weight: 700; font-size: 1.05rem; letter-spacing: .08em; text-transform: uppercase; }
 .mid { flex: 1; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 12px; }
 .kicker { font-family: var(--display); font-weight: 700; font-size: 1.15rem; letter-spacing: .22em; text-transform: uppercase; }
 .tname-big { font-family: var(--display); font-weight: 800; font-size: min(5.2rem, calc((min(100vw, 560px) - 44px) / (var(--n) * .66))); line-height: .95; letter-spacing: .01em; text-transform: uppercase; overflow-wrap: anywhere; text-shadow: 4px 4px 0 rgba(0, 0, 0, .22); }
 .badges { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
-.badges span { border: 2px solid #fff; border-radius: 8px; padding: 3px 10px; font-weight: 700; font-size: .85rem; letter-spacing: .04em; }
+.badges span { border: 2px solid var(--on-team); border-radius: 8px; padding: 3px 10px; font-weight: 700; font-size: .85rem; letter-spacing: .04em; }
 .hand { font-weight: 600; margin-top: 6px; }
-.joker { display: flex; align-items: center; gap: 14px; max-width: 340px; margin-top: 8px; padding: 12px 16px; text-align: left; background: var(--card); color: var(--ink); border: 2.5px solid var(--ink); border-radius: 16px; box-shadow: 5px 5px 0 var(--ink); transform: rotate(-1.5deg); }
-.jicon { width: 56px; height: 56px; border: 2.5px solid var(--ink); border-radius: 12px; background: var(--yellow); color: var(--ink); display: grid; place-items: center; flex: none; font-family: var(--display); font-weight: 800; font-size: 1.5rem; }
+.joker { display: flex; align-items: center; gap: 14px; max-width: 340px; margin-top: 8px; padding: 12px 16px; text-align: left; background: var(--card); color: var(--ink); border: 2.5px solid var(--line); border-radius: 16px; box-shadow: 5px 5px 0 var(--shadow); transform: rotate(-1.5deg); }
+.jicon { width: 56px; height: 56px; border: 2.5px solid var(--line); border-radius: 12px; background: var(--yellow); color: var(--on-yellow); display: grid; place-items: center; flex: none; font-family: var(--display); font-weight: 800; font-size: 1.5rem; }
 .jicon .ic { width: 30px; height: 30px; }
 .joker small { display: block; font-family: var(--display); font-weight: 700; font-size: .78rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); }
 .joker b { display: block; font-family: var(--display); font-weight: 800; font-size: 1.45rem; letter-spacing: .03em; text-transform: uppercase; line-height: 1.1; }
 .joker p { font-size: .9rem; color: var(--ink-2); }
 .scores { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
 .sc { display: flex; align-items: center; gap: 8px; max-width: 100%; padding: 7px 12px; border-radius: 10px; background: rgba(0, 0, 0, .24); font-weight: 700; font-size: .95rem; }
-.sc i { width: 14px; height: 14px; border-radius: 4px; background: var(--c); border: 2px solid #fff; flex: none; }
+.sc i { width: 14px; height: 14px; border-radius: 4px; background: var(--c); border: 2px solid var(--on-team); flex: none; }
 .sc span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .sc b { font-family: var(--display); font-weight: 700; font-size: 1.35rem; line-height: 1; font-variant-numeric: tabular-nums; }
 .sc.cur { background: var(--card); color: var(--ink); }
-.sc.cur i { border-color: var(--ink); }
+.sc.cur i { border-color: var(--line); }
 
 /* ---------- play ---------- */
 .pbar { display: flex; align-items: center; gap: 12px; }
 .pmid { flex: 1; min-width: 0; display: flex; flex-direction: column; }
 .pmid b { font-family: var(--display); font-weight: 800; font-size: 1.35rem; letter-spacing: .03em; text-transform: uppercase; line-height: 1.1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pmid span { font-weight: 700; font-size: .95rem; }
-.timer { min-width: 86px; height: 56px; padding: 0 10px; border: 2.5px solid var(--ink); border-radius: 12px; background: var(--ink); color: var(--paper); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 2.5rem; line-height: 1; font-variant-numeric: tabular-nums; }
-.timer.low { background: var(--card); color: var(--red); animation: pulse 1s infinite; }
+.timer { min-width: 86px; height: 56px; padding: 0 10px; border: 2.5px solid var(--line); border-radius: 12px; background: var(--fill); color: var(--on-fill); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 2.5rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.timer.low { background: var(--card); color: var(--red-ink); animation: pulse 1s infinite; }
 @keyframes pulse { 50% { transform: scale(1.08); } }
-.track { height: 12px; border: 2.5px solid var(--ink); border-radius: 8px; background: rgba(0, 0, 0, .3); overflow: hidden; flex: none; }
-.track i { display: block; height: 100%; background: var(--card); transform-origin: left; transition: transform .1s linear; }
-.jtag { align-self: center; display: flex; align-items: center; gap: 6px; padding: 2px 10px; border: 2px solid var(--ink); border-radius: 8px; background: var(--yellow); color: var(--ink); font-family: var(--display); font-weight: 700; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase; flex: none; }
+.track { height: 12px; border: 2.5px solid var(--line); border-radius: 8px; background: rgba(0, 0, 0, .3); overflow: hidden; flex: none; }
+.track i { display: block; height: 100%; background: var(--on-team); transform-origin: left; transition: transform .1s linear; }
+.jtag { align-self: center; display: flex; align-items: center; gap: 6px; padding: 2px 10px; border: 2px solid var(--line); border-radius: 8px; background: var(--yellow); color: var(--on-yellow); font-family: var(--display); font-weight: 700; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase; flex: none; }
 .jtag .ic { width: 18px; height: 18px; }
 
-.card { flex: 1; min-height: 0; display: flex; flex-direction: column; overflow: hidden; background: var(--card); color: var(--ink); border: 3px solid var(--ink); border-radius: 22px; box-shadow: 0 8px 0 rgba(0, 0, 0, .3); }
+.card { flex: 1; min-height: 0; display: flex; flex-direction: column; overflow: hidden; background: var(--card); color: var(--ink); border: 3px solid var(--line); border-radius: 22px; box-shadow: 0 8px 0 rgba(0, 0, 0, .3); }
 .card.deal { animation: deal .22s cubic-bezier(.2, .9, .3, 1.2); }
 @keyframes deal { from { transform: translateY(16px) rotate(-1.5deg) scale(.97); opacity: .3; } }
 .card.blur > * { filter: blur(14px); }
-.card-top { flex: none; padding: 12px 14px 14px; background: var(--ink); color: var(--paper); text-align: center; }
+.card-top { flex: none; padding: 12px 14px 14px; background: var(--fill); color: var(--on-fill); text-align: center; }
 .card-top small { display: block; margin-bottom: 6px; font-family: var(--display); font-weight: 600; font-size: .82rem; letter-spacing: .16em; text-transform: uppercase; color: #b9ae9f; }
 .word {
   font-family: var(--display); font-weight: 800; line-height: 1; letter-spacing: .01em; text-transform: uppercase; overflow-wrap: anywhere;
-  font-size: min(4rem, calc((min(100vw, 560px) - 76px) / (var(--n) * .67)));
+  font-size: min(4rem, calc((min(100vw, 560px) - 76px) / (var(--n) * var(--cw))));
 }
 .card-top > .pinyin { margin-top: 6px; font-size: 1.05rem; color: #d8cfc2; }
 .helpers { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 10px; }
@@ -216,12 +296,12 @@ h2:first-child { margin-top: 4px; }
 .hg i { font-style: normal; font-family: var(--display); font-weight: 700; font-size: .72rem; letter-spacing: .1em; opacity: .7; }
 .hg b { font-weight: 600; font-size: 1.05rem; }
 .hg .pinyin { display: inline; opacity: .85; }
-.card > .tape { flex: none; height: 22px; position: relative; border-bottom: 3px solid var(--ink); }
-.card > .tape span { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 0 10px; border-radius: 4px; background: var(--ink); color: var(--yellow); font-family: var(--display); font-weight: 800; font-size: .82rem; letter-spacing: .22em; line-height: 1.45; white-space: nowrap; }
+.card > .tape { flex: none; height: 22px; position: relative; border-bottom: 3px solid var(--line); }
+.card > .tape span { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 0 10px; border-radius: 4px; background: var(--fill); color: var(--yellow); font-family: var(--display); font-weight: 800; font-size: .82rem; letter-spacing: .22em; line-height: 1.45; white-space: nowrap; }
 .taboo-list { list-style: none; margin: 0; padding: 2px 16px; flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: space-evenly; overflow-y: auto; }
 .taboo-list li { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 4px 0; }
-.taboo-list li + li { border-top: 2px dashed rgba(27, 23, 20, .15); }
-.tw { font-family: var(--display); font-weight: 800; font-size: clamp(1.5rem, 7.4vw, 2.1rem); line-height: 1.05; letter-spacing: .02em; text-transform: uppercase; color: var(--red); overflow-wrap: anywhere; }
+.taboo-list li + li { border-top: 2px dashed var(--rule); }
+.tw { font-family: var(--display); font-weight: 800; font-size: clamp(1.5rem, 7.4vw, 2.1rem); line-height: 1.05; letter-spacing: .02em; text-transform: uppercase; color: var(--red-ink); overflow-wrap: anywhere; }
 .tw .pinyin { color: var(--ink-2); }
 /* With a helper language the row splits: the word to say on the left, its translation on the right. */
 .taboo-list li.two { flex-direction: row; justify-content: space-between; gap: 12px; text-align: left; }
@@ -235,17 +315,17 @@ h2:first-child { margin-top: 4px; }
 
 .dock { display: grid; grid-template-columns: 1fr 1fr 1.25fr; gap: 10px; flex: none; }
 .act {
-  min-height: 82px; border: 3px solid var(--ink); border-radius: 16px; color: var(--ink); position: relative;
+  min-height: 82px; border: 3px solid var(--line); border-radius: 16px; color: var(--ink); position: relative;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
   font-family: var(--display); font-weight: 800; font-size: 1.2rem; letter-spacing: .07em; text-transform: uppercase;
-  box-shadow: 0 5px 0 var(--ink);
+  box-shadow: 0 5px 0 var(--shadow);
 }
 .act .ic { width: 30px; height: 30px; stroke-width: 3.2; }
 .act small { position: absolute; top: 5px; right: 9px; font-family: var(--text); font-size: .85rem; font-weight: 700; letter-spacing: 0; }
-.act.taboo { background: var(--red); color: #fff; }
-.act.pass { background: var(--yellow); }
-.act.correct { background: var(--green); color: #fff; }
-.act:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--ink); }
+.act.taboo { background: var(--red); color: var(--on-accent); }
+.act.pass { background: var(--yellow); color: var(--on-yellow); }
+.act.correct { background: var(--green); color: var(--on-accent); }
+.act:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--shadow); }
 .act:disabled { opacity: .45; transform: none; }
 
 .play::after { content: ""; position: fixed; inset: 0; pointer-events: none; opacity: 0; }
@@ -263,17 +343,17 @@ h2:first-child { margin-top: 4px; }
 .tl .ic { width: 16px; height: 16px; stroke-width: 3.4; }
 .tally { display: flex; justify-content: center; gap: 8px; margin-top: 6px; }
 .tally .tl { padding: 4px 10px; border-radius: 8px; background: rgba(0, 0, 0, .24); }
-.panel { padding: 4px; background: var(--card); color: var(--ink); border: 3px solid var(--ink); border-radius: 18px; }
+.panel { padding: 4px; background: var(--card); color: var(--ink); border: 3px solid var(--line); border-radius: 18px; }
 .srow { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; min-height: 54px; padding: 7px 6px 7px 12px; text-align: left; }
-.srow + .srow { border-top: 2px dashed rgba(27, 23, 20, .15); }
+.srow + .srow { border-top: 2px dashed var(--rule); }
 .sw { display: flex; flex-direction: column; min-width: 0; }
 .sw b { font-family: var(--display); font-weight: 800; font-size: 1.4rem; letter-spacing: .02em; line-height: 1.1; text-transform: uppercase; overflow-wrap: anywhere; }
 .sw .pinyin, .sw small { color: var(--ink-2); font-size: .85rem; font-weight: 500; }
 .sw small i { font-style: normal; font-family: var(--latin); }
-.srow em { font-style: normal; flex: none; width: 46px; height: 40px; border: 2.5px solid var(--ink); border-radius: 10px; display: grid; place-items: center; color: #fff; font-weight: 800; }
+.srow em { font-style: normal; flex: none; width: 46px; height: 40px; border: 2.5px solid var(--line); border-radius: 10px; display: grid; place-items: center; color: var(--on-accent); font-weight: 800; }
 .res-c em { background: var(--green); }
 .res-t em { background: var(--red); }
-.res-p em { background: var(--yellow); color: var(--ink); }
+.res-p em { background: var(--yellow); color: var(--on-yellow); }
 .res-n em { background: var(--paper-2); color: var(--ink-2); }
 .res-n .sw b { color: var(--ink-2); }
 .empty { text-align: center; color: var(--ink-2); padding: 30px 10px; font-weight: 600; }
@@ -281,34 +361,34 @@ h2:first-child { margin-top: 4px; }
 
 /* ---------- game over / stats / how-to ---------- */
 .over .mid { flex: none; padding: 14px 0 6px; }
-.trophy { width: 84px; height: 84px; border: 3px solid var(--ink); border-radius: 20px; background: var(--yellow); box-shadow: 5px 5px 0 var(--ink); display: grid; place-items: center; transform: rotate(-4deg); }
+.trophy { width: 84px; height: 84px; border: 3px solid var(--line); border-radius: 20px; background: var(--yellow); color: var(--on-yellow); box-shadow: 5px 5px 0 var(--shadow); display: grid; place-items: center; transform: rotate(-4deg); }
 .trophy .ic { width: 48px; height: 48px; }
 .over h1 { font-family: var(--display); font-weight: 800; font-size: 2.5rem; letter-spacing: .02em; text-transform: uppercase; line-height: 1; overflow-wrap: anywhere; }
 .rank { flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
-.rrank { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; align-items: center; padding: 10px 14px 12px; background: var(--card); border: 2.5px solid var(--ink); border-radius: 14px; }
+.rrank { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; align-items: center; padding: 10px 14px 12px; background: var(--card); border: 2.5px solid var(--line); border-radius: 14px; }
 .rrank > span { font-family: var(--display); font-weight: 800; font-size: 1.45rem; letter-spacing: .02em; text-transform: uppercase; overflow-wrap: anywhere; }
 .rrank > b { font-family: var(--display); font-weight: 800; font-size: 2.1rem; line-height: 1; font-variant-numeric: tabular-nums; text-align: right; }
-.barw { grid-column: 1 / -1; height: 14px; border: 2px solid var(--ink); border-radius: 8px; background: var(--paper-2); overflow: hidden; }
-.barw i { display: block; height: 100%; background: var(--c); border-right: 2px solid var(--ink); }
+.barw { grid-column: 1 / -1; height: 14px; border: 2px solid var(--line); border-radius: 8px; background: var(--paper-2); overflow: hidden; }
+.barw i { display: block; height: 100%; background: var(--c); border-right: 2px solid var(--line); }
 .rrank small { grid-column: 1 / -1; display: flex; gap: 14px; color: var(--ink-2); }
 
 .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-.tile { padding: 12px 8px; text-align: center; background: var(--card); border: 2.5px solid var(--ink); border-radius: 14px; }
+.tile { padding: 12px 8px; text-align: center; background: var(--card); border: 2.5px solid var(--line); border-radius: 14px; }
 .tile b { display: block; font-family: var(--display); font-weight: 800; font-size: 2.2rem; line-height: 1.05; font-variant-numeric: tabular-nums; }
 .tile span { font-family: var(--display); font-weight: 600; font-size: .85rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-2); }
-.grow { padding: 12px 14px; margin-bottom: 8px; background: var(--card); border: 2.5px solid var(--ink); border-radius: 14px; }
+.grow { padding: 12px 14px; margin-bottom: 8px; background: var(--card); border: 2.5px solid var(--line); border-radius: 14px; }
 .grow time { color: var(--ink-2); font-size: .8rem; font-weight: 600; }
 .grow .scores { justify-content: flex-start; margin-top: 8px; }
 .grow .sc { background: var(--paper-2); }
-.grow .sc i { border-color: var(--ink); }
-.grow .sc.cur { background: var(--ink); color: var(--paper); }
-.grow .sc.cur i { border-color: var(--paper); }
-.hrow { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 0; border-bottom: 2px dashed rgba(27, 23, 20, .16); font-weight: 700; }
+.grow .sc i { border-color: var(--line); }
+.grow .sc.cur { background: var(--sel); color: var(--on-sel); }
+.grow .sc.cur i { border-color: var(--on-sel); }
+.hrow { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 0; border-bottom: 2px dashed var(--rule); font-weight: 700; }
 .hrow small { display: flex; gap: 12px; color: var(--ink-2); white-space: nowrap; }
 .how { padding: 0; margin: 0; list-style: none; counter-reset: how; display: flex; flex-direction: column; gap: 10px; }
-.how li { counter-increment: how; position: relative; padding: 13px 14px 13px 58px; background: var(--card); border: 2.5px solid var(--ink); border-radius: 14px; }
-.how li::before { content: counter(how); position: absolute; left: 12px; top: 11px; width: 32px; height: 32px; border-radius: 8px; background: var(--ink); color: var(--paper); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 1.2rem; }
-.jrow { display: flex; align-items: center; gap: 14px; padding: 12px 0; border-bottom: 2px dashed rgba(27, 23, 20, .16); }
+.how li { counter-increment: how; position: relative; padding: 13px 14px 13px 58px; background: var(--card); border: 2.5px solid var(--line); border-radius: 14px; }
+.how li::before { content: counter(how); position: absolute; left: 12px; top: 11px; width: 32px; height: 32px; border-radius: 8px; background: var(--sel); color: var(--on-sel); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 1.2rem; }
+.jrow { display: flex; align-items: center; gap: 14px; padding: 12px 0; border-bottom: 2px dashed var(--rule); }
 .jrow .jicon { width: 46px; height: 46px; font-size: 1.2rem; }
 .jrow .jicon .ic { width: 24px; height: 24px; }
 .jrow b { font-family: var(--display); font-weight: 800; font-size: 1.15rem; letter-spacing: .04em; text-transform: uppercase; }
@@ -316,8 +396,8 @@ h2:first-child { margin-top: 4px; }
 .credit { color: var(--ink-2); font-size: .8rem; margin: 18px 4px; }
 
 /* ---------- overlays ---------- */
-.overlay { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; padding: 24px; background: rgba(27, 23, 20, .74); }
-.sheet { width: min(100%, 360px); display: flex; flex-direction: column; gap: 12px; padding: 22px 20px 24px; text-align: center; background: var(--paper); color: var(--ink); border: 3px solid var(--ink); border-radius: 20px; }
+.overlay { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; padding: 24px; background: var(--scrim); }
+.sheet { width: min(100%, 360px); display: flex; flex-direction: column; gap: 12px; padding: 22px 20px 24px; text-align: center; background: var(--paper); color: var(--ink); border: 3px solid var(--line); border-radius: 20px; }
 .sheet h3 { margin: 0 0 4px; font-family: var(--display); font-weight: 800; font-size: 1.8rem; letter-spacing: .04em; text-transform: uppercase; line-height: 1; }
 .sheet p { font-weight: 600; margin-bottom: 6px; }
 .confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 30; }
@@ -328,7 +408,7 @@ h2:first-child { margin-top: 4px; }
   .timer { height: 48px; font-size: 2.1rem; }
   .card-top { padding: 8px 12px 10px; }
   .card-top small { margin-bottom: 3px; }
-  .play .word { font-size: min(2.9rem, calc((min(100vw, 560px) - 76px) / (var(--n) * .67))); }
+  .play .word { font-size: min(2.9rem, calc((min(100vw, 560px) - 76px) / (var(--n) * var(--cw)))); }
   .card-top > .pinyin { margin-top: 3px; font-size: .9rem; }
   .helpers { margin-top: 6px; gap: 5px; }
   .hg { padding: 2px 8px; }
@@ -342,6 +422,74 @@ h2:first-child { margin-top: 4px; }
   .hero { height: 196px; }
   .hcard { transform-origin: top center; scale: .84; }
 }
+/* ---------- dark theme: terminal ---------- */
+:root[data-theme="dark"] body { background-image: none; }
+/* Flat and square everywhere. The 于悦 link is left exactly as it was made. */
+:root[data-theme="dark"] *:not(.love-link):not(.love-link *) { border-radius: 2px !important; box-shadow: none !important; text-shadow: none !important; }
+:root[data-theme="dark"] :is(.btn:not(.love-link), .back, .round-btn, .act, .seg, .group, .tcard, .card, .panel, .tile, .grow, .rrank, .how li, .sheet, .timer, .track, .joker, .jicon, .trophy, .hcard, .stepper button, .switch, .dot, .tname, .x, .chip, .barw, .srow em, .jtag) { border-width: 1.5px; }
+:root[data-theme="dark"] .seg button + button { border-left-width: 1.5px; }
+@keyframes blink { 50% { opacity: 0; } }
+
+:root[data-theme="dark"] .btn:not(.love-link) { background: transparent; font-size: 1.05rem; letter-spacing: .06em; }
+:root[data-theme="dark"] .btn.big { font-size: 1.2rem; }
+:root[data-theme="dark"] .btn.primary, :root[data-theme="dark"] .btn.white { background: var(--yellow); color: var(--on-yellow); }
+:root[data-theme="dark"] .btn.ghost { color: var(--ink-2); }
+:root[data-theme="dark"] :is(.btn:not(.love-link), .back, .round-btn, .act):active { transform: none; filter: brightness(1.3); }
+:root[data-theme="dark"] .btn:not(.primary):not(.love-link):active, :root[data-theme="dark"] .back:active, :root[data-theme="dark"] .round-btn:active { background: var(--ink); color: var(--paper); filter: none; }
+:root[data-theme="dark"] .back, :root[data-theme="dark"] .round-btn, :root[data-theme="dark"] .x, :root[data-theme="dark"] .stepper button, :root[data-theme="dark"] .tname, :root[data-theme="dark"] .dot, :root[data-theme="dark"] .seg { background: transparent; }
+:root[data-theme="dark"] .top h1 { font-size: 1.2rem; letter-spacing: .08em; }
+:root[data-theme="dark"] h2::before { content: ">"; color: var(--ink-2); }
+:root[data-theme="dark"] h2::after { height: 0; background: none; border-top: 1.5px dashed var(--line); }
+:root[data-theme="dark"] .switch::after { background: var(--ink-2); }
+:root[data-theme="dark"] .switch.on { background: transparent; border-color: var(--green-ink); }
+:root[data-theme="dark"] .switch.on::after { background: var(--green-ink); }
+:root[data-theme="dark"] .how li::before { background: transparent; color: var(--ink); border: 1.5px solid var(--line); }
+
+:root[data-theme="dark"] .tagline::after { content: " _"; animation: blink 1.1s steps(1) infinite; }
+:root[data-theme="dark"] .hback { background: transparent; }
+:root[data-theme="dark"] .hfront b { font-size: 2.3rem; border-bottom: 1.5px solid var(--line); }
+:root[data-theme="dark"] .hfront .tape { height: 0; background: none; border-top: 1.5px dashed var(--yellow); }
+:root[data-theme="dark"] .hfront u { height: 10px; background: var(--red-ink); }
+
+:root[data-theme="dark"] .tcard { border-left: 5px solid color-mix(in srgb, var(--team) 58%, #fff); }
+:root[data-theme="dark"] .trow { background: transparent; border-bottom: 1.5px dashed var(--line); }
+:root[data-theme="dark"] .dot::after { background: color-mix(in srgb, var(--team) 58%, #fff); border-color: transparent; }
+
+/* Team screens stay dark; the team colour is a line, the name and the timer bar. */
+:root[data-theme="dark"] .team :is(.top, .pbar, .shead) { padding-bottom: 10px; border-bottom: 1.5px solid color-mix(in srgb, var(--team) 58%, #fff); }
+:root[data-theme="dark"] :is(.tname-big, .pmid b, .shead h1) { color: color-mix(in srgb, var(--team) 58%, #fff); }
+:root[data-theme="dark"] .goal { border: 1.5px solid var(--line); }
+:root[data-theme="dark"] .badges span { border-color: var(--line); color: var(--ink); }
+:root[data-theme="dark"] .hand { color: var(--ink-2); }
+:root[data-theme="dark"] .joker { transform: none; }
+:root[data-theme="dark"] .jicon, :root[data-theme="dark"] .trophy { background: transparent; color: var(--yellow); border-color: var(--yellow); transform: none; }
+:root[data-theme="dark"] .sc { background: transparent; border: 1.5px solid var(--line); color: var(--ink); }
+:root[data-theme="dark"] .sc.cur, :root[data-theme="dark"] .grow .sc.cur { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+:root[data-theme="dark"] .sc i { border-color: transparent; }
+:root[data-theme="dark"] .timer.low { background: var(--red); color: var(--on-accent); }
+:root[data-theme="dark"] .track { background: transparent; }
+:root[data-theme="dark"] .track i { background: color-mix(in srgb, var(--team) 58%, #fff); }
+:root[data-theme="dark"] .jtag { background: transparent; color: var(--yellow); border-color: var(--yellow); }
+
+:root[data-theme="dark"] .card-top { padding-bottom: 22px; }
+:root[data-theme="dark"] .card-top small { color: var(--ink-2); }
+:root[data-theme="dark"] .word, :root[data-theme="dark"] .tw { letter-spacing: 0; }
+:root[data-theme="dark"] .hg { border: 1.5px dashed var(--line); }
+:root[data-theme="dark"] .card > .tape { height: 0; background: none; border-bottom: 0; border-top: 1.5px dashed var(--red-ink); }
+:root[data-theme="dark"] .card > .tape span { background: var(--fill); color: var(--red-ink); }
+:root[data-theme="dark"] .taboo-list { padding-top: 12px; }
+:root[data-theme="dark"] .act { border-color: transparent; font-size: .95rem; letter-spacing: .02em; }
+:root[data-theme="dark"] .act small { font-size: .8rem; }
+
+:root[data-theme="dark"] .pts { color: var(--on-fill); }
+:root[data-theme="dark"] .tally .tl { background: transparent; border: 1.5px solid var(--line); color: var(--ink); }
+:root[data-theme="dark"] .srow em { border-color: transparent; }
+:root[data-theme="dark"] .res-n em { background: transparent; border-color: var(--line); }
+@media (max-height: 740px) {
+  :root[data-theme="dark"] .act { font-size: .85rem; }
+  :root[data-theme="dark"] .card-top { padding-bottom: 16px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }

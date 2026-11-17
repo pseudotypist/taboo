@@ -1,0 +1,34 @@
+{
+  "name": "tabu-yuyue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tabu party game with the 于悦 surprise (personal build), packaged for Android and iOS with Capacitor",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-www.mjs",
+    "sync": "npm run build && cap sync",
+    "assets": "node scripts/make-resources.mjs && capacitor-assets generate --android --ios --iconBackgroundColor '#f4eee2' --iconBackgroundColorDark '#f4eee2' --splashBackgroundColor '#f4eee2' --splashBackgroundColorDark '#1b1714'",
+    "android": "npm run build && cap sync android && scripts/with-android-env.sh npx cap run android",
+    "android:open": "npm run build && cap sync android && scripts/with-android-env.sh npx cap open android",
+    "android:debug": "npm run build && cap sync android && cd android && ../scripts/with-android-env.sh ./gradlew assembleDebug",
+    "android:release": "npm run build && cap sync android && cd android && ../scripts/with-android-env.sh ./gradlew bundleRelease assembleRelease",
+    "ios": "npm run build && cap sync ios && cap run ios",
+    "ios:open": "npm run build && cap sync ios && cap open ios",
+    "serve": "npm run build && python3 -m http.server 8771 --directory www"
+  },
+  "dependencies": {
+    "@capacitor-community/keep-awake": "^8.0.1",
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/ios": "^8.6.2",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2"
+  }
+}
