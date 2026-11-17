@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 // Release signing. The upload keystore and its passwords live outside the repo, in
-// ~/Projects/2-personal/taboo-signing/keystore.properties (storeFile, storePassword, keyAlias,
+// ~/Projects/2-personal/tabu-signing/keystore.properties (storeFile, storePassword, keyAlias,
 // keyPassword). Another location can be given with the TABU_SIGNING_PROPERTIES environment variable.
 // Without that file debug builds work as usual and release builds come out unsigned.
-def signingPropsFile = file(System.getenv('TABU_SIGNING_PROPERTIES') ?: "${System.getProperty('user.home')}/Projects/2-personal/taboo-signing/keystore.properties")
+def signingPropsFile = file(System.getenv('TABU_SIGNING_PROPERTIES') ?: "${System.getProperty('user.home')}/Projects/2-personal/tabu-signing/keystore.properties")
 def signingProps = new Properties()
 if (signingPropsFile.isFile()) {
     signingPropsFile.withInputStream { signingProps.load(it) }
