@@ -73,12 +73,12 @@ yüklenmelidir. Üretilmiş oyun dosyaları GitHub Pages üzerinde ayrıca derle
 
 Oyun Capacitor ile Android ve iOS uygulaması olarak da paketlenir (uygulama kimliği
 `com.pseudotypist.tabu.yuyue`, telefonda "TabuYuyue" adıyla görünür; yuyuesiz mağaza
-sürümü `~/Projects/2-personal/tabu-store` klasöründedir). Uygulama projeleri deponun kökündeki `android/` ve `ios/`
-klasörlerindedir; oyun dosyaları yine burada, `tabu/` içinde düzenlenir.
+sürümü `pseudotypist/tabu` deposundadır). Uygulama projeleri deponun kökündeki `android/` ve `ios/`
+klasörlerindedir; oyun dosyaları `web/`, sürpriz sayfası `yuyue/` içinde düzenlenir.
 
 ```bash
 npm install            # ilk seferde
-npm run build          # tabu/ ve yuyue/ klasörlerinden www/ üretir
+npm run build          # web/ ve yuyue/ klasörlerinden www/ üretir
 npm run sync           # build + dosyaları iki uygulamaya kopyalar
 npm run android        # Android emülatörde/telefonda çalıştırır
 npm run android:open   # Android Studio ile açar
@@ -89,11 +89,11 @@ npm run assets         # resources/mark.svg'den simge ve açılış ekranların�
 ```
 
 - `www/` üretilmiş bir klasördür, elle düzenlenmez ve depoya girmez.
-- `tabu/native.js` titreşim, ekranın açık kalması, durum çubuğu rengi ve Android geri
+- `web/native.js` titreşim, ekranın açık kalması, durum çubuğu rengi ve Android geri
   tuşunu yönetir; normal tarayıcıda hiçbir şey yapmaz.
 - Android geri tuşu: açık pencereyi kapatır, oynanan turu yalnızca duraklatır, ana
   ekranda uygulamayı arka plana alır. iOS'ta 于悦 sayfasından soldan kaydırarak dönülür.
-- Android sürüm imzası depo dışındaki `~/Projects/2-personal/taboo-signing/`
+- Android sürüm imzası depo dışındaki `~/Projects/2-personal/tabu-signing/`
   klasöründen okunur (`keystore.properties` + `tabu-upload.jks`). Bu klasörü yedekle;
   kaybolursa Play Store'a güncelleme yüklenemez.
 - Yeni sürümde `android/app/build.gradle` içindeki `versionCode`/`versionName` ile
