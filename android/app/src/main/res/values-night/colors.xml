@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The game is light-only for now (dark theme switched off), so the launch screen stays paper at night too.
+         The dark value was #1B1714; `npm run assets` regenerates the night images. -->
+    <color name="splash_background">#F4EEE2</color>
+</resources>

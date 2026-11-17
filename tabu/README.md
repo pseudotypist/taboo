@@ -69,6 +69,36 @@ Site `data/*.txt` dosyalarını doğrudan okumaz; üretilmiş `cards.js` dosyas�
 yükler. Veri değişiklikleriyle birlikte yeni `cards.js` dosyası da GitHub'a
 yüklenmelidir. Üretilmiş oyun dosyaları GitHub Pages üzerinde ayrıca derleme gerektirmeden çalışır.
 
+## Mobil uygulama
+
+Oyun Capacitor ile Android ve iOS uygulaması olarak da paketlenir (uygulama kimliği
+`com.pseudotypist.tabu.yuyue`, telefonda "TabuYuyue" adıyla görünür; yuyuesiz mağaza
+sürümü `~/Projects/2-personal/tabu-store` klasöründedir). Uygulama projeleri deponun kökündeki `android/` ve `ios/`
+klasörlerindedir; oyun dosyaları yine burada, `tabu/` içinde düzenlenir.
+
+```bash
+npm install            # ilk seferde
+npm run build          # tabu/ ve yuyue/ klasörlerinden www/ üretir
+npm run sync           # build + dosyaları iki uygulamaya kopyalar
+npm run android        # Android emülatörde/telefonda çalıştırır
+npm run android:open   # Android Studio ile açar
+npm run android:release  # imzalı AAB + APK (android/app/build/outputs/)
+npm run ios            # iOS Simülatöründe çalıştırır
+npm run ios:open       # Xcode ile açar (imzalama, Archive, App Store)
+npm run assets         # resources/mark.svg'den simge ve açılış ekranlarını yeniden üretir
+```
+
+- `www/` üretilmiş bir klasördür, elle düzenlenmez ve depoya girmez.
+- `tabu/native.js` titreşim, ekranın açık kalması, durum çubuğu rengi ve Android geri
+  tuşunu yönetir; normal tarayıcıda hiçbir şey yapmaz.
+- Android geri tuşu: açık pencereyi kapatır, oynanan turu yalnızca duraklatır, ana
+  ekranda uygulamayı arka plana alır. iOS'ta 于悦 sayfasından soldan kaydırarak dönülür.
+- Android sürüm imzası depo dışındaki `~/Projects/2-personal/taboo-signing/`
+  klasöründen okunur (`keystore.properties` + `tabu-upload.jks`). Bu klasörü yedekle;
+  kaybolursa Play Store'a güncelleme yüklenemez.
+- Yeni sürümde `android/app/build.gradle` içindeki `versionCode`/`versionName` ile
+  Xcode'daki sürüm numarasını artır.
+
 ## Kaynak
 
 Mevcut İngilizce seviye etiketlerinin kaynağı: The CEFR-J Wordlist Version 1.5,
